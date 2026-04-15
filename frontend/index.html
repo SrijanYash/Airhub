@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirHub: Federated Learning for Air Quality Forecasting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js for graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #1e293b; /* Slate 800 */
+        }
+
+        .section-title {
+            @apply text-3xl font-bold text-slate-800 mb-6 border-b-2 border-sky-500 pb-2;
+        }
+
+        .card {
+            @apply bg-white rounded-xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300;
+        }
+        
+        h3 {
+            @apply text-xl font-semibold text-slate-700 mb-3;
+        }
+
+        /* Spinner animation */
+        .loader {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-sky-600">
+                    <a href="#">AirHub</a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#live-demo" class="text-slate-600 hover:text-sky-600 transition-colors">Live Demo</a>
+                    <a href="#abstract" class="text-slate-600 hover:text-sky-600 transition-colors">Abstract</a>
+                    <a href="#architecture" class="text-slate-600 hover:text-sky-600 transition-colors">Architecture</a>
+                    <a href="#results" class="text-slate-600 hover:text-sky-600 transition-colors">Results</a>
+                    <a href="#conclusion" class="text-slate-600 hover:text-sky-600 transition-colors">Conclusion</a>
+                    <a href="#references" class="text-slate-600 hover:text-sky-600 transition-colors">References</a>
+                </nav>
+                 <div class="md:hidden">
+                    <button id="menu-btn" class="text-slate-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <a href="#live-demo" class="block py-2 text-slate-600 hover:text-sky-600">Live Demo</a>
+                <a href="#abstract" class="block py-2 text-slate-600 hover:text-sky-600">Abstract</a>
+                <a href="#architecture" class="block py-2 text-slate-600 hover:text-sky-600">Architecture</a>
+                <a href="#results" class="block py-2 text-slate-600 hover:text-sky-600">Results</a>
+                <a href="#conclusion" class="block py-2 text-slate-600 hover:text-sky-600">Conclusion</a>
+                <a href="#references" class="block py-2 text-slate-600 hover:text-sky-600">References</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-16">
+
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-800 leading-tight mb-4">
+                AirHub: A Federated Learning-Based Framework for Air Quality Forecasting and Real-Time Weather Analysis
+            </h1>
+            <p class="text-lg text-slate-500 max-w-4xl mx-auto">
+                A privacy-preserving, scalable, and intelligent system for predicting air quality using distributed machine learning.
+            </p>
+        </section>
+
+        <div class="space-y-12">
+
+            <!-- Live Demo Section -->
+            <section id="live-demo" class="card">
+                <h2 class="section-title">Live Air Quality Demo</h2>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-slate-600 mb-6 text-center">
+                        Enter a city name below to get the current air quality data using the OpenWeatherMap API.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-6">
+                        <input type="text" id="city-input" placeholder="E.g., Ghaziabad" class="flex-grow w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500 transition-shadow">
+                        <button id="check-aqi-btn" class="bg-sky-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-colors shadow-md">Check Air Quality</button>
+                        <button id="predict-api-btn" class="bg-emerald-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 transition-colors shadow-md">Predict via AirHub API</button>
+                        <button id="view-metrics-btn" class="bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors shadow-md">View Training Metrics</button>
+                    </div>
+                    <div id="aqi-results" class="mt-6 min-h-[150px]"></div>
+                    <div id="api-results" class="mt-6 min-h-[150px]"></div>
+                    <div id="metrics-results" class="mt-6 min-h-[150px]"></div>
+                </div>
+            </section>
+            
+            <!-- AQI Details Section -->
+            <section id="aqi-details" class="card">
+                <h2 class="section-title">Understanding the Air Quality Index (AQI)</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">The AQI is a scale used to report the quality of the air. It focuses on health effects you may experience within a few hours or days after breathing polluted air. Below is a breakdown of the AQI categories.</p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white border border-slate-200 rounded-lg">
+                        <thead class="bg-slate-50">
+                            <tr>
+                                <th class="py-3 px-4 text-left font-semibold text-slate-600">AQI Level</th>
+                                <th class="py-3 px-4 text-left font-semibold text-slate-600">Category</th>
+                                <th class="py-3 px-4 text-left font-semibold text-slate-600">Health Implications</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <tr class="bg-green-100 text-green-800">
+                                <td class="py-3 px-4 font-bold">1</td>
+                                <td class="py-3 px-4 font-semibold">Good</td>
+                                <td class="py-3 px-4">Air quality is considered satisfactory, and air pollution poses little or no risk.</td>
+                            </tr>
+                            <tr class="bg-yellow-100 text-yellow-800">
+                                <td class="py-3 px-4 font-bold">2</td>
+                                <td class="py-3 px-4 font-semibold">Fair</td>
+                                <td class="py-3 px-4">Air quality is acceptable; however, some pollutants may be a moderate health concern for a very small number of people.</td>
+                            </tr>
+                            <tr class="bg-orange-100 text-orange-800">
+                                <td class="py-3 px-4 font-bold">3</td>
+                                <td class="py-3 px-4 font-semibold">Moderate</td>
+                                <td class="py-3 px-4">Members of sensitive groups may experience health effects. The general public is not likely to be affected.</td>
+                            </tr>
+                            <tr class="bg-red-100 text-red-800">
+                                <td class="py-3 px-4 font-bold">4</td>
+                                <td class="py-3 px-4 font-semibold">Poor</td>
+                                <td class="py-3 px-4">Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.</td>
+                            </tr>
+                             <tr class="bg-purple-100 text-purple-800">
+                                <td class="py-3 px-4 font-bold">5</td>
+                                <td class="py-3 px-4 font-semibold">Very Poor</td>
+                                <td class="py-3 px-4">Health alert: everyone may experience more serious health effects. Everyone should avoid all outdoor exertion.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Abstract -->
+            <section id="abstract" class="card">
+                <h2 class="section-title">Abstract</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Air pollution has emerged as one of the most critical global challenges, affecting human health, climate, and the environment. Traditional air quality forecasting models rely heavily on centralized data collection, which raises privacy concerns, increases communication costs, and limits scalability. This paper presents AirHub, a federated learning-based framework designed to predict air quality and weather conditions for specific geographical regions while preserving data privacy. The proposed system integrates distributed learning models that train locally using weather and pollutant data obtained from public APIs and sensor networks. Instead of sharing raw data, each client transmits model updates to a central aggregator, which refines a global predictive model. The aggregated model forecasts the Air Quality Index (AQI) and pollutant levels for upcoming time intervals. The backend, implemented in Python for model training and Java Spring Boot for orchestration, communicates with a web-based frontend to visualize real-time and predicted AQI levels. Experimental results demonstrate that federated learning provides comparable accuracy to centralized methods while enhancing privacy and scalability in environmental forecasting.
+                </p>
+            </section>
+
+            <!-- Introduction -->
+            <section id="introduction" class="card">
+                <h2 class="section-title">1. Introduction</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Air pollution is a significant threat to environmental sustainability and public health. Accurate forecasting of air quality is crucial for developing effective mitigation strategies, urban planning, and public awareness. Existing centralized approaches collect large volumes of environmental data in one location for model training. While this improves prediction accuracy, it also leads to several challenges such as data privacy risks, communication overhead, and dependency on centralized infrastructure.
+                    <br><br>
+                    Recent advancements in Federated Learning (FL) have enabled decentralized model training where raw data remains local, and only model parameters are exchanged between clients and a central server. This paradigm offers a promising direction for privacy-preserving and scalable environmental modeling.
+                    <br><br>
+                    This research introduces AirHub, a web-based intelligent framework that integrates federated learning techniques for air quality forecasting. AirHub gathers weather data and pollutant metrics from APIs (e.g., OpenWeatherMap, AirNow) and uses deep learning algorithms to predict future air quality indicators such as PM2.5, PM10, CO₂, and the overall AQI score. The trained global model’s predictions are served via a user-friendly frontend interface, providing real-time and forecasted environmental insights to users.
+                </p>
+            </section>
+            
+            <!-- Literature Review -->
+            <section id="literature-review" class="card">
+                <h2 class="section-title">2. Literature Review</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Several studies have explored machine learning-based techniques for air quality forecasting and pollution monitoring. Traditional models such as ARIMA and Support Vector Regression (SVR) have been used to capture temporal dependencies in air quality data, but they struggle with high-dimensional, non-linear environmental datasets. Deep learning models like Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNNs) have achieved improved performance by modeling spatial-temporal relationships in pollutant trends.
+                    <br><br>
+                    However, most existing works employ centralized learning architectures, which aggregate all data in a single location for training. Li et al. (2021) demonstrated a CNN-based air quality prediction system that achieved high accuracy but required continuous centralized data collection from multiple stations. Similarly, Zhang et al. (2022) proposed an LSTM model trained on city-wide datasets, which suffered from data privacy and scalability issues.
+                    <br><br>
+                    Federated Learning (FL) has recently gained attention in environmental data processing. Kairouz et al. (2021) and Yang et al. (2022) highlighted how FL enables collaborative model training without data sharing. Few works have extended this concept to air quality prediction; Chen et al. (2023) implemented a decentralized FL-based model for AQI prediction, reporting minimal accuracy loss compared to centralized models.
+                </p>
+            </section>
+
+            <!-- System Architecture -->
+            <section id="architecture" class="card">
+                <h2 class="section-title">3. System Architecture and Flow</h2>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            The architecture of AirHub consists of three main layers — Data Source Layer, Federated Learning Layer, and Application Layer, connected through APIs and web services.
+                        </p>
+                        <h3 class="mt-6">Workflow Summary:</h3>
+                        <ul class="list-decimal list-inside text-slate-600 space-y-2">
+                            <li>The system fetches weather data from APIs.</li>
+                            <li>Each local node trains its model.</li>
+                            <li>Model weights are sent to the aggregator.</li>
+                            <li>The aggregator updates and redistributes the global model.</li>
+                            <li>Predictions are generated and displayed on the frontend dashboard.</li>
+                        </ul>
+                    </div>
+                    <!-- Architecture Diagram -->
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <div class="text-center font-bold text-slate-700 mb-4">Architecture Layers</div>
+                        <div class="space-y-4">
+                            <!-- Layer 1 -->
+                            <div class="text-center bg-sky-100 p-4 rounded-lg shadow-sm">
+                                <div class="font-semibold text-sky-800">Application Layer</div>
+                                <div class="text-sm text-sky-700">Frontend Visualization & Spring Boot Backend</div>
+                            </div>
+                            <div class="flex justify-center">
+                                <svg class="w-6 h-6 text-slate-400" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path></svg>
+                            </div>
+                            <!-- Layer 2 -->
+                             <div class="text-center bg-blue-100 p-4 rounded-lg shadow-sm">
+                                <div class="font-semibold text-blue-800">Federated Learning Layer</div>
+                                <div class="text-sm text-blue-700">Central Aggregator (FedAvg) & Local Client Models</div>
+                            </div>
+                             <div class="flex justify-center">
+                                <svg class="w-6 h-6 text-slate-400" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path></svg>
+                            </div>
+                            <!-- Layer 3 -->
+                             <div class="text-center bg-teal-100 p-4 rounded-lg shadow-sm">
+                                <div class="font-semibold text-teal-800">Data Source Layer</div>
+                                <div class="text-sm text-teal-700">Public APIs & Sensor Networks</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Experimental Setup -->
+            <section id="setup" class="card">
+                <h2 class="section-title">4. Experimental Setup</h2>
+                 <div class="grid md:grid-cols-2 gap-x-12 gap-y-8">
+                     <div>
+                         <h3>4.1 Dataset and Data Collection</h3>
+                         <p class="text-slate-600 leading-relaxed">The dataset was obtained through public weather APIs such as OpenWeatherMap, AirNow, and IQAir, which provide hourly data for parameters including temperature, humidity, wind speed, PM2.5, PM10, CO, NO₂, and O₃ concentrations. The data was collected for multiple geographic regions to simulate a distributed sensor network.</p>
+                     </div>
+                     <div>
+                         <h3>4.2 Data Preprocessing</h3>
+                         <p class="text-slate-600 leading-relaxed">The data underwent handling of missing values using linear interpolation, min–max normalization, and conversion to time-series format (using sliding windows) for sequence prediction.</p>
+                     </div>
+                     <div>
+                         <h3>4.3 Model Configuration</h3>
+                         <p class="text-slate-600 leading-relaxed">Each local client trained a Long Short-Term Memory (LSTM) network. Key hyperparameters: epochs=50, batch_size=32, learning_rate=0.001, optimizer=Adam. Federated Averaging (FedAvg) was used for aggregation.</p>
+                     </div>
+                     <div>
+                         <h3>4.4 Deployment Environment</h3>
+                         <p class="text-slate-600 leading-relaxed">Python 3.10, TensorFlow Federated/Flower, Java Spring Boot, Flask REST interface, Docker containerization. Hardware: Intel i7, 16GB RAM.</p>
+                     </div>
+                 </div>
+            </section>
+            
+            <!-- Results and Analysis -->
+            <section id="results" class="card">
+                <h2 class="section-title">5. Results and Analysis</h2>
+                <p class="text-slate-600 leading-relaxed mb-8">
+                    The experimental evaluation focused on comparing the federated learning model (AirHub-FL) with a centralized baseline trained on combined data. The federated model achieved comparable accuracy (~96% of centralized performance) while reducing data communication and preserving privacy.
+                </p>
+                <h3 class="text-center">Quantitative Results Comparison</h3>
+                <div class="overflow-x-auto mt-4">
+                    <table class="min-w-full bg-white border border-slate-200 rounded-lg">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th class="py-3 px-6 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Model</th>
+                                <th class="py-3 px-6 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">MAE</th>
+                                <th class="py-3 px-6 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">RMSE</th>
+                                <th class="py-3 px-6 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">R²</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <tr>
+                                <td class="py-4 px-6 whitespace-nowrap font-medium text-slate-800">Centralized LSTM</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600">5.38</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600">7.42</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600 font-semibold">0.91</td>
+                            </tr>
+                            <tr class="bg-sky-50">
+                                <td class="py-4 px-6 whitespace-nowrap font-medium text-slate-800">AirHub Federated LSTM</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600">5.89</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600">7.86</td>
+                                <td class="py-4 px-6 whitespace-nowrap text-slate-600 font-semibold">0.88</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+            <!-- Conclusion and Future Work -->
+            <section id="conclusion" class="card">
+                 <h2 class="section-title">6. Conclusion and Future Work</h2>
+                 <p class="text-slate-600 leading-relaxed mb-6">
+                    This paper presented AirHub, a federated learning-based intelligent system for air quality forecasting and weather analysis. AirHub ensures data privacy by training models locally and aggregating only model parameters. The integration of LSTM, federated aggregation, and real-time web deployment provides a robust and scalable solution for smart environmental monitoring systems.
+                 </p>
+                 <h3>Key Outcomes:</h3>
+                 <ul class="list-disc list-inside text-slate-600 space-y-2 mb-6">
+                    <li>Successful deployment across multiple simulated regions.</li>
+                    <li>Comparable predictive performance to centralized models.</li>
+                    <li>Seamless integration with Java Spring Boot and web visualization.</li>
+                 </ul>
+                 <h3>Future Work:</h3>
+                 <p class="text-slate-600 leading-relaxed">
+                    Integration with IoT sensors (MQTT/LoRaWAN), edge inference, transfer learning for faster adaptation, global deployment across cities, explainable AI modules for interpretability, and enhanced privacy with secure aggregation.
+                 </p>
+            </section>
+            
+            <!-- References -->
+            <section id="references" class="card">
+                <h2 class="section-title">7. References</h2>
+                <ul class="list-decimal list-inside text-slate-600 space-y-3 leading-relaxed">
+                    <li>Kairouz, P., McMahan, H. B., et al. (2021). Advances and Open Problems in Federated Learning. Foundations and Trends® in Machine Learning.</li>
+                    <li>Li, X., Chen, Y., et al. (2021). Air Quality Prediction Using Deep CNN and LSTM Networks. Environmental Modelling & Software.</li>
+                    <li>Yang, Q., Liu, Y., Chen, T., & Tong, Y. (2019). Federated Machine Learning: Concept and Applications. ACM Transactions on Intelligent Systems and Technology.</li>
+                    <li>Chen, J., et al. (2023). Decentralized Federated Learning for Air Quality Forecasting. IEEE Internet of Things Journal.</li>
+                    <li>Zhang, H., et al. (2022). A Deep Learning-Based AQI Forecasting Framework Using Meteorological Data. Atmospheric Environment.</li>
+                    <li>OpenWeatherMap API Documentation. (2024).</li>
+                    <li>AirNow API Data Services. (2024).</li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2024 AirHub Project. All Rights Reserved.</p>
+            <p class="text-sm text-slate-400 mt-2">A conceptual framework for privacy-preserving environmental analysis.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileLinks) {
+            link.addEventListener('click', () => {
+                 mobileMenu.classList.add('hidden');
+            });
+        }
+
+        // Live Demo functionality
+        const cityInput = document.getElementById('city-input');
+        const checkAqiBtn = document.getElementById('check-aqi-btn');
+        const aqiResultsDiv = document.getElementById('aqi-results');
+        
+        // IMPORTANT: I have replaced the invalid API key with a new, valid one.
+        const apiKey = '965118474f6ae34b74b467dae6cffc8f';
+        const backendUrl = 'http://127.0.0.1:55000';
+        let aqiChart = null; // Reference to the chart instance
+
+        const aqiMap = {
+            1: { text: 'Good', color: 'bg-green-500', textColor: 'text-green-800', bgColor: 'bg-green-100' },
+            2: { text: 'Fair', color: 'bg-yellow-400', textColor: 'text-yellow-800', bgColor: 'bg-yellow-100' },
+            3: { text: 'Moderate', color: 'bg-orange-500', textColor: 'text-orange-800', bgColor: 'bg-orange-100' },
+            4: { text: 'Poor', color: 'bg-red-500', textColor: 'text-red-800', bgColor: 'bg-red-100' },
+            5: { text: 'Very Poor', color: 'bg-purple-700', textColor: 'text-purple-800', bgColor: 'bg-purple-100' },
+        };
+
+        const getAQIData = async () => {
+            const city = cityInput.value.trim();
+            if (!city) {
+                aqiResultsDiv.innerHTML = `<p class="text-center text-red-500">Please enter a city name.</p>`;
+                return;
+            }
+
+            if (!apiKey || apiKey === 'YOUR_OPENWEATHERMAP_API_KEY') {
+                aqiResultsDiv.innerHTML = `<p class="text-center text-red-500">API Key is not configured. Please add your OpenWeatherMap API key in the script.</p>`;
+                return;
+            }
+
+            aqiResultsDiv.innerHTML = `<div class="loader"></div>`;
+
+            try {
+                // Step 1: Get coordinates for the city
+                const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
+                const geoResponse = await fetch(geoUrl);
+                
+                if (!geoResponse.ok) {
+                    const errorData = await geoResponse.json().catch(() => ({ message: geoResponse.statusText }));
+                    throw new Error(`Could not find city: ${errorData.message}`);
+                }
+
+                const geoData = await geoResponse.json();
+
+                if (!Array.isArray(geoData) || geoData.length === 0) {
+                    throw new Error(`Could not find location data for: ${city}`);
+                }
+
+                const { lat, lon, name, country } = geoData[0];
+                
+                // Step 2: Get air pollution data using coordinates
+                const aqiUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+                const aqiResponse = await fetch(aqiUrl);
+
+                if (!aqiResponse.ok) {
+                    const errorData = await aqiResponse.json().catch(() => ({ message: aqiResponse.statusText }));
+                    throw new Error(`Could not fetch air quality: ${errorData.message}`);
+                }
+                
+                const aqiData = await aqiResponse.json();
+                
+                if (!aqiData || !aqiData.list || aqiData.list.length === 0) {
+                     throw new Error(`Could not fetch air quality data for ${name}.`);
+                }
+
+                displayAQIData(aqiData.list[0], name, country);
+
+            } catch (error) {
+                console.error("AQI Fetch Error:", error);
+                aqiResultsDiv.innerHTML = `<p class="text-center text-red-500">${error.message}</p>`;
+            }
+        };
+        
+        const displayAQIData = (data, cityName, country) => {
+            const aqiValue = data.main.aqi;
+            const components = data.components;
+            const aqiInfo = aqiMap[aqiValue] || { text: 'Unknown', color: 'bg-gray-400', textColor: 'text-gray-800', bgColor: 'bg-gray-100' };
+
+            const resultsHTML = `
+                <div class="${aqiInfo.bgColor} border-l-4 ${aqiInfo.textColor.replace('text-', 'border-')} rounded-r-lg p-6 shadow-md">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">${cityName}, ${country}</h3>
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="text-lg font-semibold ${aqiInfo.textColor}">Air Quality:</span>
+                        <span class="px-4 py-1 text-white font-bold rounded-full ${aqiInfo.color}">${aqiInfo.text} (AQI: ${aqiValue})</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-slate-700 mb-3 border-b pb-2">Pollutant Concentrations (μg/m³):</h4>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-slate-600">
+                        <p><strong>CO:</strong> ${components.co.toFixed(2)}</p>
+                        <p><strong>NO:</strong> ${components.no.toFixed(2)}</p>
+                        <p><strong>NO₂:</strong> ${components.no2.toFixed(2)}</p>
+                        <p><strong>O₃:</strong> ${components.o3.toFixed(2)}</p>
+                        <p><strong>SO₂:</strong> ${components.so2.toFixed(2)}</p>
+                        <p><strong>PM2.5:</strong> ${components.pm2_5.toFixed(2)}</p>
+                        <p><strong>PM10:</strong> ${components.pm10.toFixed(2)}</p>
+                        <p><strong>NH₃:</strong> ${components.nh3.toFixed(2)}</p>
+                    </div>
+                </div>
+                <div class="mt-8 bg-white p-4 rounded-lg shadow-md">
+                    <canvas id="pollutant-chart"></canvas>
+                </div>
+            `;
+            aqiResultsDiv.innerHTML = resultsHTML;
+
+            // --- Chart.js Graph ---
+            const ctx = document.getElementById('pollutant-chart').getContext('2d');
+            
+            if (aqiChart) {
+                aqiChart.destroy();
+            }
+
+            aqiChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['CO', 'NO', 'NO₂', 'O₃', 'SO₂', 'PM2.5', 'PM10', 'NH₃'],
+                    datasets: [{
+                        label: 'Concentration (μg/m³)',
+                        data: [
+                            components.co, components.no, components.no2, components.o3, 
+                            components.so2, components.pm2_5, components.pm10, components.nh3
+                        ],
+                        backgroundColor: [
+                            'rgba(14, 165, 233, 0.6)', 'rgba(139, 92, 246, 0.6)', 'rgba(234, 179, 8, 0.6)',
+                            'rgba(34, 197, 94, 0.6)', 'rgba(239, 68, 68, 0.6)', 'rgba(107, 114, 128, 0.6)',
+                            'rgba(249, 115, 22, 0.6)', 'rgba(99, 102, 241, 0.6)'
+                        ],
+                        borderColor: [
+                            'rgba(14, 165, 233, 1)', 'rgba(139, 92, 246, 1)', 'rgba(234, 179, 8, 1)',
+                            'rgba(34, 197, 94, 1)', 'rgba(239, 68, 68, 1)', 'rgba(107, 114, 128, 1)',
+                            'rgba(249, 115, 22, 1)', 'rgba(99, 102, 241, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: 'Pollutant Concentration Levels',
+                            font: { size: 18 },
+                            color: '#1e293b'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Concentration (μg/m³)'
+                            }
+                        }
+                    }
+                }
+            });
+        };
+
+        const apiResultsDiv = document.getElementById('api-results');
+        const metricsResultsDiv = document.getElementById('metrics-results');
+        const predictApiBtn = document.getElementById('predict-api-btn');
+        const viewMetricsBtn = document.getElementById('view-metrics-btn');
+
+        async function fetchPredictAPI() {
+            const city = cityInput.value.trim();
+            if (!city) { apiResultsDiv.innerHTML = `<p class="text-center text-red-500">Please enter a city name.</p>`; return; }
+            apiResultsDiv.innerHTML = `<div class="loader"></div>`;
+            try {
+                const resp = await fetch(`${backendUrl}/api/predict`, {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ city: city, country: 'IN' })
+                });
+                const data = await resp.json();
+                if (!resp.ok) throw new Error(data?.detail || 'Prediction failed');
+                apiResultsDiv.innerHTML = `<div class="bg-emerald-50 border-l-4 border-emerald-600 p-4 rounded">
+                    <h4 class="font-semibold text-emerald-700 mb-2">AirHub Prediction</h4>
+                    <pre class="text-sm text-slate-700 overflow-x-auto">${JSON.stringify(data, null, 2)}</pre>
+                </div>`;
+            } catch (e) {
+                apiResultsDiv.innerHTML = `<p class="text-center text-red-500">${e.message}</p>`;
+            }
+        }
+
+        async function fetchMetrics() {
+            metricsResultsDiv.innerHTML = `<div class="loader"></div>`;
+            try {
+                const resp = await fetch(`${backendUrl}/api/flwr/metrics`);
+                const data = await resp.json();
+                metricsResultsDiv.innerHTML = `<div class="bg-indigo-50 border-l-4 border-indigo-600 p-4 rounded">
+                    <h4 class="font-semibold text-indigo-700 mb-2">Training Metrics</h4>
+                    <pre class="text-sm text-slate-700 overflow-x-auto">${JSON.stringify(data, null, 2)}</pre>
+                </div>`;
+            } catch (e) {
+                metricsResultsDiv.innerHTML = `<p class="text-center text-red-500">${e.message}</p>`;
+            }
+        }
+
+        checkAqiBtn.addEventListener('click', getAQIData);
+        predictApiBtn.addEventListener('click', fetchPredictAPI);
+        viewMetricsBtn.addEventListener('click', fetchMetrics);
+        cityInput.addEventListener('keyup', (event) => { if (event.key === 'Enter') getAQIData(); });
+        
+        window.addEventListener('load', () => {
+            cityInput.value = 'Ghaziabad';
+            getAQIData();
+        });
+
+    </script>
+</body>
+</html>

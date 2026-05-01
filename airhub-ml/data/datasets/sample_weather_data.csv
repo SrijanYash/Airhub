@@ -1,0 +1,732 @@
+date,city,country,temperature,humidity,pressure,wind_speed,wind_direction,weather_type,weather_description,day_of_week,month
+2024-04-16,Delhi,India,29.8,36,985.5,15.3,295,Cloudy,Overcast,Tuesday,April
+2024-04-17,Delhi,India,29.3,27,984.2,19.4,300,Cloudy,Overcast,Wednesday,April
+2024-04-18,Delhi,India,30.9,24,982.7,11.2,293,Cloudy,Overcast,Thursday,April
+2024-04-19,Delhi,India,31.7,29,980.5,11.8,282,Cloudy,Overcast,Friday,April
+2024-04-20,Delhi,India,30.0,28,980.0,14.8,304,Cloudy,Overcast,Saturday,April
+2024-04-21,Delhi,India,30.1,27,981.5,12.1,310,Cloudy,Overcast,Sunday,April
+2024-04-22,Delhi,India,31.1,25,982.1,13.3,311,Cloudy,Overcast,Monday,April
+2024-04-23,Delhi,India,30.0,26,981.6,9.8,306,Clear,Mainly clear,Tuesday,April
+2024-04-24,Delhi,India,29.8,28,981.7,11.8,303,Clear,Clear sky,Wednesday,April
+2024-04-25,Delhi,India,30.0,24,981.9,11.6,316,Cloudy,Partly cloudy,Thursday,April
+2024-04-26,Delhi,India,32.2,23,980.8,10.6,248,Cloudy,Overcast,Friday,April
+2024-04-27,Delhi,India,32.0,27,981.4,15.5,284,Cloudy,Overcast,Saturday,April
+2024-04-28,Delhi,India,30.6,28,982.6,9.8,329,Cloudy,Overcast,Sunday,April
+2024-04-29,Delhi,India,30.8,26,981.9,11.7,323,Cloudy,Partly cloudy,Monday,April
+2024-04-30,Delhi,India,29.7,25,980.9,12.8,304,Clear,Clear sky,Tuesday,April
+2024-05-01,Delhi,India,26.9,22,979.2,16.5,314,Clear,Clear sky,Wednesday,May
+2024-05-02,Delhi,India,27.6,26,980.3,13.3,308,Cloudy,Overcast,Thursday,May
+2024-05-03,Delhi,India,30.2,22,981.0,13.6,300,Cloudy,Overcast,Friday,May
+2024-05-04,Delhi,India,33.0,19,980.9,11.3,301,Cloudy,Overcast,Saturday,May
+2024-05-05,Delhi,India,33.3,20,977.3,12.3,306,Cloudy,Partly cloudy,Sunday,May
+2024-05-06,Delhi,India,33.8,22,979.2,13.5,306,Cloudy,Partly cloudy,Monday,May
+2024-05-07,Delhi,India,34.0,25,980.8,9.0,25,Clear,Mainly clear,Tuesday,May
+2024-05-08,Delhi,India,32.7,39,981.3,13.6,111,Cloudy,Overcast,Wednesday,May
+2024-05-09,Delhi,India,32.5,37,980.7,14.0,106,Cloudy,Partly cloudy,Thursday,May
+2024-05-10,Delhi,India,32.1,43,981.5,11.3,106,Drizzle,Light drizzle,Friday,May
+2024-05-11,Delhi,India,31.9,42,983.2,9.1,3,Drizzle,Light drizzle,Saturday,May
+2024-05-12,Delhi,India,32.3,38,983.3,10.3,20,Drizzle,Light drizzle,Sunday,May
+2024-05-13,Delhi,India,33.0,29,983.5,8.9,335,Cloudy,Overcast,Monday,May
+2024-05-14,Delhi,India,32.8,21,983.8,10.5,316,Cloudy,Overcast,Tuesday,May
+2024-05-15,Delhi,India,34.2,19,983.4,10.1,316,Clear,Clear sky,Wednesday,May
+2024-05-16,Delhi,India,34.5,18,982.8,9.0,339,Clear,Clear sky,Thursday,May
+2024-05-17,Delhi,India,36.3,18,980.0,10.5,303,Cloudy,Partly cloudy,Friday,May
+2024-05-18,Delhi,India,37.0,19,977.5,12.5,295,Clear,Mainly clear,Saturday,May
+2024-05-19,Delhi,India,36.7,17,976.0,12.6,300,Clear,Mainly clear,Sunday,May
+2024-05-20,Delhi,India,36.4,19,976.8,11.7,304,Cloudy,Overcast,Monday,May
+2024-05-21,Delhi,India,35.2,28,977.5,10.0,90,Clear,Clear sky,Tuesday,May
+2024-05-22,Delhi,India,35.2,36,978.0,14.8,108,Drizzle,Light drizzle,Wednesday,May
+2024-05-23,Delhi,India,35.7,36,977.3,14.1,125,Clear,Mainly clear,Thursday,May
+2024-05-24,Delhi,India,35.6,36,977.3,12.6,112,Clear,Clear sky,Friday,May
+2024-05-25,Delhi,India,37.4,27,975.4,12.5,311,Clear,Mainly clear,Saturday,May
+2024-05-26,Delhi,India,38.1,17,973.6,12.4,333,Clear,Clear sky,Sunday,May
+2024-05-27,Delhi,India,38.2,18,971.1,11.3,330,Clear,Mainly clear,Monday,May
+2024-05-28,Delhi,India,37.3,14,969.3,9.0,317,Clear,Clear sky,Tuesday,May
+2024-05-29,Delhi,India,38.6,18,970.5,10.9,272,Cloudy,Overcast,Wednesday,May
+2024-05-30,Delhi,India,39.2,16,973.7,15.8,276,Cloudy,Overcast,Thursday,May
+2024-05-31,Delhi,India,37.6,12,975.3,12.9,295,Cloudy,Partly cloudy,Friday,May
+2024-06-01,Delhi,India,37.4,17,976.8,15.6,283,Cloudy,Overcast,Saturday,June
+2024-06-02,Delhi,India,36.4,25,978.3,11.1,293,Cloudy,Overcast,Sunday,June
+2024-06-03,Delhi,India,36.9,25,977.1,14.3,284,Cloudy,Partly cloudy,Monday,June
+2024-06-04,Delhi,India,36.9,19,976.7,11.8,278,Clear,Mainly clear,Tuesday,June
+2024-06-05,Delhi,India,36.6,23,977.8,16.1,289,Cloudy,Partly cloudy,Wednesday,June
+2024-06-06,Delhi,India,35.0,28,980.0,12.3,308,Clear,Mainly clear,Thursday,June
+2024-06-07,Delhi,India,35.2,30,977.9,15.0,296,Cloudy,Overcast,Friday,June
+2024-06-08,Delhi,India,34.7,27,977.0,15.4,304,Cloudy,Overcast,Saturday,June
+2024-06-09,Delhi,India,35.1,23,976.7,13.4,310,Clear,Clear sky,Sunday,June
+2024-06-10,Delhi,India,36.0,18,976.8,13.5,292,Cloudy,Partly cloudy,Monday,June
+2024-06-11,Delhi,India,36.3,19,976.3,11.3,290,Clear,Mainly clear,Tuesday,June
+2024-06-12,Delhi,India,36.9,17,975.9,11.9,288,Clear,Clear sky,Wednesday,June
+2024-06-13,Delhi,India,37.6,20,974.9,18.1,282,Clear,Mainly clear,Thursday,June
+2024-06-14,Delhi,India,37.5,28,974.6,22.3,275,Cloudy,Overcast,Friday,June
+2024-06-15,Delhi,India,37.7,27,974.7,19.4,286,Clear,Clear sky,Saturday,June
+2024-06-16,Delhi,India,38.4,25,975.0,18.0,284,Clear,Clear sky,Sunday,June
+2024-06-17,Delhi,India,38.9,25,974.9,19.3,280,Clear,Mainly clear,Monday,June
+2024-06-18,Delhi,India,38.9,25,972.9,20.1,279,Clear,Mainly clear,Tuesday,June
+2024-06-19,Delhi,India,37.0,35,971.4,18.7,269,Drizzle,Moderate drizzle,Wednesday,June
+2024-06-20,Delhi,India,34.0,45,973.2,8.2,219,Rain,Moderate rain,Thursday,June
+2024-06-21,Delhi,India,32.5,53,975.3,9.6,331,Rain,Slight rain,Friday,June
+2024-06-22,Delhi,India,33.7,51,975.2,7.5,30,Cloudy,Overcast,Saturday,June
+2024-06-23,Delhi,India,34.5,51,975.8,10.2,96,Drizzle,Light drizzle,Sunday,June
+2024-06-24,Delhi,India,34.1,54,974.6,8.0,96,Rain,Slight rain,Monday,June
+2024-06-25,Delhi,India,32.9,62,973.7,8.0,122,Rain,Moderate rain,Tuesday,June
+2024-06-26,Delhi,India,31.0,73,974.3,10.9,106,Rain,Heavy rain,Wednesday,June
+2024-06-27,Delhi,India,28.3,84,976.8,13.5,108,Rain,Moderate rain,Thursday,June
+2024-06-28,Delhi,India,27.8,85,976.0,8.6,127,Rain,Moderate rain,Friday,June
+2024-06-29,Delhi,India,29.3,80,974.5,7.1,196,Rain,Moderate rain,Saturday,June
+2024-06-30,Delhi,India,30.7,74,973.8,6.4,304,Rain,Heavy rain,Sunday,June
+2024-07-01,Delhi,India,30.1,79,971.6,7.1,275,Rain,Moderate rain,Monday,July
+2024-07-02,Delhi,India,29.3,84,970.7,7.6,178,Rain,Moderate rain,Tuesday,July
+2024-07-03,Delhi,India,29.3,83,973.1,8.4,149,Drizzle,Moderate drizzle,Wednesday,July
+2024-07-04,Delhi,India,28.0,83,975.3,7.8,84,Rain,Slight rain,Thursday,July
+2024-07-05,Delhi,India,27.8,85,972.5,9.6,70,Drizzle,Light drizzle,Friday,July
+2024-07-06,Delhi,India,28.6,80,971.3,9.0,67,Drizzle,Light drizzle,Saturday,July
+2024-07-07,Delhi,India,28.6,76,974.4,6.8,67,Drizzle,Light drizzle,Sunday,July
+2024-07-08,Delhi,India,28.9,76,977.4,7.6,34,Cloudy,Overcast,Monday,July
+2024-07-09,Delhi,India,29.5,80,978.4,6.5,97,Rain,Slight rain,Tuesday,July
+2024-07-10,Delhi,India,30.4,79,978.2,6.2,161,Rain,Moderate rain,Wednesday,July
+2024-07-11,Delhi,India,31.2,76,974.1,9.2,230,Rain,Slight rain,Thursday,July
+2024-07-12,Delhi,India,30.3,74,972.4,9.2,266,Drizzle,Light drizzle,Friday,July
+2024-07-13,Delhi,India,29.9,77,973.2,5.5,324,Rain,Heavy rain,Saturday,July
+2024-07-14,Delhi,India,31.1,72,973.1,4.7,90,Drizzle,Light drizzle,Sunday,July
+2024-07-15,Delhi,India,30.2,76,975.8,11.3,90,Drizzle,Dense drizzle,Monday,July
+2024-07-16,Delhi,India,30.7,77,976.4,10.7,98,Rain,Moderate rain,Tuesday,July
+2024-07-17,Delhi,India,31.2,75,976.2,10.6,102,Drizzle,Light drizzle,Wednesday,July
+2024-07-18,Delhi,India,31.2,76,974.9,7.6,117,Drizzle,Moderate drizzle,Thursday,July
+2024-07-19,Delhi,India,30.5,77,973.8,7.7,113,Drizzle,Light drizzle,Friday,July
+2024-07-20,Delhi,India,31.0,75,974.5,8.3,118,Drizzle,Light drizzle,Saturday,July
+2024-07-21,Delhi,India,31.1,78,974.5,9.7,118,Drizzle,Dense drizzle,Sunday,July
+2024-07-22,Delhi,India,30.9,78,974.7,8.4,116,Rain,Moderate rain,Monday,July
+2024-07-23,Delhi,India,30.4,80,973.7,5.6,102,Rain,Moderate rain,Tuesday,July
+2024-07-24,Delhi,India,29.5,82,970.5,5.2,91,Rain,Moderate rain,Wednesday,July
+2024-07-25,Delhi,India,30.8,76,969.6,4.7,36,Drizzle,Light drizzle,Thursday,July
+2024-07-26,Delhi,India,29.9,81,971.4,6.7,41,Rain,Moderate rain,Friday,July
+2024-07-27,Delhi,India,30.5,81,973.5,5.8,83,Rain,Moderate rain,Saturday,July
+2024-07-28,Delhi,India,31.4,77,973.7,9.1,98,Rain,Moderate rain,Sunday,July
+2024-07-29,Delhi,India,31.8,73,973.8,11.9,107,Drizzle,Light drizzle,Monday,July
+2024-07-30,Delhi,India,32.8,70,975.0,10.9,130,Drizzle,Light drizzle,Tuesday,July
+2024-07-31,Delhi,India,31.0,78,975.0,7.2,199,Rain,Heavy rain,Wednesday,July
+2024-08-01,Delhi,India,28.2,85,974.7,6.5,157,Rain,Heavy rain,Thursday,August
+2024-08-02,Delhi,India,28.4,83,973.6,11.1,115,Drizzle,Dense drizzle,Friday,August
+2024-08-03,Delhi,India,28.9,82,975.3,13.5,123,Drizzle,Moderate drizzle,Saturday,August
+2024-08-04,Delhi,India,29.7,74,976.8,17.3,91,Drizzle,Light drizzle,Sunday,August
+2024-08-05,Delhi,India,29.0,76,976.4,22.0,112,Drizzle,Light drizzle,Monday,August
+2024-08-06,Delhi,India,29.0,76,975.4,11.3,178,Drizzle,Light drizzle,Tuesday,August
+2024-08-07,Delhi,India,27.3,86,976.5,7.1,209,Rain,Moderate rain,Wednesday,August
+2024-08-08,Delhi,India,27.6,87,977.9,7.5,133,Rain,Slight rain,Thursday,August
+2024-08-09,Delhi,India,27.8,87,979.0,6.0,101,Rain,Heavy rain,Friday,August
+2024-08-10,Delhi,India,27.6,87,978.0,5.6,75,Rain,Moderate rain,Saturday,August
+2024-08-11,Delhi,India,27.3,89,976.7,6.3,106,Rain,Moderate rain,Sunday,August
+2024-08-12,Delhi,India,26.7,91,977.7,7.6,79,Rain,Moderate rain,Monday,August
+2024-08-13,Delhi,India,27.3,90,978.8,9.0,84,Rain,Moderate rain,Tuesday,August
+2024-08-14,Delhi,India,28.0,89,979.2,6.8,84,Rain,Moderate rain,Wednesday,August
+2024-08-15,Delhi,India,28.4,87,978.1,9.5,106,Rain,Moderate rain,Thursday,August
+2024-08-16,Delhi,India,27.8,88,977.5,10.9,113,Rain,Moderate rain,Friday,August
+2024-08-17,Delhi,India,28.5,86,979.8,5.8,353,Rain,Moderate rain,Saturday,August
+2024-08-18,Delhi,India,29.1,83,980.6,8.7,281,Drizzle,Dense drizzle,Sunday,August
+2024-08-19,Delhi,India,29.0,82,979.6,7.6,284,Drizzle,Moderate drizzle,Monday,August
+2024-08-20,Delhi,India,28.2,85,979.7,5.0,231,Rain,Slight rain,Tuesday,August
+2024-08-21,Delhi,India,28.4,86,980.8,4.4,123,Rain,Slight rain,Wednesday,August
+2024-08-22,Delhi,India,28.2,86,979.8,4.9,255,Rain,Moderate rain,Thursday,August
+2024-08-23,Delhi,India,27.4,86,980.3,5.3,77,Drizzle,Moderate drizzle,Friday,August
+2024-08-24,Delhi,India,28.3,84,979.8,6.0,50,Rain,Moderate rain,Saturday,August
+2024-08-25,Delhi,India,28.8,79,977.6,16.5,88,Rain,Moderate rain,Sunday,August
+2024-08-26,Delhi,India,28.2,83,977.5,15.4,100,Rain,Slight rain,Monday,August
+2024-08-27,Delhi,India,27.2,85,979.5,17.3,114,Rain,Moderate rain,Tuesday,August
+2024-08-28,Delhi,India,26.8,87,979.4,10.2,120,Rain,Moderate rain,Wednesday,August
+2024-08-29,Delhi,India,26.9,87,979.4,10.4,124,Rain,Moderate rain,Thursday,August
+2024-08-30,Delhi,India,27.5,88,981.4,5.7,95,Rain,Moderate rain,Friday,August
+2024-08-31,Delhi,India,29.2,79,980.8,8.4,314,Cloudy,Overcast,Saturday,August
+2024-09-01,Delhi,India,29.6,76,980.4,8.1,327,Drizzle,Light drizzle,Sunday,September
+2024-09-02,Delhi,India,28.0,84,981.2,10.3,110,Rain,Moderate rain,Monday,September
+2024-09-03,Delhi,India,27.4,87,981.6,8.6,87,Rain,Heavy rain,Tuesday,September
+2024-09-04,Delhi,India,27.2,87,979.5,5.9,320,Drizzle,Light drizzle,Wednesday,September
+2024-09-05,Delhi,India,27.5,84,977.6,3.5,282,Drizzle,Dense drizzle,Thursday,September
+2024-09-06,Delhi,India,26.5,89,979.2,7.1,108,Rain,Moderate rain,Friday,September
+2024-09-07,Delhi,India,26.8,88,980.3,5.0,109,Rain,Moderate rain,Saturday,September
+2024-09-08,Delhi,India,27.6,87,979.9,5.2,313,Rain,Moderate rain,Sunday,September
+2024-09-09,Delhi,India,28.4,82,977.9,6.2,321,Rain,Moderate rain,Monday,September
+2024-09-10,Delhi,India,27.2,89,977.4,3.6,69,Rain,Moderate rain,Tuesday,September
+2024-09-11,Delhi,India,27.5,89,977.0,7.3,356,Rain,Heavy rain,Wednesday,September
+2024-09-12,Delhi,India,25.4,91,975.3,16.9,7,Rain,Heavy rain,Thursday,September
+2024-09-13,Delhi,India,25.4,89,976.3,13.9,286,Rain,Heavy rain,Friday,September
+2024-09-14,Delhi,India,26.0,84,978.7,10.1,294,Rain,Moderate rain,Saturday,September
+2024-09-15,Delhi,India,26.4,79,979.2,11.2,290,Drizzle,Light drizzle,Sunday,September
+2024-09-16,Delhi,India,27.2,73,980.6,12.0,289,Clear,Clear sky,Monday,September
+2024-09-17,Delhi,India,27.6,74,982.0,7.1,303,Cloudy,Overcast,Tuesday,September
+2024-09-18,Delhi,India,24.9,86,980.9,10.7,35,Rain,Heavy rain,Wednesday,September
+2024-09-19,Delhi,India,26.2,85,980.8,11.3,88,Rain,Moderate rain,Thursday,September
+2024-09-20,Delhi,India,27.2,80,981.1,6.7,134,Cloudy,Overcast,Friday,September
+2024-09-21,Delhi,India,27.9,79,982.3,4.7,188,Drizzle,Light drizzle,Saturday,September
+2024-09-22,Delhi,India,29.0,77,981.7,5.7,305,Cloudy,Overcast,Sunday,September
+2024-09-23,Delhi,India,28.9,78,981.1,6.7,295,Clear,Clear sky,Monday,September
+2024-09-24,Delhi,India,29.3,77,980.1,3.8,229,Clear,Mainly clear,Tuesday,September
+2024-09-25,Delhi,India,29.0,81,980.4,10.6,119,Drizzle,Light drizzle,Wednesday,September
+2024-09-26,Delhi,India,27.9,82,980.4,10.7,116,Drizzle,Light drizzle,Thursday,September
+2024-09-27,Delhi,India,27.3,80,980.1,10.5,95,Drizzle,Light drizzle,Friday,September
+2024-09-28,Delhi,India,26.3,81,981.9,7.9,74,Cloudy,Overcast,Saturday,September
+2024-09-29,Delhi,India,26.4,83,984.5,6.8,59,Drizzle,Light drizzle,Sunday,September
+2024-09-30,Delhi,India,27.7,77,983.6,8.5,288,Cloudy,Overcast,Monday,September
+2024-10-01,Delhi,India,28.3,76,980.9,8.6,283,Clear,Clear sky,Tuesday,October
+2024-10-02,Delhi,India,28.9,73,980.3,9.3,270,Clear,Clear sky,Wednesday,October
+2024-10-03,Delhi,India,28.6,66,979.8,10.5,284,Clear,Clear sky,Thursday,October
+2024-10-04,Delhi,India,28.3,68,981.0,8.8,269,Clear,Clear sky,Friday,October
+2024-10-05,Delhi,India,28.4,66,983.1,10.0,272,Clear,Mainly clear,Saturday,October
+2024-10-06,Delhi,India,27.8,65,986.3,9.0,306,Clear,Mainly clear,Sunday,October
+2024-10-07,Delhi,India,26.7,71,988.3,6.8,318,Clear,Clear sky,Monday,October
+2024-10-08,Delhi,India,27.0,70,987.7,7.1,334,Clear,Clear sky,Tuesday,October
+2024-10-09,Delhi,India,26.5,65,985.8,7.3,301,Clear,Clear sky,Wednesday,October
+2024-10-10,Delhi,India,26.1,60,985.0,9.6,299,Cloudy,Overcast,Thursday,October
+2024-10-11,Delhi,India,25.0,56,985.1,9.2,282,Cloudy,Partly cloudy,Friday,October
+2024-10-12,Delhi,India,25.3,61,985.7,8.0,279,Clear,Clear sky,Saturday,October
+2024-10-13,Delhi,India,26.0,57,986.6,6.4,303,Cloudy,Overcast,Sunday,October
+2024-10-14,Delhi,India,25.7,55,987.1,6.3,312,Cloudy,Partly cloudy,Monday,October
+2024-10-15,Delhi,India,25.2,57,986.2,9.1,284,Clear,Clear sky,Tuesday,October
+2024-10-16,Delhi,India,25.7,57,985.2,6.7,260,Cloudy,Overcast,Wednesday,October
+2024-10-17,Delhi,India,26.3,63,985.8,6.1,104,Cloudy,Overcast,Thursday,October
+2024-10-18,Delhi,India,26.1,65,985.7,6.3,136,Clear,Clear sky,Friday,October
+2024-10-19,Delhi,India,26.8,63,986.0,5.8,178,Clear,Clear sky,Saturday,October
+2024-10-20,Delhi,India,26.5,68,987.3,6.8,94,Clear,Mainly clear,Sunday,October
+2024-10-21,Delhi,India,25.6,70,987.9,6.5,63,Clear,Clear sky,Monday,October
+2024-10-22,Delhi,India,25.6,67,988.8,7.2,41,Clear,Clear sky,Tuesday,October
+2024-10-23,Delhi,India,26.1,61,988.2,10.0,312,Clear,Clear sky,Wednesday,October
+2024-10-24,Delhi,India,25.5,59,986.9,10.9,309,Clear,Clear sky,Thursday,October
+2024-10-25,Delhi,India,25.0,61,986.1,10.4,302,Clear,Clear sky,Friday,October
+2024-10-26,Delhi,India,24.6,66,986.1,8.8,338,Clear,Clear sky,Saturday,October
+2024-10-27,Delhi,India,25.2,74,985.3,6.6,114,Clear,Clear sky,Sunday,October
+2024-10-28,Delhi,India,25.7,71,984.1,7.5,154,Clear,Clear sky,Monday,October
+2024-10-29,Delhi,India,26.4,70,984.5,6.6,159,Clear,Clear sky,Tuesday,October
+2024-10-30,Delhi,India,27.0,65,985.2,7.6,330,Clear,Clear sky,Wednesday,October
+2024-10-31,Delhi,India,26.1,63,986.8,11.0,295,Clear,Clear sky,Thursday,October
+2024-11-01,Delhi,India,24.9,53,987.6,11.9,293,Clear,Clear sky,Friday,November
+2024-11-02,Delhi,India,24.4,54,988.7,7.1,293,Clear,Clear sky,Saturday,November
+2024-11-03,Delhi,India,24.4,54,989.6,6.6,31,Clear,Clear sky,Sunday,November
+2024-11-04,Delhi,India,23.7,62,988.2,6.7,297,Clear,Clear sky,Monday,November
+2024-11-05,Delhi,India,23.4,71,990.1,6.4,86,Clear,Clear sky,Tuesday,November
+2024-11-06,Delhi,India,23.9,67,990.4,5.6,296,Clear,Clear sky,Wednesday,November
+2024-11-07,Delhi,India,24.2,67,989.6,5.7,147,Clear,Clear sky,Thursday,November
+2024-11-08,Delhi,India,24.6,66,989.4,5.4,146,Clear,Clear sky,Friday,November
+2024-11-09,Delhi,India,24.5,68,989.6,7.8,145,Clear,Clear sky,Saturday,November
+2024-11-10,Delhi,India,24.3,69,989.5,6.5,109,Clear,Clear sky,Sunday,November
+2024-11-11,Delhi,India,23.9,74,989.4,6.1,77,Clear,Clear sky,Monday,November
+2024-11-12,Delhi,India,24.9,60,989.0,7.4,260,Clear,Clear sky,Tuesday,November
+2024-11-13,Delhi,India,24.1,56,988.1,5.5,299,Clear,Clear sky,Wednesday,November
+2024-11-14,Delhi,India,24.1,55,990.1,3.3,304,Clear,Clear sky,Thursday,November
+2024-11-15,Delhi,India,23.7,51,989.5,6.0,299,Clear,Clear sky,Friday,November
+2024-11-16,Delhi,India,23.3,55,988.6,5.5,298,Clear,Clear sky,Saturday,November
+2024-11-17,Delhi,India,22.9,58,989.1,4.9,297,Clear,Clear sky,Sunday,November
+2024-11-18,Delhi,India,20.8,60,990.7,5.4,292,Clear,Clear sky,Monday,November
+2024-11-19,Delhi,India,20.1,51,991.7,5.8,289,Clear,Clear sky,Tuesday,November
+2024-11-20,Delhi,India,19.8,50,990.6,5.5,288,Clear,Clear sky,Wednesday,November
+2024-11-21,Delhi,India,19.7,51,990.1,5.4,289,Clear,Clear sky,Thursday,November
+2024-11-22,Delhi,India,20.3,54,989.9,4.6,293,Clear,Clear sky,Friday,November
+2024-11-23,Delhi,India,20.9,51,990.4,4.2,249,Clear,Clear sky,Saturday,November
+2024-11-24,Delhi,India,21.4,48,990.2,7.4,271,Clear,Clear sky,Sunday,November
+2024-11-25,Delhi,India,20.6,57,990.2,7.7,286,Clear,Clear sky,Monday,November
+2024-11-26,Delhi,India,19.7,56,990.4,6.5,286,Clear,Clear sky,Tuesday,November
+2024-11-27,Delhi,India,19.8,49,989.9,4.3,300,Clear,Clear sky,Wednesday,November
+2024-11-28,Delhi,India,19.4,50,991.4,3.4,333,Clear,Clear sky,Thursday,November
+2024-11-29,Delhi,India,18.9,59,992.1,2.4,347,Clear,Clear sky,Friday,November
+2024-11-30,Delhi,India,18.9,60,990.2,4.3,307,Clear,Clear sky,Saturday,November
+2024-12-01,Delhi,India,19.4,61,988.5,4.8,301,Clear,Clear sky,Sunday,December
+2024-12-02,Delhi,India,19.5,58,988.7,4.9,300,Clear,Clear sky,Monday,December
+2024-12-03,Delhi,India,20.1,56,990.8,6.6,307,Clear,Clear sky,Tuesday,December
+2024-12-04,Delhi,India,20.1,50,989.9,9.8,298,Clear,Clear sky,Wednesday,December
+2024-12-05,Delhi,India,17.8,45,989.4,8.2,283,Clear,Clear sky,Thursday,December
+2024-12-06,Delhi,India,17.5,47,988.3,7.2,287,Clear,Clear sky,Friday,December
+2024-12-07,Delhi,India,16.9,44,987.9,3.4,283,Clear,Clear sky,Saturday,December
+2024-12-08,Delhi,India,16.1,56,987.7,8.2,124,Drizzle,Dense drizzle,Sunday,December
+2024-12-09,Delhi,India,15.3,65,990.0,4.3,36,Clear,Clear sky,Monday,December
+2024-12-10,Delhi,India,14.5,53,992.0,8.3,304,Clear,Clear sky,Tuesday,December
+2024-12-11,Delhi,India,13.9,47,991.7,8.0,292,Clear,Clear sky,Wednesday,December
+2024-12-12,Delhi,India,14.2,52,991.1,7.5,299,Clear,Clear sky,Thursday,December
+2024-12-13,Delhi,India,14.8,48,992.3,11.9,296,Clear,Clear sky,Friday,December
+2024-12-14,Delhi,India,14.6,44,992.5,9.6,287,Clear,Clear sky,Saturday,December
+2024-12-15,Delhi,India,14.3,51,993.8,4.4,298,Clear,Clear sky,Sunday,December
+2024-12-16,Delhi,India,14.2,67,992.1,3.4,314,Clear,Clear sky,Monday,December
+2024-12-17,Delhi,India,14.2,74,990.7,2.8,325,Cloudy,Overcast,Tuesday,December
+2024-12-18,Delhi,India,14.0,69,990.2,4.2,279,Cloudy,Overcast,Wednesday,December
+2024-12-19,Delhi,India,14.5,62,990.3,4.4,123,Clear,Clear sky,Thursday,December
+2024-12-20,Delhi,India,16.2,62,990.1,4.1,5,Clear,Clear sky,Friday,December
+2024-12-21,Delhi,India,15.5,65,990.6,4.9,320,Clear,Mainly clear,Saturday,December
+2024-12-22,Delhi,India,16.3,60,990.4,3.3,134,Cloudy,Overcast,Sunday,December
+2024-12-23,Delhi,India,14.5,68,990.4,6.7,98,Drizzle,Dense drizzle,Monday,December
+2024-12-24,Delhi,India,14.7,77,991.7,5.3,46,Drizzle,Light drizzle,Tuesday,December
+2024-12-25,Delhi,India,15.1,78,993.5,5.2,319,Clear,Mainly clear,Wednesday,December
+2024-12-26,Delhi,India,16.1,68,995.2,3.1,350,Cloudy,Overcast,Thursday,December
+2024-12-27,Delhi,India,15.1,84,993.7,7.6,64,Rain,Moderate rain,Friday,December
+2024-12-28,Delhi,India,14.9,89,993.3,5.4,338,Rain,Moderate rain,Saturday,December
+2024-12-29,Delhi,India,13.7,86,995.0,8.1,307,Cloudy,Overcast,Sunday,December
+2024-12-30,Delhi,India,12.7,87,994.2,7.6,290,Cloudy,Overcast,Monday,December
+2024-12-31,Delhi,India,11.3,89,995.2,3.5,297,Cloudy,Overcast,Tuesday,December
+2025-01-01,Delhi,India,11.1,89,993.4,5.8,294,Cloudy,Overcast,Wednesday,January
+2025-01-02,Delhi,India,12.4,85,992.6,6.7,287,Cloudy,Overcast,Thursday,January
+2025-01-03,Delhi,India,12.8,86,992.4,4.2,286,Cloudy,Overcast,Friday,January
+2025-01-04,Delhi,India,13.5,89,990.3,4.2,127,Cloudy,Overcast,Saturday,January
+2025-01-05,Delhi,India,12.4,90,990.4,6.4,124,Cloudy,Overcast,Sunday,January
+2025-01-06,Delhi,India,13.0,89,991.5,4.9,325,Rain,Moderate rain,Monday,January
+2025-01-07,Delhi,India,13.0,88,992.1,9.9,295,Cloudy,Overcast,Tuesday,January
+2025-01-08,Delhi,India,12.7,75,990.3,8.8,282,Clear,Clear sky,Wednesday,January
+2025-01-09,Delhi,India,12.8,77,992.6,2.7,316,Clear,Clear sky,Thursday,January
+2025-01-10,Delhi,India,12.1,85,994.2,4.5,106,Cloudy,Overcast,Friday,January
+2025-01-11,Delhi,India,12.2,88,992.9,6.8,103,Rain,Slight rain,Saturday,January
+2025-01-12,Delhi,India,13.2,87,993.5,4.3,68,Drizzle,Light drizzle,Sunday,January
+2025-01-13,Delhi,India,13.4,86,993.2,6.8,296,Cloudy,Overcast,Monday,January
+2025-01-14,Delhi,India,13.2,83,993.5,4.7,300,Clear,Clear sky,Tuesday,January
+2025-01-15,Delhi,India,13.0,87,994.4,3.4,115,Rain,Slight rain,Wednesday,January
+2025-01-16,Delhi,India,13.9,84,995.4,4.3,45,Drizzle,Light drizzle,Thursday,January
+2025-01-17,Delhi,India,13.2,81,994.8,6.8,308,Clear,Clear sky,Friday,January
+2025-01-18,Delhi,India,12.3,86,993.0,4.2,289,Cloudy,Overcast,Saturday,January
+2025-01-19,Delhi,India,14.6,86,991.7,3.2,324,Cloudy,Overcast,Sunday,January
+2025-01-20,Delhi,India,16.3,83,990.0,7.5,287,Clear,Mainly clear,Monday,January
+2025-01-21,Delhi,India,16.0,78,988.8,7.4,289,Clear,Clear sky,Tuesday,January
+2025-01-22,Delhi,India,16.2,75,988.4,4.7,304,Clear,Mainly clear,Wednesday,January
+2025-01-23,Delhi,India,16.3,71,990.0,7.1,306,Rain,Slight rain,Thursday,January
+2025-01-24,Delhi,India,14.9,67,990.2,9.1,287,Clear,Clear sky,Friday,January
+2025-01-25,Delhi,India,14.2,63,989.8,9.1,273,Clear,Clear sky,Saturday,January
+2025-01-26,Delhi,India,14.1,62,989.4,7.2,275,Clear,Clear sky,Sunday,January
+2025-01-27,Delhi,India,14.4,62,988.2,7.0,277,Clear,Clear sky,Monday,January
+2025-01-28,Delhi,India,15.3,58,987.8,5.5,270,Clear,Clear sky,Tuesday,January
+2025-01-29,Delhi,India,16.6,63,989.2,7.2,117,Clear,Clear sky,Wednesday,January
+2025-01-30,Delhi,India,17.7,66,986.2,5.8,139,Clear,Clear sky,Thursday,January
+2025-01-31,Delhi,India,18.8,65,985.8,4.2,147,Cloudy,Overcast,Friday,January
+2025-02-01,Delhi,India,19.1,63,988.0,6.5,109,Cloudy,Overcast,Saturday,February
+2025-02-02,Delhi,India,17.9,70,990.3,7.1,318,Cloudy,Partly cloudy,Sunday,February
+2025-02-03,Delhi,India,16.4,66,989.5,5.1,322,Rain,Slight rain,Monday,February
+2025-02-04,Delhi,India,17.6,70,989.5,3.7,100,Drizzle,Moderate drizzle,Tuesday,February
+2025-02-05,Delhi,India,16.2,68,990.4,7.1,303,Drizzle,Light drizzle,Wednesday,February
+2025-02-06,Delhi,India,15.9,51,991.9,11.9,317,Cloudy,Partly cloudy,Thursday,February
+2025-02-07,Delhi,India,15.3,52,991.6,12.8,293,Cloudy,Partly cloudy,Friday,February
+2025-02-08,Delhi,India,16.7,52,990.4,10.0,292,Cloudy,Overcast,Saturday,February
+2025-02-09,Delhi,India,17.8,59,989.5,5.2,289,Clear,Mainly clear,Sunday,February
+2025-02-10,Delhi,India,19.2,59,988.9,4.4,290,Cloudy,Overcast,Monday,February
+2025-02-11,Delhi,India,20.3,60,988.3,4.3,316,Cloudy,Partly cloudy,Tuesday,February
+2025-02-12,Delhi,India,19.2,51,989.4,10.2,303,Clear,Clear sky,Wednesday,February
+2025-02-13,Delhi,India,18.3,47,989.8,12.6,301,Clear,Clear sky,Thursday,February
+2025-02-14,Delhi,India,18.5,42,988.0,10.1,287,Cloudy,Overcast,Friday,February
+2025-02-15,Delhi,India,19.9,46,985.9,5.5,27,Cloudy,Overcast,Saturday,February
+2025-02-16,Delhi,India,20.4,52,987.5,4.1,3,Cloudy,Overcast,Sunday,February
+2025-02-17,Delhi,India,21.7,52,990.2,2.6,329,Cloudy,Overcast,Monday,February
+2025-02-18,Delhi,India,20.9,53,989.8,5.5,298,Cloudy,Overcast,Tuesday,February
+2025-02-19,Delhi,India,20.6,51,988.1,5.6,265,Drizzle,Moderate drizzle,Wednesday,February
+2025-02-20,Delhi,India,19.0,69,988.9,11.7,91,Rain,Slight rain,Thursday,February
+2025-02-21,Delhi,India,19.0,71,991.8,5.8,347,Drizzle,Light drizzle,Friday,February
+2025-02-22,Delhi,India,18.3,66,991.6,8.3,299,Cloudy,Overcast,Saturday,February
+2025-02-23,Delhi,India,18.9,62,992.5,5.6,298,Clear,Clear sky,Sunday,February
+2025-02-24,Delhi,India,20.1,57,993.4,5.3,309,Cloudy,Overcast,Monday,February
+2025-02-25,Delhi,India,21.4,54,993.6,4.2,308,Cloudy,Overcast,Tuesday,February
+2025-02-26,Delhi,India,23.7,55,993.3,4.7,171,Cloudy,Overcast,Wednesday,February
+2025-02-27,Delhi,India,21.1,70,990.7,8.5,68,Drizzle,Moderate drizzle,Thursday,February
+2025-02-28,Delhi,India,20.0,73,987.3,9.5,97,Rain,Slight rain,Friday,February
+2025-03-01,Delhi,India,19.5,81,988.4,7.4,72,Rain,Moderate rain,Saturday,March
+2025-03-02,Delhi,India,19.1,67,987.6,7.4,318,Clear,Clear sky,Sunday,March
+2025-03-03,Delhi,India,19.8,59,986.6,5.3,125,Cloudy,Partly cloudy,Monday,March
+2025-03-04,Delhi,India,19.8,60,988.1,10.9,294,Cloudy,Partly cloudy,Tuesday,March
+2025-03-05,Delhi,India,17.8,45,989.2,17.6,301,Clear,Clear sky,Wednesday,March
+2025-03-06,Delhi,India,19.6,41,987.2,10.1,287,Clear,Clear sky,Thursday,March
+2025-03-07,Delhi,India,20.9,44,985.7,5.2,290,Clear,Clear sky,Friday,March
+2025-03-08,Delhi,India,22.4,43,984.3,6.8,289,Clear,Clear sky,Saturday,March
+2025-03-09,Delhi,India,24.7,43,987.5,6.2,143,Clear,Clear sky,Sunday,March
+2025-03-10,Delhi,India,25.2,46,990.7,8.5,131,Cloudy,Overcast,Monday,March
+2025-03-11,Delhi,India,26.9,46,988.5,3.9,359,Cloudy,Overcast,Tuesday,March
+2025-03-12,Delhi,India,26.4,50,984.7,7.6,298,Cloudy,Overcast,Wednesday,March
+2025-03-13,Delhi,India,25.2,53,983.1,5.6,318,Rain,Moderate rain,Thursday,March
+2025-03-14,Delhi,India,25.7,51,984.1,6.0,156,Cloudy,Overcast,Friday,March
+2025-03-15,Delhi,India,24.1,55,985.8,9.1,50,Drizzle,Light drizzle,Saturday,March
+2025-03-16,Delhi,India,23.7,48,987.2,7.4,323,Drizzle,Light drizzle,Sunday,March
+2025-03-17,Delhi,India,23.1,44,988.1,8.1,306,Cloudy,Overcast,Monday,March
+2025-03-18,Delhi,India,23.6,43,987.9,8.0,296,Clear,Mainly clear,Tuesday,March
+2025-03-19,Delhi,India,25.2,37,988.7,6.3,306,Cloudy,Overcast,Wednesday,March
+2025-03-20,Delhi,India,26.2,32,989.9,6.4,322,Clear,Clear sky,Thursday,March
+2025-03-21,Delhi,India,25.4,32,989.4,8.9,309,Clear,Clear sky,Friday,March
+2025-03-22,Delhi,India,25.2,33,988.2,8.2,296,Clear,Mainly clear,Saturday,March
+2025-03-23,Delhi,India,26.0,34,989.8,5.1,218,Clear,Clear sky,Sunday,March
+2025-03-24,Delhi,India,27.2,32,989.1,4.9,176,Clear,Clear sky,Monday,March
+2025-03-25,Delhi,India,28.7,32,985.2,6.1,114,Clear,Clear sky,Tuesday,March
+2025-03-26,Delhi,India,30.0,29,982.3,5.3,181,Clear,Clear sky,Wednesday,March
+2025-03-27,Delhi,India,30.1,27,982.1,6.4,279,Cloudy,Partly cloudy,Thursday,March
+2025-03-28,Delhi,India,26.1,25,984.7,12.1,293,Clear,Clear sky,Friday,March
+2025-03-29,Delhi,India,23.0,22,985.4,13.1,298,Cloudy,Overcast,Saturday,March
+2025-03-30,Delhi,India,24.8,22,985.9,9.9,296,Cloudy,Overcast,Sunday,March
+2025-03-31,Delhi,India,26.2,21,986.1,8.5,295,Clear,Clear sky,Monday,March
+2025-04-01,Delhi,India,26.5,21,985.1,8.1,290,Clear,Clear sky,Tuesday,April
+2025-04-02,Delhi,India,27.7,22,985.9,5.4,295,Clear,Clear sky,Wednesday,April
+2025-04-03,Delhi,India,29.6,19,986.6,4.6,252,Cloudy,Overcast,Thursday,April
+2025-04-04,Delhi,India,30.1,18,986.2,7.2,299,Clear,Clear sky,Friday,April
+2025-04-05,Delhi,India,29.0,22,984.3,8.5,291,Clear,Mainly clear,Saturday,April
+2025-04-06,Delhi,India,30.5,22,982.5,5.8,284,Cloudy,Overcast,Sunday,April
+2025-04-07,Delhi,India,32.5,22,983.7,4.9,93,Cloudy,Partly cloudy,Monday,April
+2025-04-08,Delhi,India,32.8,22,985.7,6.5,111,Cloudy,Overcast,Tuesday,April
+2025-04-09,Delhi,India,33.5,25,983.6,6.9,103,Cloudy,Overcast,Wednesday,April
+2025-04-10,Delhi,India,31.5,33,979.5,7.1,131,Rain,Slight rain,Thursday,April
+2025-04-11,Delhi,India,26.3,60,979.1,11.6,106,Rain,Moderate rain,Friday,April
+2025-04-12,Delhi,India,26.2,57,982.1,5.0,99,Drizzle,Moderate drizzle,Saturday,April
+2025-04-13,Delhi,India,28.3,47,983.8,3.4,91,Cloudy,Partly cloudy,Sunday,April
+2025-04-14,Delhi,India,29.3,42,984.0,6.4,116,Clear,Clear sky,Monday,April
+2025-04-15,Delhi,India,30.8,37,984.4,7.3,127,Cloudy,Partly cloudy,Tuesday,April
+2025-04-16,Delhi,India,32.2,34,982.8,6.4,124,Clear,Mainly clear,Wednesday,April
+2025-04-17,Delhi,India,33.3,32,980.2,8.1,117,Cloudy,Overcast,Thursday,April
+2025-04-18,Delhi,India,32.9,40,978.8,7.9,99,Cloudy,Overcast,Friday,April
+2025-04-19,Delhi,India,32.6,41,979.1,11.9,128,Clear,Mainly clear,Saturday,April
+2025-04-20,Delhi,India,33.1,37,979.5,9.5,114,Clear,Mainly clear,Sunday,April
+2025-04-21,Delhi,India,33.8,23,982.2,6.8,265,Cloudy,Overcast,Monday,April
+2025-04-22,Delhi,India,32.6,10,983.6,8.8,277,Clear,Clear sky,Tuesday,April
+2025-04-23,Delhi,India,32.2,11,981.4,8.5,282,Clear,Clear sky,Wednesday,April
+2025-04-24,Delhi,India,32.8,11,979.1,7.0,277,Clear,Clear sky,Thursday,April
+2025-04-25,Delhi,India,33.8,13,980.0,6.7,317,Clear,Clear sky,Friday,April
+2025-04-26,Delhi,India,34.3,13,980.0,8.1,260,Cloudy,Overcast,Saturday,April
+2025-04-27,Delhi,India,34.5,14,981.2,5.0,326,Cloudy,Overcast,Sunday,April
+2025-04-28,Delhi,India,33.0,20,979.9,7.8,97,Cloudy,Overcast,Monday,April
+2025-04-29,Delhi,India,31.3,35,980.9,10.5,108,Clear,Clear sky,Tuesday,April
+2025-04-30,Delhi,India,31.5,37,982.5,9.1,107,Cloudy,Overcast,Wednesday,April
+2025-05-01,Delhi,India,31.8,36,983.4,10.1,106,Cloudy,Overcast,Thursday,May
+2025-05-02,Delhi,India,26.2,65,984.6,8.4,89,Rain,Moderate rain,Friday,May
+2025-05-03,Delhi,India,28.3,54,981.9,5.3,119,Rain,Moderate rain,Saturday,May
+2025-05-04,Delhi,India,29.9,49,980.1,5.0,107,Rain,Slight rain,Sunday,May
+2025-05-05,Delhi,India,28.5,58,981.2,8.3,88,Drizzle,Light drizzle,Monday,May
+2025-05-06,Delhi,India,27.3,62,981.3,7.5,88,Drizzle,Light drizzle,Tuesday,May
+2025-05-07,Delhi,India,27.8,62,980.8,7.4,88,Drizzle,Light drizzle,Wednesday,May
+2025-05-08,Delhi,India,28.3,61,981.1,5.9,77,Rain,Moderate rain,Thursday,May
+2025-05-09,Delhi,India,30.7,49,982.1,5.6,114,Drizzle,Dense drizzle,Friday,May
+2025-05-10,Delhi,India,30.9,52,981.7,4.5,63,Rain,Slight rain,Saturday,May
+2025-05-11,Delhi,India,31.7,49,980.1,5.6,310,Clear,Mainly clear,Sunday,May
+2025-05-12,Delhi,India,33.0,35,979.0,6.5,294,Clear,Mainly clear,Monday,May
+2025-05-13,Delhi,India,34.7,24,979.0,10.0,280,Cloudy,Overcast,Tuesday,May
+2025-05-14,Delhi,India,35.3,21,979.1,9.0,287,Clear,Clear sky,Wednesday,May
+2025-05-15,Delhi,India,36.2,21,979.0,6.7,285,Clear,Clear sky,Thursday,May
+2025-05-16,Delhi,India,35.8,24,978.2,10.0,299,Clear,Mainly clear,Friday,May
+2025-05-17,Delhi,India,35.7,28,977.7,9.9,265,Clear,Mainly clear,Saturday,May
+2025-05-18,Delhi,India,35.2,31,977.7,9.6,307,Clear,Mainly clear,Sunday,May
+2025-05-19,Delhi,India,34.5,45,977.8,8.7,105,Clear,Mainly clear,Monday,May
+2025-05-20,Delhi,India,34.9,45,976.2,9.6,99,Cloudy,Overcast,Tuesday,May
+2025-05-21,Delhi,India,34.8,45,976.7,9.9,114,Cloudy,Overcast,Wednesday,May
+2025-05-22,Delhi,India,31.4,55,977.6,11.0,117,Clear,Mainly clear,Thursday,May
+2025-05-23,Delhi,India,32.3,52,976.0,11.7,108,Rain,Slight rain,Friday,May
+2025-05-24,Delhi,India,33.4,48,976.4,12.8,107,Drizzle,Light drizzle,Saturday,May
+2025-05-25,Delhi,India,28.4,66,979.2,8.5,88,Drizzle,Light drizzle,Sunday,May
+2025-05-26,Delhi,India,29.8,65,978.0,7.5,94,Drizzle,Moderate drizzle,Monday,May
+2025-05-27,Delhi,India,31.2,62,975.6,5.4,87,Clear,Clear sky,Tuesday,May
+2025-05-28,Delhi,India,33.2,55,974.2,5.4,104,Cloudy,Partly cloudy,Wednesday,May
+2025-05-29,Delhi,India,33.6,52,972.2,5.8,173,Drizzle,Light drizzle,Thursday,May
+2025-05-30,Delhi,India,31.6,49,971.6,5.5,182,Cloudy,Overcast,Friday,May
+2025-05-31,Delhi,India,31.9,48,973.5,6.4,204,Drizzle,Dense drizzle,Saturday,May
+2025-06-01,Delhi,India,31.0,48,974.6,9.7,225,Rain,Moderate rain,Sunday,June
+2025-06-02,Delhi,India,30.9,48,974.7,5.7,249,Drizzle,Light drizzle,Monday,June
+2025-06-03,Delhi,India,30.2,46,976.8,5.9,259,Cloudy,Overcast,Tuesday,June
+2025-06-04,Delhi,India,28.8,55,979.6,5.6,80,Drizzle,Light drizzle,Wednesday,June
+2025-06-05,Delhi,India,30.9,46,982.2,4.0,202,Cloudy,Partly cloudy,Thursday,June
+2025-06-06,Delhi,India,32.7,40,981.4,5.5,202,Clear,Mainly clear,Friday,June
+2025-06-07,Delhi,India,34.7,37,979.7,6.9,167,Clear,Mainly clear,Saturday,June
+2025-06-08,Delhi,India,36.6,35,978.0,7.3,256,Clear,Clear sky,Sunday,June
+2025-06-09,Delhi,India,37.5,29,976.3,9.6,289,Clear,Clear sky,Monday,June
+2025-06-10,Delhi,India,37.4,22,975.7,9.1,296,Clear,Clear sky,Tuesday,June
+2025-06-11,Delhi,India,37.1,32,976.1,7.9,335,Clear,Clear sky,Wednesday,June
+2025-06-12,Delhi,India,36.8,45,976.1,7.7,113,Drizzle,Light drizzle,Thursday,June
+2025-06-13,Delhi,India,36.0,48,976.8,9.3,116,Cloudy,Partly cloudy,Friday,June
+2025-06-14,Delhi,India,36.2,47,975.0,7.1,110,Drizzle,Light drizzle,Saturday,June
+2025-06-15,Delhi,India,33.8,53,973.9,8.1,125,Drizzle,Moderate drizzle,Sunday,June
+2025-06-16,Delhi,India,29.4,81,974.7,6.1,81,Rain,Heavy rain,Monday,June
+2025-06-17,Delhi,India,29.1,82,975.2,6.0,86,Rain,Moderate rain,Tuesday,June
+2025-06-18,Delhi,India,28.9,79,973.9,4.6,127,Drizzle,Dense drizzle,Wednesday,June
+2025-06-19,Delhi,India,29.7,77,972.5,6.2,120,Drizzle,Light drizzle,Thursday,June
+2025-06-20,Delhi,India,28.7,84,974.9,7.8,108,Drizzle,Moderate drizzle,Friday,June
+2025-06-21,Delhi,India,30.4,77,975.6,4.9,126,Rain,Slight rain,Saturday,June
+2025-06-22,Delhi,India,31.0,74,974.8,5.1,130,Drizzle,Moderate drizzle,Sunday,June
+2025-06-23,Delhi,India,31.5,74,972.9,5.1,113,Drizzle,Light drizzle,Monday,June
+2025-06-24,Delhi,India,31.2,75,972.2,4.7,123,Drizzle,Light drizzle,Tuesday,June
+2025-06-25,Delhi,India,29.1,84,975.0,9.1,93,Rain,Heavy rain,Wednesday,June
+2025-06-26,Delhi,India,30.6,76,976.7,8.6,100,Rain,Moderate rain,Thursday,June
+2025-06-27,Delhi,India,30.7,75,975.9,6.9,101,Drizzle,Light drizzle,Friday,June
+2025-06-28,Delhi,India,30.8,74,974.7,4.6,146,Rain,Moderate rain,Saturday,June
+2025-06-29,Delhi,India,29.5,79,972.5,5.9,157,Rain,Moderate rain,Sunday,June
+2025-06-30,Delhi,India,27.8,87,973.6,5.1,120,Rain,Moderate rain,Monday,June
+2025-07-01,Delhi,India,28.7,84,974.5,4.9,84,Rain,Moderate rain,Tuesday,July
+2025-07-02,Delhi,India,29.9,81,974.4,6.2,100,Drizzle,Light drizzle,Wednesday,July
+2025-07-03,Delhi,India,30.1,78,975.0,7.2,104,Drizzle,Light drizzle,Thursday,July
+2025-07-04,Delhi,India,30.3,78,975.2,5.1,104,Drizzle,Light drizzle,Friday,July
+2025-07-05,Delhi,India,30.9,77,974.1,4.0,140,Rain,Slight rain,Saturday,July
+2025-07-06,Delhi,India,31.0,74,973.8,4.2,193,Rain,Moderate rain,Sunday,July
+2025-07-07,Delhi,India,29.0,83,974.7,3.4,268,Rain,Moderate rain,Monday,July
+2025-07-08,Delhi,India,30.9,76,974.7,4.8,277,Cloudy,Overcast,Tuesday,July
+2025-07-09,Delhi,India,29.2,82,975.9,3.7,225,Rain,Heavy rain,Wednesday,July
+2025-07-10,Delhi,India,27.5,85,977.9,4.0,149,Drizzle,Moderate drizzle,Thursday,July
+2025-07-11,Delhi,India,28.4,83,977.4,2.2,181,Drizzle,Light drizzle,Friday,July
+2025-07-12,Delhi,India,29.3,80,977.1,2.6,94,Rain,Moderate rain,Saturday,July
+2025-07-13,Delhi,India,28.2,87,977.0,5.0,75,Rain,Moderate rain,Sunday,July
+2025-07-14,Delhi,India,28.0,85,975.1,12.8,101,Rain,Moderate rain,Monday,July
+2025-07-15,Delhi,India,28.0,84,974.6,13.4,130,Rain,Moderate rain,Tuesday,July
+2025-07-16,Delhi,India,28.7,83,976.1,8.1,131,Rain,Moderate rain,Wednesday,July
+2025-07-17,Delhi,India,28.5,82,978.2,7.8,118,Drizzle,Moderate drizzle,Thursday,July
+2025-07-18,Delhi,India,28.5,80,976.6,12.8,73,Rain,Moderate rain,Friday,July
+2025-07-19,Delhi,India,29.0,77,974.5,10.8,131,Cloudy,Overcast,Saturday,July
+2025-07-20,Delhi,India,30.1,73,974.6,5.7,214,Cloudy,Overcast,Sunday,July
+2025-07-21,Delhi,India,28.9,78,976.9,4.2,162,Drizzle,Light drizzle,Monday,July
+2025-07-22,Delhi,India,30.1,74,975.5,3.9,238,Drizzle,Light drizzle,Tuesday,July
+2025-07-23,Delhi,India,29.8,78,972.8,5.9,249,Drizzle,Moderate drizzle,Wednesday,July
+2025-07-24,Delhi,India,30.7,72,971.7,7.1,279,Drizzle,Moderate drizzle,Thursday,July
+2025-07-25,Delhi,India,31.8,68,971.4,6.3,295,Drizzle,Moderate drizzle,Friday,July
+2025-07-26,Delhi,India,31.0,73,972.6,4.8,151,Rain,Slight rain,Saturday,July
+2025-07-27,Delhi,India,32.1,68,972.6,6.7,100,Drizzle,Light drizzle,Sunday,July
+2025-07-28,Delhi,India,32.1,67,972.7,4.7,127,Drizzle,Moderate drizzle,Monday,July
+2025-07-29,Delhi,India,29.2,82,973.5,5.0,110,Drizzle,Moderate drizzle,Tuesday,July
+2025-07-30,Delhi,India,27.9,88,974.3,7.8,102,Rain,Moderate rain,Wednesday,July
+2025-07-31,Delhi,India,27.7,88,975.0,5.9,144,Rain,Heavy rain,Thursday,July
+2025-08-01,Delhi,India,28.3,85,975.9,4.4,222,Rain,Moderate rain,Friday,August
+2025-08-02,Delhi,India,29.1,79,976.2,6.7,254,Drizzle,Moderate drizzle,Saturday,August
+2025-08-03,Delhi,India,29.7,77,977.3,7.7,255,Drizzle,Moderate drizzle,Sunday,August
+2025-08-04,Delhi,India,28.6,82,978.7,7.5,236,Drizzle,Light drizzle,Monday,August
+2025-08-05,Delhi,India,27.9,84,978.9,6.9,211,Rain,Moderate rain,Tuesday,August
+2025-08-06,Delhi,India,28.7,80,979.4,5.6,242,Drizzle,Light drizzle,Wednesday,August
+2025-08-07,Delhi,India,29.9,72,978.0,8.5,274,Cloudy,Overcast,Thursday,August
+2025-08-08,Delhi,India,29.9,70,979.1,7.4,271,Cloudy,Overcast,Friday,August
+2025-08-09,Delhi,India,27.8,84,981.2,4.3,299,Rain,Moderate rain,Saturday,August
+2025-08-10,Delhi,India,28.9,83,979.9,3.2,309,Drizzle,Light drizzle,Sunday,August
+2025-08-11,Delhi,India,29.8,78,978.5,7.3,260,Rain,Slight rain,Monday,August
+2025-08-12,Delhi,India,29.2,80,977.9,5.9,252,Drizzle,Dense drizzle,Tuesday,August
+2025-08-13,Delhi,India,30.3,74,977.0,5.9,270,Cloudy,Overcast,Wednesday,August
+2025-08-14,Delhi,India,27.8,88,979.7,4.9,110,Rain,Moderate rain,Thursday,August
+2025-08-15,Delhi,India,28.4,86,978.6,3.8,103,Rain,Slight rain,Friday,August
+2025-08-16,Delhi,India,28.6,87,977.5,4.8,98,Rain,Moderate rain,Saturday,August
+2025-08-17,Delhi,India,29.0,86,978.4,6.1,83,Rain,Moderate rain,Sunday,August
+2025-08-18,Delhi,India,29.2,83,979.9,8.2,90,Rain,Moderate rain,Monday,August
+2025-08-19,Delhi,India,29.2,82,978.6,7.3,89,Rain,Moderate rain,Tuesday,August
+2025-08-20,Delhi,India,29.3,79,978.0,9.6,97,Rain,Slight rain,Wednesday,August
+2025-08-21,Delhi,India,29.7,78,978.1,6.5,95,Rain,Heavy rain,Thursday,August
+2025-08-22,Delhi,India,30.3,75,975.9,4.1,123,Rain,Slight rain,Friday,August
+2025-08-23,Delhi,India,28.3,84,975.8,5.2,80,Rain,Moderate rain,Saturday,August
+2025-08-24,Delhi,India,27.6,87,976.7,8.2,98,Rain,Moderate rain,Sunday,August
+2025-08-25,Delhi,India,26.6,89,976.0,11.8,111,Rain,Moderate rain,Monday,August
+2025-08-26,Delhi,India,27.2,89,978.5,11.5,123,Rain,Slight rain,Tuesday,August
+2025-08-27,Delhi,India,28.4,86,978.5,5.6,118,Drizzle,Moderate drizzle,Wednesday,August
+2025-08-28,Delhi,India,28.6,86,978.0,5.3,120,Rain,Moderate rain,Thursday,August
+2025-08-29,Delhi,India,27.9,88,979.1,8.0,111,Rain,Moderate rain,Friday,August
+2025-08-30,Delhi,India,28.4,84,980.7,7.9,104,Rain,Slight rain,Saturday,August
+2025-08-31,Delhi,India,26.7,90,978.8,8.5,116,Rain,Moderate rain,Sunday,August
+2025-09-01,Delhi,India,25.4,92,975.5,11.0,121,Rain,Moderate rain,Monday,September
+2025-09-02,Delhi,India,25.0,93,976.8,12.9,122,Rain,Moderate rain,Tuesday,September
+2025-09-03,Delhi,India,26.2,89,979.7,7.5,94,Rain,Heavy rain,Wednesday,September
+2025-09-04,Delhi,India,27.1,87,980.1,5.8,42,Rain,Heavy rain,Thursday,September
+2025-09-05,Delhi,India,27.6,85,980.1,9.9,81,Rain,Slight rain,Friday,September
+2025-09-06,Delhi,India,27.7,85,980.6,10.2,101,Rain,Moderate rain,Saturday,September
+2025-09-07,Delhi,India,28.0,85,980.3,7.7,122,Drizzle,Dense drizzle,Sunday,September
+2025-09-08,Delhi,India,28.6,81,981.2,3.8,152,Drizzle,Light drizzle,Monday,September
+2025-09-09,Delhi,India,29.0,76,982.5,7.5,284,Drizzle,Light drizzle,Tuesday,September
+2025-09-10,Delhi,India,29.2,73,981.6,11.0,288,Cloudy,Overcast,Wednesday,September
+2025-09-11,Delhi,India,28.9,69,981.2,10.1,282,Cloudy,Overcast,Thursday,September
+2025-09-12,Delhi,India,29.4,67,982.5,7.6,278,Drizzle,Light drizzle,Friday,September
+2025-09-13,Delhi,India,30.8,60,982.7,6.1,273,Drizzle,Light drizzle,Saturday,September
+2025-09-14,Delhi,India,31.9,57,982.2,6.4,269,Drizzle,Light drizzle,Sunday,September
+2025-09-15,Delhi,India,32.3,54,980.5,7.4,265,Cloudy,Overcast,Monday,September
+2025-09-16,Delhi,India,31.7,56,980.7,6.6,210,Drizzle,Light drizzle,Tuesday,September
+2025-09-17,Delhi,India,31.2,61,981.3,5.1,34,Drizzle,Light drizzle,Wednesday,September
+2025-09-18,Delhi,India,30.2,67,981.5,5.3,70,Drizzle,Moderate drizzle,Thursday,September
+2025-09-19,Delhi,India,31.1,62,982.1,6.3,321,Drizzle,Light drizzle,Friday,September
+2025-09-20,Delhi,India,31.5,56,981.5,8.3,303,Clear,Mainly clear,Saturday,September
+2025-09-21,Delhi,India,31.2,53,980.6,9.3,292,Clear,Mainly clear,Sunday,September
+2025-09-22,Delhi,India,31.6,51,981.1,10.0,287,Clear,Clear sky,Monday,September
+2025-09-23,Delhi,India,31.5,47,980.8,10.6,295,Clear,Mainly clear,Tuesday,September
+2025-09-24,Delhi,India,31.0,50,979.3,9.9,290,Clear,Clear sky,Wednesday,September
+2025-09-25,Delhi,India,31.1,52,980.2,8.8,296,Clear,Clear sky,Thursday,September
+2025-09-26,Delhi,India,31.6,52,981.4,8.5,315,Clear,Clear sky,Friday,September
+2025-09-27,Delhi,India,32.6,54,983.1,3.9,49,Drizzle,Light drizzle,Saturday,September
+2025-09-28,Delhi,India,32.3,60,982.5,8.7,105,Clear,Mainly clear,Sunday,September
+2025-09-29,Delhi,India,32.0,58,981.0,6.5,124,Drizzle,Light drizzle,Monday,September
+2025-09-30,Delhi,India,30.6,64,979.2,4.3,191,Rain,Moderate rain,Tuesday,September
+2025-10-01,Delhi,India,28.3,74,979.4,4.3,205,Rain,Moderate rain,Wednesday,October
+2025-10-02,Delhi,India,28.4,72,983.1,5.7,118,Drizzle,Light drizzle,Thursday,October
+2025-10-03,Delhi,India,29.1,71,985.9,5.2,76,Cloudy,Overcast,Friday,October
+2025-10-04,Delhi,India,30.3,60,983.9,6.9,295,Drizzle,Light drizzle,Saturday,October
+2025-10-05,Delhi,India,29.2,60,982.8,7.3,272,Drizzle,Moderate drizzle,Sunday,October
+2025-10-06,Delhi,India,24.0,85,984.9,5.9,77,Rain,Moderate rain,Monday,October
+2025-10-07,Delhi,India,23.4,87,985.3,6.2,137,Rain,Moderate rain,Tuesday,October
+2025-10-08,Delhi,India,22.7,86,986.8,4.6,310,Drizzle,Light drizzle,Wednesday,October
+2025-10-09,Delhi,India,23.8,75,988.6,6.8,306,Drizzle,Light drizzle,Thursday,October
+2025-10-10,Delhi,India,23.5,68,987.5,4.7,296,Clear,Clear sky,Friday,October
+2025-10-11,Delhi,India,23.9,68,987.2,5.8,283,Clear,Mainly clear,Saturday,October
+2025-10-12,Delhi,India,25.2,63,986.8,6.2,305,Clear,Mainly clear,Sunday,October
+2025-10-13,Delhi,India,25.8,59,987.7,3.4,303,Clear,Clear sky,Monday,October
+2025-10-14,Delhi,India,26.4,52,986.9,3.2,293,Clear,Clear sky,Tuesday,October
+2025-10-15,Delhi,India,26.7,49,986.9,2.7,275,Clear,Clear sky,Wednesday,October
+2025-10-16,Delhi,India,26.1,51,986.8,4.1,290,Clear,Clear sky,Thursday,October
+2025-10-17,Delhi,India,26.5,54,988.0,4.2,296,Clear,Clear sky,Friday,October
+2025-10-18,Delhi,India,27.2,53,987.5,3.0,261,Clear,Clear sky,Saturday,October
+2025-10-19,Delhi,India,27.9,52,986.9,2.3,173,Cloudy,Partly cloudy,Sunday,October
+2025-10-20,Delhi,India,28.1,49,987.2,3.9,99,Clear,Clear sky,Monday,October
+2025-10-21,Delhi,India,26.9,57,988.6,4.4,136,Drizzle,Light drizzle,Tuesday,October
+2025-10-22,Delhi,India,27.6,53,988.8,4.5,300,Clear,Mainly clear,Wednesday,October
+2025-10-23,Delhi,India,26.6,42,988.3,5.9,305,Clear,Clear sky,Thursday,October
+2025-10-24,Delhi,India,25.9,46,987.9,3.8,277,Clear,Clear sky,Friday,October
+2025-10-25,Delhi,India,25.7,45,987.4,3.3,248,Clear,Clear sky,Saturday,October
+2025-10-26,Delhi,India,25.5,46,988.3,3.7,129,Cloudy,Overcast,Sunday,October
+2025-10-27,Delhi,India,24.2,56,988.8,6.2,133,Cloudy,Overcast,Monday,October
+2025-10-28,Delhi,India,23.3,72,990.2,4.2,117,Cloudy,Overcast,Tuesday,October
+2025-10-29,Delhi,India,24.8,66,988.2,4.0,355,Cloudy,Overcast,Wednesday,October
+2025-10-30,Delhi,India,24.5,74,987.4,3.7,123,Drizzle,Light drizzle,Thursday,October
+2025-10-31,Delhi,India,25.3,75,986.5,4.6,258,Drizzle,Light drizzle,Friday,October
+2025-11-01,Delhi,India,25.1,62,986.7,6.4,283,Clear,Clear sky,Saturday,November
+2025-11-02,Delhi,India,23.7,59,986.7,7.8,287,Clear,Clear sky,Sunday,November
+2025-11-03,Delhi,India,23.5,53,984.8,7.5,277,Clear,Clear sky,Monday,November
+2025-11-04,Delhi,India,23.4,60,984.9,5.5,159,Cloudy,Overcast,Tuesday,November
+2025-11-05,Delhi,India,23.9,62,985.4,6.8,314,Clear,Mainly clear,Wednesday,November
+2025-11-06,Delhi,India,20.7,49,988.1,8.8,297,Clear,Clear sky,Thursday,November
+2025-11-07,Delhi,India,20.3,47,989.5,8.2,286,Clear,Clear sky,Friday,November
+2025-11-08,Delhi,India,20.0,45,990.5,7.1,291,Clear,Clear sky,Saturday,November
+2025-11-09,Delhi,India,20.1,46,989.1,7.0,287,Clear,Clear sky,Sunday,November
+2025-11-10,Delhi,India,20.1,46,988.9,5.6,290,Cloudy,Overcast,Monday,November
+2025-11-11,Delhi,India,20.1,47,989.8,6.8,286,Clear,Clear sky,Tuesday,November
+2025-11-12,Delhi,India,20.4,48,990.7,7.6,291,Clear,Clear sky,Wednesday,November
+2025-11-13,Delhi,India,19.3,52,992.1,6.7,285,Clear,Clear sky,Thursday,November
+2025-11-14,Delhi,India,19.2,50,992.0,6.5,283,Clear,Clear sky,Friday,November
+2025-11-15,Delhi,India,19.3,50,992.9,6.5,289,Clear,Clear sky,Saturday,November
+2025-11-16,Delhi,India,19.1,50,994.5,6.7,295,Clear,Clear sky,Sunday,November
+2025-11-17,Delhi,India,19.0,50,994.0,4.5,288,Clear,Clear sky,Monday,November
+2025-11-18,Delhi,India,19.4,58,992.0,4.1,288,Clear,Clear sky,Tuesday,November
+2025-11-19,Delhi,India,19.7,63,991.8,3.2,180,Clear,Mainly clear,Wednesday,November
+2025-11-20,Delhi,India,20.0,64,992.4,3.5,218,Clear,Clear sky,Thursday,November
+2025-11-21,Delhi,India,20.3,61,993.5,3.0,194,Clear,Clear sky,Friday,November
+2025-11-22,Delhi,India,20.3,57,991.8,3.7,277,Clear,Clear sky,Saturday,November
+2025-11-23,Delhi,India,19.3,56,992.0,4.1,282,Clear,Clear sky,Sunday,November
+2025-11-24,Delhi,India,18.4,58,993.4,4.1,293,Clear,Clear sky,Monday,November
+2025-11-25,Delhi,India,17.4,58,993.3,5.7,287,Clear,Clear sky,Tuesday,November
+2025-11-26,Delhi,India,17.3,57,993.4,3.6,303,Clear,Clear sky,Wednesday,November
+2025-11-27,Delhi,India,18.1,55,994.8,2.1,31,Clear,Clear sky,Thursday,November
+2025-11-28,Delhi,India,18.0,60,992.9,5.1,299,Cloudy,Partly cloudy,Friday,November
+2025-11-29,Delhi,India,19.0,54,991.3,7.3,305,Clear,Clear sky,Saturday,November
+2025-11-30,Delhi,India,17.3,49,990.3,7.4,287,Cloudy,Overcast,Sunday,November
+2025-12-01,Delhi,India,16.9,49,990.0,3.6,303,Clear,Clear sky,Monday,December
+2025-12-02,Delhi,India,18.3,57,990.1,4.2,319,Clear,Mainly clear,Tuesday,December
+2025-12-03,Delhi,India,16.2,55,993.1,6.1,300,Cloudy,Partly cloudy,Wednesday,December
+2025-12-04,Delhi,India,15.2,56,994.0,7.1,290,Cloudy,Overcast,Thursday,December
+2025-12-05,Delhi,India,15.0,56,995.4,5.2,283,Clear,Clear sky,Friday,December
+2025-12-06,Delhi,India,16.2,53,994.2,9.4,283,Cloudy,Overcast,Saturday,December
+2025-12-07,Delhi,India,17.0,56,993.6,8.7,283,Cloudy,Overcast,Sunday,December
+2025-12-08,Delhi,India,18.0,53,993.5,9.5,288,Cloudy,Overcast,Monday,December
+2025-12-09,Delhi,India,17.5,54,993.0,9.9,282,Clear,Clear sky,Tuesday,December
+2025-12-10,Delhi,India,17.5,57,992.8,7.6,287,Cloudy,Overcast,Wednesday,December
+2025-12-11,Delhi,India,17.3,60,991.7,5.7,280,Clear,Clear sky,Thursday,December
+2025-12-12,Delhi,India,17.2,63,991.0,3.6,286,Cloudy,Overcast,Friday,December
+2025-12-13,Delhi,India,17.8,66,992.1,2.4,104,Cloudy,Overcast,Saturday,December
+2025-12-14,Delhi,India,17.7,70,993.3,2.0,127,Cloudy,Overcast,Sunday,December
+2025-12-15,Delhi,India,16.6,72,992.7,5.6,275,Cloudy,Overcast,Monday,December
+2025-12-16,Delhi,India,17.0,69,991.9,9.5,289,Clear,Clear sky,Tuesday,December
+2025-12-17,Delhi,India,17.0,70,992.7,8.1,284,Clear,Clear sky,Wednesday,December
+2025-12-18,Delhi,India,16.4,74,993.6,5.4,306,Cloudy,Overcast,Thursday,December
+2025-12-19,Delhi,India,15.7,78,991.3,5.8,288,Cloudy,Overcast,Friday,December
+2025-12-20,Delhi,India,15.0,78,990.1,4.0,138,Cloudy,Overcast,Saturday,December
+2025-12-21,Delhi,India,14.4,84,992.3,4.3,123,Cloudy,Overcast,Sunday,December
+2025-12-22,Delhi,India,15.4,83,992.2,3.2,168,Cloudy,Overcast,Monday,December
+2025-12-23,Delhi,India,16.5,81,990.5,7.9,285,Cloudy,Overcast,Tuesday,December
+2025-12-24,Delhi,India,15.8,69,990.5,8.8,283,Clear,Clear sky,Wednesday,December
+2025-12-25,Delhi,India,14.7,64,991.5,5.4,272,Cloudy,Overcast,Thursday,December
+2025-12-26,Delhi,India,15.2,67,992.0,4.7,304,Cloudy,Overcast,Friday,December
+2025-12-27,Delhi,India,14.8,77,991.8,4.8,296,Cloudy,Overcast,Saturday,December
+2025-12-28,Delhi,India,14.6,78,992.4,4.3,285,Cloudy,Overcast,Sunday,December
+2025-12-29,Delhi,India,14.1,81,992.2,3.3,277,Cloudy,Overcast,Monday,December
+2025-12-30,Delhi,India,14.2,79,989.5,4.6,282,Cloudy,Overcast,Tuesday,December
+2025-12-31,Delhi,India,13.2,84,987.7,6.6,118,Cloudy,Overcast,Wednesday,December
+2026-01-01,Delhi,India,13.3,90,989.8,5.5,127,Drizzle,Dense drizzle,Thursday,January
+2026-01-02,Delhi,India,14.0,78,992.9,7.4,306,Cloudy,Overcast,Friday,January
+2026-01-03,Delhi,India,13.2,77,993.7,3.9,300,Cloudy,Overcast,Saturday,January
+2026-01-04,Delhi,India,12.4,79,994.8,5.0,300,Cloudy,Overcast,Sunday,January
+2026-01-05,Delhi,India,12.4,79,995.9,5.4,312,Cloudy,Overcast,Monday,January
+2026-01-06,Delhi,India,12.0,85,995.8,5.8,299,Cloudy,Overcast,Tuesday,January
+2026-01-07,Delhi,India,10.8,89,996.9,6.2,305,Cloudy,Overcast,Wednesday,January
+2026-01-08,Delhi,India,10.1,88,997.1,4.7,319,Cloudy,Overcast,Thursday,January
+2026-01-09,Delhi,India,11.4,83,996.0,3.5,10,Drizzle,Moderate drizzle,Friday,January
+2026-01-10,Delhi,India,11.3,81,994.7,6.1,298,Cloudy,Partly cloudy,Saturday,January
+2026-01-11,Delhi,India,10.6,76,996.6,7.8,296,Clear,Clear sky,Sunday,January
+2026-01-12,Delhi,India,10.6,70,996.6,5.0,307,Clear,Clear sky,Monday,January
+2026-01-13,Delhi,India,11.1,75,995.1,4.6,308,Cloudy,Overcast,Tuesday,January
+2026-01-14,Delhi,India,10.7,76,992.2,6.6,297,Cloudy,Overcast,Wednesday,January
+2026-01-15,Delhi,India,11.1,76,992.3,6.5,296,Cloudy,Overcast,Thursday,January
+2026-01-16,Delhi,India,12.6,68,991.1,4.4,296,Cloudy,Overcast,Friday,January
+2026-01-17,Delhi,India,14.4,70,989.5,2.7,90,Cloudy,Overcast,Saturday,January
+2026-01-18,Delhi,India,14.8,77,987.6,4.2,121,Cloudy,Overcast,Sunday,January
+2026-01-19,Delhi,India,17.2,61,989.7,3.6,54,Cloudy,Overcast,Monday,January
+2026-01-20,Delhi,India,17.2,61,990.9,6.0,298,Cloudy,Partly cloudy,Tuesday,January
+2026-01-21,Delhi,India,16.3,65,992.6,5.4,300,Cloudy,Partly cloudy,Wednesday,January
+2026-01-22,Delhi,India,17.4,61,991.2,5.8,134,Cloudy,Overcast,Thursday,January
+2026-01-23,Delhi,India,15.2,83,990.4,12.4,131,Rain,Heavy rain,Friday,January
+2026-01-24,Delhi,India,12.1,69,996.9,9.2,322,Cloudy,Overcast,Saturday,January
+2026-01-25,Delhi,India,10.8,74,994.5,7.4,288,Cloudy,Overcast,Sunday,January
+2026-01-26,Delhi,India,12.4,77,994.2,3.0,270,Cloudy,Overcast,Monday,January
+2026-01-27,Delhi,India,14.4,83,992.8,8.6,118,Rain,Heavy rain,Tuesday,January
+2026-01-28,Delhi,India,14.3,85,994.7,5.4,315,Rain,Moderate rain,Wednesday,January
+2026-01-29,Delhi,India,13.4,86,994.9,6.8,303,Cloudy,Overcast,Thursday,January
+2026-01-30,Delhi,India,13.8,82,993.7,4.5,286,Cloudy,Overcast,Friday,January
+2026-01-31,Delhi,India,14.1,87,993.8,5.5,120,Cloudy,Overcast,Saturday,January
+2026-02-01,Delhi,India,16.1,83,993.9,5.8,146,Rain,Moderate rain,Sunday,February
+2026-02-02,Delhi,India,15.2,89,994.6,5.2,296,Cloudy,Overcast,Monday,February
+2026-02-03,Delhi,India,14.6,82,995.6,4.1,310,Cloudy,Overcast,Tuesday,February
+2026-02-04,Delhi,India,15.0,77,996.3,6.3,310,Cloudy,Overcast,Wednesday,February
+2026-02-05,Delhi,India,15.3,72,994.8,8.5,291,Cloudy,Partly cloudy,Thursday,February
+2026-02-06,Delhi,India,16.3,68,993.8,9.2,292,Clear,Clear sky,Friday,February
+2026-02-07,Delhi,India,17.5,68,991.6,9.5,288,Cloudy,Overcast,Saturday,February
+2026-02-08,Delhi,India,16.7,62,990.5,7.5,290,Cloudy,Overcast,Sunday,February
+2026-02-09,Delhi,India,17.0,61,990.3,4.7,151,Cloudy,Overcast,Monday,February
+2026-02-10,Delhi,India,18.8,60,991.4,4.9,122,Cloudy,Overcast,Tuesday,February
+2026-02-11,Delhi,India,20.5,58,993.9,7.0,315,Clear,Mainly clear,Wednesday,February
+2026-02-12,Delhi,India,18.9,54,993.1,7.9,292,Cloudy,Overcast,Thursday,February
+2026-02-13,Delhi,India,19.0,53,991.1,5.7,279,Cloudy,Overcast,Friday,February
+2026-02-14,Delhi,India,19.8,52,990.0,6.4,286,Cloudy,Overcast,Saturday,February
+2026-02-15,Delhi,India,20.8,53,989.2,6.1,281,Clear,Clear sky,Sunday,February
+2026-02-16,Delhi,India,21.9,50,988.6,4.7,162,Cloudy,Partly cloudy,Monday,February
+2026-02-17,Delhi,India,21.9,54,989.8,7.9,129,Clear,Clear sky,Tuesday,February
+2026-02-18,Delhi,India,18.9,73,991.0,4.0,353,Drizzle,Light drizzle,Wednesday,February
+2026-02-19,Delhi,India,19.8,67,992.3,3.3,322,Cloudy,Overcast,Thursday,February
+2026-02-20,Delhi,India,21.0,64,993.3,5.4,302,Clear,Clear sky,Friday,February
+2026-02-21,Delhi,India,20.8,62,988.7,7.0,283,Clear,Clear sky,Saturday,February
+2026-02-22,Delhi,India,21.6,55,985.3,5.6,275,Clear,Clear sky,Sunday,February
+2026-02-23,Delhi,India,22.3,53,985.4,4.1,291,Clear,Clear sky,Monday,February
+2026-02-24,Delhi,India,22.4,52,987.4,4.6,325,Clear,Clear sky,Tuesday,February
+2026-02-25,Delhi,India,22.2,48,988.3,5.8,291,Clear,Clear sky,Wednesday,February
+2026-02-26,Delhi,India,22.5,45,986.0,7.7,282,Clear,Clear sky,Thursday,February
+2026-02-27,Delhi,India,23.7,42,983.6,5.8,277,Cloudy,Overcast,Friday,February
+2026-02-28,Delhi,India,25.9,41,983.1,5.8,300,Cloudy,Overcast,Saturday,February
+2026-03-01,Delhi,India,23.9,46,984.6,9.0,291,Clear,Mainly clear,Sunday,March
+2026-03-02,Delhi,India,23.9,44,986.7,10.2,293,Clear,Clear sky,Monday,March
+2026-03-03,Delhi,India,24.6,41,987.1,12.1,290,Clear,Clear sky,Tuesday,March
+2026-03-04,Delhi,India,25.9,43,987.9,11.3,293,Clear,Clear sky,Wednesday,March
+2026-03-05,Delhi,India,27.2,47,985.5,11.6,297,Clear,Clear sky,Thursday,March
+2026-03-06,Delhi,India,27.0,46,985.4,6.1,299,Clear,Clear sky,Friday,March
+2026-03-07,Delhi,India,27.6,53,987.2,4.1,211,Clear,Clear sky,Saturday,March
+2026-03-08,Delhi,India,28.3,47,987.4,5.7,279,Cloudy,Overcast,Sunday,March
+2026-03-09,Delhi,India,28.0,49,987.5,6.9,298,Cloudy,Overcast,Monday,March
+2026-03-10,Delhi,India,28.6,51,989.6,3.7,315,Cloudy,Overcast,Tuesday,March
+2026-03-11,Delhi,India,28.7,39,987.7,7.3,280,Cloudy,Overcast,Wednesday,March
+2026-03-12,Delhi,India,28.3,33,984.2,8.0,273,Cloudy,Overcast,Thursday,March
+2026-03-13,Delhi,India,27.0,44,984.6,9.2,302,Cloudy,Overcast,Friday,March
+2026-03-14,Delhi,India,26.8,35,984.3,6.8,299,Cloudy,Overcast,Saturday,March
+2026-03-15,Delhi,India,23.1,56,984.9,11.3,96,Rain,Slight rain,Sunday,March
+2026-03-16,Delhi,India,23.3,50,983.9,11.1,108,Drizzle,Light drizzle,Monday,March
+2026-03-17,Delhi,India,24.2,50,984.5,5.8,344,Cloudy,Overcast,Tuesday,March
+2026-03-18,Delhi,India,24.1,57,986.6,5.5,345,Rain,Slight rain,Wednesday,March
+2026-03-19,Delhi,India,22.1,66,987.4,8.0,355,Rain,Moderate rain,Thursday,March
+2026-03-20,Delhi,India,18.0,86,986.6,5.1,320,Drizzle,Moderate drizzle,Friday,March
+2026-03-21,Delhi,India,19.7,77,988.4,5.0,310,Cloudy,Overcast,Saturday,March
+2026-03-22,Delhi,India,21.7,66,988.1,6.7,301,Cloudy,Overcast,Sunday,March
+2026-03-23,Delhi,India,21.9,70,987.2,5.3,317,Rain,Moderate rain,Monday,March
+2026-03-24,Delhi,India,23.5,64,986.1,6.5,300,Cloudy,Partly cloudy,Tuesday,March
+2026-03-25,Delhi,India,24.9,50,985.6,5.8,291,Cloudy,Overcast,Wednesday,March
+2026-03-26,Delhi,India,27.7,43,987.2,6.3,302,Cloudy,Overcast,Thursday,March
+2026-03-27,Delhi,India,25.7,49,984.4,7.6,332,Drizzle,Moderate drizzle,Friday,March
+2026-03-28,Delhi,India,27.1,44,981.4,5.5,281,Cloudy,Overcast,Saturday,March
+2026-03-29,Delhi,India,28.1,47,981.7,7.7,120,Cloudy,Overcast,Sunday,March
+2026-03-30,Delhi,India,26.9,50,984.0,8.2,277,Drizzle,Light drizzle,Monday,March
+2026-03-31,Delhi,India,26.2,54,985.6,4.9,313,Drizzle,Light drizzle,Tuesday,March
+2026-04-01,Delhi,India,26.4,51,985.9,4.4,45,Cloudy,Overcast,Wednesday,April
+2026-04-02,Delhi,India,28.3,47,985.0,4.7,95,Cloudy,Overcast,Thursday,April
+2026-04-03,Delhi,India,25.8,54,985.5,8.9,284,Drizzle,Light drizzle,Friday,April
+2026-04-04,Delhi,India,24.5,64,985.3,4.7,309,Rain,Slight rain,Saturday,April
+2026-04-05,Delhi,India,24.3,57,984.1,5.3,306,Drizzle,Moderate drizzle,Sunday,April
+2026-04-06,Delhi,India,25.9,39,984.5,6.5,268,Clear,Mainly clear,Monday,April
+2026-04-07,Delhi,India,22.7,57,983.6,8.6,109,Rain,Slight rain,Tuesday,April
+2026-04-08,Delhi,India,20.4,73,983.9,6.6,112,Drizzle,Dense drizzle,Wednesday,April
+2026-04-09,Delhi,India,22.6,61,988.2,6.2,39,Clear,Mainly clear,Thursday,April
+2026-04-10,Delhi,India,24.8,43,988.4,12.5,301,Clear,Clear sky,Friday,April
+2026-04-11,Delhi,India,27.6,33,986.2,10.3,315,Cloudy,Overcast,Saturday,April
+2026-04-12,Delhi,India,28.6,31,983.7,9.1,316,Clear,Mainly clear,Sunday,April
+2026-04-13,Delhi,India,28.6,28,984.5,9.1,295,Cloudy,Overcast,Monday,April
+2026-04-14,Delhi,India,30.7,25,983.5,7.1,306,Clear,Mainly clear,Tuesday,April
+2026-04-15,Delhi,India,31.7,22,981.0,8.1,306,Clear,Mainly clear,Wednesday,April
+2026-04-16,Delhi,India,33.0,22,981.8,5.6,317,Cloudy,Overcast,Thursday,April

@@ -1,0 +1,232 @@
+ Initial Model Training & Data Flow
+
+  Data Source
+
+  The data comes from two external APIs (via data/preprocess.py):
+
+  1. AQI Data - fetch_aqi_data() → OpenAQ API
+    - Pollutants: PM2.5, PM10, O₃, NO₂, SO₂, CO
+  2. Weather Data - fetch_weather_data() → OpenWeather API
+    - Temperature, humidity, pressure, wind_speed, wind_direction
+
+  Data Settings (config.py):
+  - LOOKBACK_DAYS = 30 - 30 days of historical data
+  - SEQUENCE_LENGTH = 7 - Uses 7-day sequences for LSTM input
+  - Default location: Delhi, India
+
+  Data Preprocessing Pipeline
+
+  fetch_aqi_data() + fetch_weather_data()
+                │
+                ▼
+         merge on date/city/country
+                │
+                ▼
+         fill_missing_values (ffill → bfill → 0)
+                │
+                ▼
+         calculate_aqi (PM2.5×4, PM10×2, max)
+                │
+                ▼
+         create_sequences (7-day sliding window)
+                │
+                ▼
+         scale_features (MinMaxScaler)
+                │
+                ▼
+         X_scaled: (samples, 7, features)
+         y_scaled: (samples, targets)
+
+  Initial Model State (Round 0)
+
+  Key finding: The global model is NOT pre-trained before federated learning starts. Here's what happens:
+
+  1. Server starts (server_node.py:114-161):
+    - Loads data to get input_shape and output_shape
+    - Creates FedAvg strategy with evaluate_fn
+    - No initial model weights are generated
+  2. First client connection (server_node.py:153):
+    - Flower server waits for clients
+    - When client connects, server has no initial weights
+    - Client creates its own model with random initialization (create_lstm_model())
+  3. Round 1 training (client_node.py:50-74):
+    - Client receives empty/default config from server
+    - Client creates LSTM model with random weights
+    - Trains locally on 30 days of AQI + weather data for that city/country
+    - Sends updated weights back to server
+  4. Aggregation (FedAvg):
+    - Server averages weights from all participating clients
+    - This becomes the first global model
+
+  Model Architecture (lstm_model.py:16-53)
+
+  Input: (7, num_features)
+    │
+    ▼
+  LSTM(64, return_sequences=True) + BatchNorm + Dropout(0.2)
+    │
+    ▼
+  LSTM(32, return_sequences=False) + BatchNorm + Dropout(0.2)
+    │
+    ▼
+  Dense(16, relu) + BatchNorm + Dropout(0.2)
+    │
+    ▼
+  Dense(num_targets)
+
+  Summary
+
+  ┌─────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────┐   
+  │     Aspect      │                                              Details                                               │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ Initial weights │ Random (Keras default initialization)                                                              │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ Data source     │ OpenAQ API + OpenWeather API                                                                       │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ Data size       │ 30 days historical → ~23 sequences (30-7)                                                          │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ Features        │ 12 total: pm25, pm10, o3, no2, so2, co, temperature, humidity, pressure, wind_speed,               │   
+  │                 │ wind_direction, day_of_week, month                                                                 │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ Targets         │ aqi, temperature, weather_type                                                                     │   
+  ├─────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┤   
+  │ First global    │ Created after Round 1 completes, from averaged client weights                                      │   
+  │ model           │                                                                                                    │   
+  └─────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────┘ 
+
+
+
+
+
+   Phase 1: Discovery & Understanding (Current Phase)
+
+  Exploration Objectives:
+
+  1. Map existing federated learning infrastructure (global_server, client_server)
+  2. Identify data loading and preprocessing utilities
+  3. Understand Model architecture and training pipeline
+  4. Review existing inference/prediction code
+  5. Check for any existing configuration files or environment setup
+
+  Key Files to Investigate:
+
+  - Model.py: Model definition, architecture, and any training hooks
+  - airhub-ml/: ML-related components, federated learning framework
+  - logs/: Existing training logs, configuration examples
+  - data/datsets/: Sample dataset structures and loaders
+  - notes/: Any documentation or planning notes
+
+  Implementation Goals:
+
+  After discovery, we'll implement:
+  1. Global Server Training Pipeline
+    - Load and preprocess 2 years of sample weather/AQI data
+    - Train global model using federated aggregation
+    - Save updated global model weights
+  2. Client Server Configuration
+    - Set up client data collection (hourly intervals)
+    - Implement local training with received global model
+    - Prepare for model updates and synchronization
+  3. Hourly Synchronization Pipeline
+    - Automate data collection every hour
+    - Send weather + AQI data to global server
+    - Receive updated global model
+  4. Automation & Deployment
+    - Create orchestration scripts for hourly cycles
+    - Set up monitoring and logging
+    - Deploy system
+
+  Phase 2: Design (After Discovery)
+
+  Based on existing architecture patterns, we'll design:
+  - Data pipeline for weather/AQI ingestion
+  - Model checkpointing strategy
+  - Federated averaging implementation
+  - Client-server communication protocol
+
+  Phase 3: Implementation
+
+  We'll implement in 4 tasks as requested:
+
+  Task 1: Global Server Pipeline
+
+  - Load sample_aqi_data and sample_weather_data
+  - Preprocess and normalize data
+  - Train initial global model
+  - Save model checkpoint
+
+  Task 2: Client Server Setup
+
+  - Configure client data collection
+  - Set up local training loop
+  - Implement model receive/update mechanism
+
+  Task 3: Hourly Automation
+
+  - Create scheduled data upload routine
+  - Implement hourly training cycle
+  - Build error handling for failed updates
+
+  Task 4: Deployment & Verification
+
+  - Full system integration test
+  - Verify data flow between client and global server
+  - Document usage and monitoring procedures
+
+  Phase 4: Verification
+
+  Test scenarios:
+  1. Run global model training with sample data
+  2. Verify client receives and applies global model
+  3. Check hourly data upload automation
+  4. Validate prediction accuracy on test set
+
+  ---
+
+
+
+   How to Start the Servers
+
+  1. Start the Global (Flower) Server
+
+  cd airhub-ml
+  python -m federated.server_node --persistent --rounds 10
+
+  Options:
+  - --persistent - Keeps server running after rounds complete (for continuous client connections)
+  - --rounds - Number of federated learning rounds (default: 10)
+  - --min-clients - Minimum clients required (default: 1)
+
+  ---
+  2. Start Client Nodes (in separate terminals)
+
+  Terminal 2 - Client 1 (Delhi):
+  cd airhub-ml
+  python -m federated.client_node --city "Delhi" --country "IN" --persistent
+
+  Terminal 3 - Client 2 (Mumbai):
+  cd airhub-ml
+  python -m federated.client_node --city "Mumbai" --country "IN" --persistent
+
+  Options:
+  - --city / --country - Location for local training data
+  - --persistent - Auto-reconnect if server restarts
+  - --predict - Request prediction from API instead of training
+
+  ---
+  3. Start the API Server
+
+  cd airhub-ml
+  python main.py --host 0.0.0.0 --port 8001
+
+  ▎ Note: The frontend expects the API at port 55000 (line 367 in index.html). Update it to 8001 or change the API server port:
+
+  python main.py --port 55000
+
+  ---
+  4. Serve the Frontend
+
+  Open frontend/index.html in a browser, or serve it:
+  cd frontend
+  python -m http.server 3000
+  Then visit http://localhost:3000

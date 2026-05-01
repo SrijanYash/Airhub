@@ -1,0 +1,731 @@
+date,city,country,temperature,humidity,pressure,wind_speed,wind_direction,weather_type,weather_description,day_of_week,month
+2024-04-18,Ghaziabad,IN,30.6,25,982.3,12.9,303,Cloudy,Overcast,Thursday,April
+2024-04-19,Ghaziabad,IN,31.2,30,980.2,10.6,302,Cloudy,Overcast,Friday,April
+2024-04-20,Ghaziabad,IN,30.0,29,979.6,13.5,303,Cloudy,Overcast,Saturday,April
+2024-04-21,Ghaziabad,IN,29.6,28,981.1,11.8,318,Cloudy,Overcast,Sunday,April
+2024-04-22,Ghaziabad,IN,30.6,26,981.8,13.8,315,Cloudy,Overcast,Monday,April
+2024-04-23,Ghaziabad,IN,29.6,29,981.4,9.4,333,Cloudy,Partly cloudy,Tuesday,April
+2024-04-24,Ghaziabad,IN,29.4,29,981.4,10.3,301,Clear,Clear sky,Wednesday,April
+2024-04-25,Ghaziabad,IN,29.7,25,981.5,11.8,305,Clear,Mainly clear,Thursday,April
+2024-04-26,Ghaziabad,IN,31.6,24,980.4,10.1,260,Cloudy,Overcast,Friday,April
+2024-04-27,Ghaziabad,IN,31.9,27,981.2,13.1,293,Cloudy,Overcast,Saturday,April
+2024-04-28,Ghaziabad,IN,30.5,28,982.3,10.1,332,Cloudy,Overcast,Sunday,April
+2024-04-29,Ghaziabad,IN,31.1,26,981.6,11.8,314,Cloudy,Overcast,Monday,April
+2024-04-30,Ghaziabad,IN,29.8,24,980.5,13.6,303,Clear,Clear sky,Tuesday,April
+2024-05-01,Ghaziabad,IN,26.9,22,978.8,17.0,313,Clear,Clear sky,Wednesday,May
+2024-05-02,Ghaziabad,IN,27.4,27,979.9,12.3,310,Cloudy,Overcast,Thursday,May
+2024-05-03,Ghaziabad,IN,30.3,22,980.6,13.9,303,Cloudy,Overcast,Friday,May
+2024-05-04,Ghaziabad,IN,32.9,19,980.5,12.0,303,Cloudy,Overcast,Saturday,May
+2024-05-05,Ghaziabad,IN,33.2,20,976.9,12.3,312,Cloudy,Overcast,Sunday,May
+2024-05-06,Ghaziabad,IN,33.6,22,978.8,12.5,306,Clear,Mainly clear,Monday,May
+2024-05-07,Ghaziabad,IN,33.0,27,980.7,10.3,69,Clear,Mainly clear,Tuesday,May
+2024-05-08,Ghaziabad,IN,32.0,42,981.4,13.5,111,Cloudy,Overcast,Wednesday,May
+2024-05-09,Ghaziabad,IN,31.9,40,980.7,12.8,101,Cloudy,Partly cloudy,Thursday,May
+2024-05-10,Ghaziabad,IN,31.6,45,981.5,10.7,96,Drizzle,Light drizzle,Friday,May
+2024-05-11,Ghaziabad,IN,31.8,43,983.1,8.5,17,Cloudy,Overcast,Saturday,May
+2024-05-12,Ghaziabad,IN,31.9,40,983.2,9.6,15,Cloudy,Overcast,Sunday,May
+2024-05-13,Ghaziabad,IN,32.7,31,983.3,9.3,353,Cloudy,Overcast,Monday,May
+2024-05-14,Ghaziabad,IN,33.1,20,983.4,12.3,324,Cloudy,Partly cloudy,Tuesday,May
+2024-05-15,Ghaziabad,IN,33.8,19,983.1,9.2,332,Clear,Clear sky,Wednesday,May
+2024-05-16,Ghaziabad,IN,34.0,20,982.5,9.0,350,Clear,Clear sky,Thursday,May
+2024-05-17,Ghaziabad,IN,35.9,19,979.7,10.3,301,Cloudy,Overcast,Friday,May
+2024-05-18,Ghaziabad,IN,36.8,20,977.1,11.5,301,Clear,Mainly clear,Saturday,May
+2024-05-19,Ghaziabad,IN,37.4,16,975.6,13.7,306,Clear,Clear sky,Sunday,May
+2024-05-20,Ghaziabad,IN,36.0,21,976.5,9.8,336,Cloudy,Overcast,Monday,May
+2024-05-21,Ghaziabad,IN,34.8,31,977.4,10.0,99,Clear,Clear sky,Tuesday,May
+2024-05-22,Ghaziabad,IN,35.1,38,978.0,14.5,105,Drizzle,Light drizzle,Wednesday,May
+2024-05-23,Ghaziabad,IN,35.8,36,977.3,13.8,116,Clear,Mainly clear,Thursday,May
+2024-05-24,Ghaziabad,IN,35.7,37,977.2,11.2,103,Clear,Clear sky,Friday,May
+2024-05-25,Ghaziabad,IN,37.3,28,975.1,10.2,314,Clear,Mainly clear,Saturday,May
+2024-05-26,Ghaziabad,IN,38.2,17,973.3,12.5,327,Clear,Clear sky,Sunday,May
+2024-05-27,Ghaziabad,IN,37.9,19,970.8,10.0,340,Clear,Mainly clear,Monday,May
+2024-05-28,Ghaziabad,IN,37.3,14,969.1,10.3,330,Clear,Clear sky,Tuesday,May
+2024-05-29,Ghaziabad,IN,38.7,16,970.4,9.1,332,Cloudy,Overcast,Wednesday,May
+2024-05-30,Ghaziabad,IN,39.1,14,973.4,13.6,284,Cloudy,Overcast,Thursday,May
+2024-05-31,Ghaziabad,IN,37.2,16,974.9,10.8,332,Clear,Mainly clear,Friday,May
+2024-06-01,Ghaziabad,IN,37.2,17,976.5,13.3,304,Cloudy,Overcast,Saturday,June
+2024-06-02,Ghaziabad,IN,36.6,24,978.0,9.8,286,Cloudy,Overcast,Sunday,June
+2024-06-03,Ghaziabad,IN,36.9,25,976.8,13.4,301,Clear,Mainly clear,Monday,June
+2024-06-04,Ghaziabad,IN,36.6,20,976.3,9.9,282,Clear,Mainly clear,Tuesday,June
+2024-06-05,Ghaziabad,IN,36.3,24,977.4,15.3,294,Cloudy,Partly cloudy,Wednesday,June
+2024-06-06,Ghaziabad,IN,34.9,31,979.7,12.0,315,Clear,Mainly clear,Thursday,June
+2024-06-07,Ghaziabad,IN,35.7,29,977.4,15.6,298,Clear,Mainly clear,Friday,June
+2024-06-08,Ghaziabad,IN,35.4,26,976.6,15.7,306,Cloudy,Partly cloudy,Saturday,June
+2024-06-09,Ghaziabad,IN,35.6,22,976.4,14.3,310,Clear,Clear sky,Sunday,June
+2024-06-10,Ghaziabad,IN,36.2,18,976.5,13.4,295,Cloudy,Overcast,Monday,June
+2024-06-11,Ghaziabad,IN,36.5,19,976.0,11.3,294,Cloudy,Partly cloudy,Tuesday,June
+2024-06-12,Ghaziabad,IN,36.6,18,975.6,11.7,295,Clear,Clear sky,Wednesday,June
+2024-06-13,Ghaziabad,IN,37.6,19,974.4,16.5,289,Clear,Clear sky,Thursday,June
+2024-06-14,Ghaziabad,IN,37.9,26,974.1,21.6,280,Cloudy,Overcast,Friday,June
+2024-06-15,Ghaziabad,IN,38.0,26,974.3,19.3,292,Clear,Mainly clear,Saturday,June
+2024-06-16,Ghaziabad,IN,38.7,25,974.5,17.9,290,Clear,Mainly clear,Sunday,June
+2024-06-17,Ghaziabad,IN,39.4,23,974.4,19.3,287,Clear,Mainly clear,Monday,June
+2024-06-18,Ghaziabad,IN,39.1,23,972.4,19.9,282,Clear,Mainly clear,Tuesday,June
+2024-06-19,Ghaziabad,IN,36.8,36,971.1,19.4,259,Drizzle,Light drizzle,Wednesday,June
+2024-06-20,Ghaziabad,IN,33.4,47,973.1,7.3,4,Rain,Slight rain,Thursday,June
+2024-06-21,Ghaziabad,IN,32.7,54,975.1,10.0,295,Rain,Slight rain,Friday,June
+2024-06-22,Ghaziabad,IN,33.9,52,975.1,8.4,61,Cloudy,Overcast,Saturday,June
+2024-06-23,Ghaziabad,IN,34.1,54,975.8,10.8,90,Cloudy,Partly cloudy,Sunday,June
+2024-06-24,Ghaziabad,IN,33.6,56,974.6,8.2,99,Drizzle,Light drizzle,Monday,June
+2024-06-25,Ghaziabad,IN,33.3,62,973.6,8.3,108,Rain,Slight rain,Tuesday,June
+2024-06-26,Ghaziabad,IN,30.8,74,974.2,10.0,94,Rain,Heavy rain,Wednesday,June
+2024-06-27,Ghaziabad,IN,28.1,85,976.8,12.8,105,Rain,Moderate rain,Thursday,June
+2024-06-28,Ghaziabad,IN,27.5,87,975.9,8.0,124,Rain,Heavy rain,Friday,June
+2024-06-29,Ghaziabad,IN,29.1,82,974.4,5.8,187,Rain,Moderate rain,Saturday,June
+2024-06-30,Ghaziabad,IN,30.5,77,973.6,6.4,99,Rain,Slight rain,Sunday,June
+2024-07-01,Ghaziabad,IN,30.0,79,971.5,6.3,305,Rain,Heavy rain,Monday,July
+2024-07-02,Ghaziabad,IN,28.6,87,970.7,7.0,160,Rain,Heavy rain,Tuesday,July
+2024-07-03,Ghaziabad,IN,28.9,86,973.1,8.4,122,Drizzle,Moderate drizzle,Wednesday,July
+2024-07-04,Ghaziabad,IN,28.1,84,975.1,8.4,86,Drizzle,Moderate drizzle,Thursday,July
+2024-07-05,Ghaziabad,IN,27.3,88,972.4,9.9,83,Rain,Moderate rain,Friday,July
+2024-07-06,Ghaziabad,IN,28.3,82,971.2,10.2,71,Drizzle,Light drizzle,Saturday,July
+2024-07-07,Ghaziabad,IN,28.5,77,974.2,8.3,67,Cloudy,Overcast,Sunday,July
+2024-07-08,Ghaziabad,IN,28.6,78,977.3,8.2,32,Drizzle,Dense drizzle,Monday,July
+2024-07-09,Ghaziabad,IN,29.5,81,978.2,5.3,103,Rain,Moderate rain,Tuesday,July
+2024-07-10,Ghaziabad,IN,30.2,81,978.0,5.2,161,Rain,Moderate rain,Wednesday,July
+2024-07-11,Ghaziabad,IN,30.6,79,974.1,8.3,160,Drizzle,Moderate drizzle,Thursday,July
+2024-07-12,Ghaziabad,IN,30.5,74,972.2,7.6,290,Drizzle,Light drizzle,Friday,July
+2024-07-13,Ghaziabad,IN,29.7,80,973.1,4.9,57,Rain,Heavy rain,Saturday,July
+2024-07-14,Ghaziabad,IN,30.8,76,973.0,4.5,105,Drizzle,Light drizzle,Sunday,July
+2024-07-15,Ghaziabad,IN,29.8,79,975.7,9.8,88,Rain,Slight rain,Monday,July
+2024-07-16,Ghaziabad,IN,30.9,78,976.3,9.8,96,Rain,Heavy rain,Tuesday,July
+2024-07-17,Ghaziabad,IN,31.2,75,976.1,10.3,100,Drizzle,Light drizzle,Wednesday,July
+2024-07-18,Ghaziabad,IN,31.0,78,974.8,6.5,103,Rain,Heavy rain,Thursday,July
+2024-07-19,Ghaziabad,IN,30.3,78,973.7,8.8,107,Drizzle,Light drizzle,Friday,July
+2024-07-20,Ghaziabad,IN,30.9,75,974.4,7.6,115,Drizzle,Light drizzle,Saturday,July
+2024-07-21,Ghaziabad,IN,31.1,78,974.4,9.5,112,Rain,Slight rain,Sunday,July
+2024-07-22,Ghaziabad,IN,30.7,79,974.6,7.7,111,Rain,Slight rain,Monday,July
+2024-07-23,Ghaziabad,IN,30.4,80,973.5,6.0,104,Drizzle,Moderate drizzle,Tuesday,July
+2024-07-24,Ghaziabad,IN,29.0,85,970.3,4.8,67,Rain,Heavy rain,Wednesday,July
+2024-07-25,Ghaziabad,IN,30.3,80,969.5,4.8,95,Drizzle,Light drizzle,Thursday,July
+2024-07-26,Ghaziabad,IN,29.7,85,971.2,6.4,20,Rain,Moderate rain,Friday,July
+2024-07-27,Ghaziabad,IN,30.1,85,973.4,5.3,82,Rain,Moderate rain,Saturday,July
+2024-07-28,Ghaziabad,IN,31.3,78,973.6,8.6,89,Rain,Moderate rain,Sunday,July
+2024-07-29,Ghaziabad,IN,31.5,75,973.7,11.0,102,Cloudy,Overcast,Monday,July
+2024-07-30,Ghaziabad,IN,32.4,73,974.9,8.9,127,Drizzle,Light drizzle,Tuesday,July
+2024-07-31,Ghaziabad,IN,30.6,80,975.0,9.4,145,Rain,Heavy rain,Wednesday,July
+2024-08-01,Ghaziabad,IN,28.2,84,974.5,8.0,150,Rain,Heavy rain,Thursday,August
+2024-08-02,Ghaziabad,IN,28.5,84,973.5,9.3,119,Drizzle,Dense drizzle,Friday,August
+2024-08-03,Ghaziabad,IN,29.1,81,975.3,13.0,118,Rain,Slight rain,Saturday,August
+2024-08-04,Ghaziabad,IN,29.8,74,976.7,16.5,87,Drizzle,Light drizzle,Sunday,August
+2024-08-05,Ghaziabad,IN,29.1,77,976.4,20.5,111,Drizzle,Light drizzle,Monday,August
+2024-08-06,Ghaziabad,IN,29.1,77,975.4,10.9,177,Drizzle,Light drizzle,Tuesday,August
+2024-08-07,Ghaziabad,IN,27.4,86,976.4,8.0,158,Rain,Moderate rain,Wednesday,August
+2024-08-08,Ghaziabad,IN,27.9,85,977.8,7.0,114,Rain,Moderate rain,Thursday,August
+2024-08-09,Ghaziabad,IN,27.7,87,978.9,7.6,110,Rain,Moderate rain,Friday,August
+2024-08-10,Ghaziabad,IN,27.6,88,977.9,7.9,90,Rain,Heavy rain,Saturday,August
+2024-08-11,Ghaziabad,IN,27.3,89,976.6,8.1,104,Rain,Moderate rain,Sunday,August
+2024-08-12,Ghaziabad,IN,26.8,91,977.5,9.0,81,Rain,Moderate rain,Monday,August
+2024-08-13,Ghaziabad,IN,27.3,90,978.7,9.6,85,Rain,Moderate rain,Tuesday,August
+2024-08-14,Ghaziabad,IN,28.1,87,979.0,7.8,93,Rain,Heavy rain,Wednesday,August
+2024-08-15,Ghaziabad,IN,28.7,86,977.9,10.1,109,Drizzle,Dense drizzle,Thursday,August
+2024-08-16,Ghaziabad,IN,28.1,87,977.5,10.9,113,Rain,Moderate rain,Friday,August
+2024-08-17,Ghaziabad,IN,28.5,86,979.6,6.5,40,Rain,Moderate rain,Saturday,August
+2024-08-18,Ghaziabad,IN,29.1,85,980.3,7.5,280,Drizzle,Light drizzle,Sunday,August
+2024-08-19,Ghaziabad,IN,28.6,85,979.3,7.0,277,Rain,Moderate rain,Monday,August
+2024-08-20,Ghaziabad,IN,28.0,87,979.6,4.1,153,Rain,Slight rain,Tuesday,August
+2024-08-21,Ghaziabad,IN,28.2,84,980.7,5.0,80,Rain,Moderate rain,Wednesday,August
+2024-08-22,Ghaziabad,IN,28.2,85,979.7,4.3,246,Rain,Slight rain,Thursday,August
+2024-08-23,Ghaziabad,IN,27.1,88,980.1,5.2,52,Rain,Slight rain,Friday,August
+2024-08-24,Ghaziabad,IN,28.4,85,979.6,5.6,57,Rain,Moderate rain,Saturday,August
+2024-08-25,Ghaziabad,IN,28.9,79,977.5,14.7,88,Rain,Heavy rain,Sunday,August
+2024-08-26,Ghaziabad,IN,28.3,82,977.4,14.0,101,Rain,Slight rain,Monday,August
+2024-08-27,Ghaziabad,IN,27.4,85,979.6,15.7,113,Rain,Heavy rain,Tuesday,August
+2024-08-28,Ghaziabad,IN,27.2,86,979.3,10.0,115,Rain,Moderate rain,Wednesday,August
+2024-08-29,Ghaziabad,IN,27.1,86,979.4,10.6,121,Rain,Heavy rain,Thursday,August
+2024-08-30,Ghaziabad,IN,28.0,86,981.3,5.4,53,Drizzle,Dense drizzle,Friday,August
+2024-08-31,Ghaziabad,IN,29.2,80,980.5,8.1,318,Drizzle,Light drizzle,Saturday,August
+2024-09-01,Ghaziabad,IN,29.5,78,980.2,7.4,354,Cloudy,Overcast,Sunday,September
+2024-09-02,Ghaziabad,IN,28.2,83,981.1,10.6,101,Drizzle,Dense drizzle,Monday,September
+2024-09-03,Ghaziabad,IN,27.6,86,981.5,8.3,80,Rain,Heavy rain,Tuesday,September
+2024-09-04,Ghaziabad,IN,27.0,87,979.3,6.2,343,Drizzle,Moderate drizzle,Wednesday,September
+2024-09-05,Ghaziabad,IN,27.9,83,977.5,3.7,318,Drizzle,Dense drizzle,Thursday,September
+2024-09-06,Ghaziabad,IN,26.7,89,979.1,6.8,105,Rain,Slight rain,Friday,September
+2024-09-07,Ghaziabad,IN,27.0,88,980.1,4.6,104,Rain,Moderate rain,Saturday,September
+2024-09-08,Ghaziabad,IN,28.0,87,979.6,5.2,297,Drizzle,Dense drizzle,Sunday,September
+2024-09-09,Ghaziabad,IN,28.6,83,977.7,5.2,330,Rain,Moderate rain,Monday,September
+2024-09-10,Ghaziabad,IN,27.4,89,977.3,4.0,56,Rain,Moderate rain,Tuesday,September
+2024-09-11,Ghaziabad,IN,28.3,86,976.8,7.8,14,Rain,Moderate rain,Wednesday,September
+2024-09-12,Ghaziabad,IN,25.3,91,974.9,19.1,18,Rain,Heavy rain,Thursday,September
+2024-09-13,Ghaziabad,IN,25.5,89,975.8,14.1,301,Rain,Heavy rain,Friday,September
+2024-09-14,Ghaziabad,IN,25.6,87,978.5,9.3,304,Rain,Moderate rain,Saturday,September
+2024-09-15,Ghaziabad,IN,26.2,83,979.0,9.4,302,Drizzle,Light drizzle,Sunday,September
+2024-09-16,Ghaziabad,IN,27.0,77,980.3,9.8,296,Clear,Mainly clear,Monday,September
+2024-09-17,Ghaziabad,IN,27.4,78,981.7,6.4,316,Cloudy,Overcast,Tuesday,September
+2024-09-18,Ghaziabad,IN,24.6,89,980.7,10.9,29,Rain,Heavy rain,Wednesday,September
+2024-09-19,Ghaziabad,IN,26.5,85,980.6,11.0,90,Rain,Moderate rain,Thursday,September
+2024-09-20,Ghaziabad,IN,27.3,81,980.9,5.9,145,Cloudy,Overcast,Friday,September
+2024-09-21,Ghaziabad,IN,28.0,80,982.1,4.2,250,Drizzle,Light drizzle,Saturday,September
+2024-09-22,Ghaziabad,IN,29.2,78,981.4,5.8,316,Cloudy,Overcast,Sunday,September
+2024-09-23,Ghaziabad,IN,28.9,79,980.8,6.5,300,Clear,Clear sky,Monday,September
+2024-09-24,Ghaziabad,IN,29.2,79,979.9,3.7,311,Clear,Mainly clear,Tuesday,September
+2024-09-25,Ghaziabad,IN,28.8,84,980.4,10.1,113,Drizzle,Dense drizzle,Wednesday,September
+2024-09-26,Ghaziabad,IN,28.0,82,980.4,9.5,113,Drizzle,Light drizzle,Thursday,September
+2024-09-27,Ghaziabad,IN,27.2,80,979.9,10.4,90,Drizzle,Moderate drizzle,Friday,September
+2024-09-28,Ghaziabad,IN,26.3,82,981.7,8.1,76,Drizzle,Light drizzle,Saturday,September
+2024-09-29,Ghaziabad,IN,26.5,84,984.4,6.7,61,Drizzle,Light drizzle,Sunday,September
+2024-09-30,Ghaziabad,IN,27.5,79,983.4,8.6,295,Cloudy,Overcast,Monday,September
+2024-10-01,Ghaziabad,IN,28.1,77,980.6,8.4,294,Clear,Clear sky,Tuesday,October
+2024-10-02,Ghaziabad,IN,28.8,77,980.0,8.3,273,Clear,Clear sky,Wednesday,October
+2024-10-03,Ghaziabad,IN,28.2,71,979.6,8.4,298,Clear,Clear sky,Thursday,October
+2024-10-04,Ghaziabad,IN,27.9,73,980.8,6.4,290,Clear,Clear sky,Friday,October
+2024-10-05,Ghaziabad,IN,27.8,73,982.9,8.7,288,Clear,Clear sky,Saturday,October
+2024-10-06,Ghaziabad,IN,27.5,69,986.1,7.6,314,Clear,Mainly clear,Sunday,October
+2024-10-07,Ghaziabad,IN,26.5,73,988.1,6.2,320,Clear,Clear sky,Monday,October
+2024-10-08,Ghaziabad,IN,26.4,75,987.5,5.9,348,Clear,Clear sky,Tuesday,October
+2024-10-09,Ghaziabad,IN,26.1,70,985.5,7.0,308,Clear,Clear sky,Wednesday,October
+2024-10-10,Ghaziabad,IN,25.7,64,984.7,9.5,305,Clear,Clear sky,Thursday,October
+2024-10-11,Ghaziabad,IN,24.5,61,984.8,9.1,293,Cloudy,Partly cloudy,Friday,October
+2024-10-12,Ghaziabad,IN,24.8,64,985.5,7.4,312,Clear,Clear sky,Saturday,October
+2024-10-13,Ghaziabad,IN,25.3,61,986.4,6.4,353,Cloudy,Overcast,Sunday,October
+2024-10-14,Ghaziabad,IN,25.0,62,986.8,6.6,324,Clear,Clear sky,Monday,October
+2024-10-15,Ghaziabad,IN,24.4,64,985.9,8.8,296,Clear,Clear sky,Tuesday,October
+2024-10-16,Ghaziabad,IN,24.9,64,985.0,6.8,290,Cloudy,Overcast,Wednesday,October
+2024-10-17,Ghaziabad,IN,25.8,68,985.6,5.3,69,Cloudy,Overcast,Thursday,October
+2024-10-18,Ghaziabad,IN,25.4,71,985.5,5.1,90,Clear,Clear sky,Friday,October
+2024-10-19,Ghaziabad,IN,25.9,71,985.8,5.8,92,Clear,Clear sky,Saturday,October
+2024-10-20,Ghaziabad,IN,26.2,71,987.1,6.1,76,Clear,Clear sky,Sunday,October
+2024-10-21,Ghaziabad,IN,25.2,72,987.7,5.8,33,Clear,Clear sky,Monday,October
+2024-10-22,Ghaziabad,IN,24.7,74,988.6,6.7,15,Clear,Clear sky,Tuesday,October
+2024-10-23,Ghaziabad,IN,25.1,69,987.8,10.1,321,Clear,Clear sky,Wednesday,October
+2024-10-24,Ghaziabad,IN,25.2,63,986.5,9.8,316,Clear,Clear sky,Thursday,October
+2024-10-25,Ghaziabad,IN,24.0,66,985.8,9.7,310,Clear,Clear sky,Friday,October
+2024-10-26,Ghaziabad,IN,23.9,68,985.9,7.4,339,Clear,Clear sky,Saturday,October
+2024-10-27,Ghaziabad,IN,25.1,75,985.2,5.4,107,Clear,Clear sky,Sunday,October
+2024-10-28,Ghaziabad,IN,25.2,75,984.1,7.3,156,Clear,Clear sky,Monday,October
+2024-10-29,Ghaziabad,IN,25.7,75,984.4,5.3,137,Clear,Clear sky,Tuesday,October
+2024-10-30,Ghaziabad,IN,26.2,72,985.0,6.7,4,Clear,Clear sky,Wednesday,October
+2024-10-31,Ghaziabad,IN,25.5,66,986.5,10.6,303,Clear,Clear sky,Thursday,October
+2024-11-01,Ghaziabad,IN,24.2,56,987.3,11.1,295,Clear,Clear sky,Friday,November
+2024-11-02,Ghaziabad,IN,23.3,60,988.5,7.0,337,Clear,Clear sky,Saturday,November
+2024-11-03,Ghaziabad,IN,22.9,63,989.3,6.1,16,Clear,Clear sky,Sunday,November
+2024-11-04,Ghaziabad,IN,22.5,71,987.9,6.3,316,Clear,Clear sky,Monday,November
+2024-11-05,Ghaziabad,IN,23.1,75,990.0,5.7,80,Clear,Clear sky,Tuesday,November
+2024-11-06,Ghaziabad,IN,23.9,70,990.3,4.2,346,Clear,Clear sky,Wednesday,November
+2024-11-07,Ghaziabad,IN,24.0,68,989.5,3.4,163,Clear,Clear sky,Thursday,November
+2024-11-08,Ghaziabad,IN,23.5,73,989.3,5.2,145,Clear,Clear sky,Friday,November
+2024-11-09,Ghaziabad,IN,23.5,74,989.5,6.2,131,Clear,Clear sky,Saturday,November
+2024-11-10,Ghaziabad,IN,24.0,74,989.4,6.6,102,Clear,Clear sky,Sunday,November
+2024-11-11,Ghaziabad,IN,23.5,77,989.2,6.2,52,Clear,Clear sky,Monday,November
+2024-11-12,Ghaziabad,IN,24.0,66,988.7,7.4,293,Clear,Clear sky,Tuesday,November
+2024-11-13,Ghaziabad,IN,22.6,65,987.8,6.9,317,Clear,Clear sky,Wednesday,November
+2024-11-14,Ghaziabad,IN,21.3,72,989.8,3.3,341,Cloudy,Overcast,Thursday,November
+2024-11-15,Ghaziabad,IN,22.1,61,989.2,7.4,309,Clear,Clear sky,Friday,November
+2024-11-16,Ghaziabad,IN,22.0,63,988.2,7.4,309,Clear,Clear sky,Saturday,November
+2024-11-17,Ghaziabad,IN,21.3,67,988.8,6.8,322,Clear,Mainly clear,Sunday,November
+2024-11-18,Ghaziabad,IN,19.8,67,990.4,6.4,313,Clear,Clear sky,Monday,November
+2024-11-19,Ghaziabad,IN,18.8,60,991.3,6.8,317,Clear,Clear sky,Tuesday,November
+2024-11-20,Ghaziabad,IN,18.3,59,990.3,6.3,321,Clear,Clear sky,Wednesday,November
+2024-11-21,Ghaziabad,IN,18.4,59,989.8,6.5,318,Clear,Clear sky,Thursday,November
+2024-11-22,Ghaziabad,IN,18.5,66,989.6,5.2,325,Clear,Clear sky,Friday,November
+2024-11-23,Ghaziabad,IN,18.9,67,990.1,4.2,232,Clear,Mainly clear,Saturday,November
+2024-11-24,Ghaziabad,IN,20.8,52,989.9,7.4,286,Clear,Clear sky,Sunday,November
+2024-11-25,Ghaziabad,IN,20.0,62,989.9,7.8,300,Clear,Clear sky,Monday,November
+2024-11-26,Ghaziabad,IN,19.1,58,990.0,7.5,301,Clear,Clear sky,Tuesday,November
+2024-11-27,Ghaziabad,IN,18.1,58,989.6,5.3,322,Clear,Clear sky,Wednesday,November
+2024-11-28,Ghaziabad,IN,16.8,67,991.1,5.2,346,Clear,Clear sky,Thursday,November
+2024-11-29,Ghaziabad,IN,16.4,75,991.7,3.2,357,Cloudy,Partly cloudy,Friday,November
+2024-11-30,Ghaziabad,IN,17.3,67,989.9,5.6,313,Clear,Clear sky,Saturday,November
+2024-12-01,Ghaziabad,IN,18.3,67,988.1,6.8,315,Clear,Clear sky,Sunday,December
+2024-12-02,Ghaziabad,IN,18.4,64,988.4,6.5,314,Clear,Clear sky,Monday,December
+2024-12-03,Ghaziabad,IN,19.0,62,990.4,8.7,311,Clear,Clear sky,Tuesday,December
+2024-12-04,Ghaziabad,IN,19.6,51,989.5,12.6,304,Clear,Clear sky,Wednesday,December
+2024-12-05,Ghaziabad,IN,17.6,45,989.1,9.6,294,Clear,Clear sky,Thursday,December
+2024-12-06,Ghaziabad,IN,16.7,49,988.0,8.5,303,Clear,Clear sky,Friday,December
+2024-12-07,Ghaziabad,IN,14.7,57,987.7,3.8,13,Clear,Clear sky,Saturday,December
+2024-12-08,Ghaziabad,IN,14.9,62,987.7,9.5,119,Drizzle,Moderate drizzle,Sunday,December
+2024-12-09,Ghaziabad,IN,14.3,71,989.9,5.8,26,Clear,Clear sky,Monday,December
+2024-12-10,Ghaziabad,IN,14.0,55,991.6,11.2,308,Clear,Clear sky,Tuesday,December
+2024-12-11,Ghaziabad,IN,13.4,49,991.3,10.2,302,Clear,Clear sky,Wednesday,December
+2024-12-12,Ghaziabad,IN,13.6,57,990.7,10.1,311,Clear,Clear sky,Thursday,December
+2024-12-13,Ghaziabad,IN,14.6,49,991.8,14.8,300,Clear,Mainly clear,Friday,December
+2024-12-14,Ghaziabad,IN,14.3,46,992.1,11.4,300,Clear,Clear sky,Saturday,December
+2024-12-15,Ghaziabad,IN,12.9,62,993.5,5.7,325,Clear,Clear sky,Sunday,December
+2024-12-16,Ghaziabad,IN,12.2,80,991.8,4.8,330,Cloudy,Overcast,Monday,December
+2024-12-17,Ghaziabad,IN,12.4,83,990.5,3.1,341,Cloudy,Overcast,Tuesday,December
+2024-12-18,Ghaziabad,IN,13.3,75,989.9,4.3,315,Clear,Clear sky,Wednesday,December
+2024-12-19,Ghaziabad,IN,13.1,73,990.2,4.7,106,Clear,Clear sky,Thursday,December
+2024-12-20,Ghaziabad,IN,14.7,71,989.8,5.5,341,Clear,Clear sky,Friday,December
+2024-12-21,Ghaziabad,IN,14.5,69,990.3,6.9,328,Cloudy,Partly cloudy,Saturday,December
+2024-12-22,Ghaziabad,IN,14.0,70,990.2,4.1,63,Cloudy,Overcast,Sunday,December
+2024-12-23,Ghaziabad,IN,13.5,73,990.4,7.5,90,Rain,Moderate rain,Monday,December
+2024-12-24,Ghaziabad,IN,14.3,79,991.5,5.4,26,Drizzle,Light drizzle,Tuesday,December
+2024-12-25,Ghaziabad,IN,14.9,78,993.2,6.7,319,Clear,Clear sky,Wednesday,December
+2024-12-26,Ghaziabad,IN,15.2,75,995.0,3.5,346,Cloudy,Overcast,Thursday,December
+2024-12-27,Ghaziabad,IN,14.7,86,993.5,9.2,50,Rain,Moderate rain,Friday,December
+2024-12-28,Ghaziabad,IN,14.9,88,993.1,5.2,6,Rain,Moderate rain,Saturday,December
+2024-12-29,Ghaziabad,IN,14.2,85,994.7,10.3,308,Cloudy,Overcast,Sunday,December
+2024-12-30,Ghaziabad,IN,12.9,86,993.8,9.0,295,Cloudy,Overcast,Monday,December
+2024-12-31,Ghaziabad,IN,11.1,88,995.0,5.1,306,Cloudy,Overcast,Tuesday,December
+2025-01-01,Ghaziabad,IN,11.0,88,993.1,7.2,302,Cloudy,Overcast,Wednesday,January
+2025-01-02,Ghaziabad,IN,12.2,85,992.3,7.3,294,Cloudy,Overcast,Thursday,January
+2025-01-03,Ghaziabad,IN,12.6,86,992.1,5.6,301,Cloudy,Overcast,Friday,January
+2025-01-04,Ghaziabad,IN,12.2,89,990.2,4.4,96,Cloudy,Overcast,Saturday,January
+2025-01-05,Ghaziabad,IN,11.7,89,990.4,6.1,118,Cloudy,Overcast,Sunday,January
+2025-01-06,Ghaziabad,IN,12.6,88,991.2,6.4,326,Rain,Moderate rain,Monday,January
+2025-01-07,Ghaziabad,IN,13.2,88,991.7,11.6,297,Cloudy,Overcast,Tuesday,January
+2025-01-08,Ghaziabad,IN,12.6,77,990.0,9.8,289,Clear,Clear sky,Wednesday,January
+2025-01-09,Ghaziabad,IN,11.5,83,992.4,2.7,352,Cloudy,Overcast,Thursday,January
+2025-01-10,Ghaziabad,IN,10.7,88,994.1,3.8,96,Cloudy,Overcast,Friday,January
+2025-01-11,Ghaziabad,IN,12.2,86,992.8,7.5,103,Drizzle,Dense drizzle,Saturday,January
+2025-01-12,Ghaziabad,IN,13.7,84,993.4,4.6,1,Rain,Moderate rain,Sunday,January
+2025-01-13,Ghaziabad,IN,13.7,84,992.8,8.4,305,Clear,Clear sky,Monday,January
+2025-01-14,Ghaziabad,IN,13.0,85,993.3,5.2,307,Clear,Clear sky,Tuesday,January
+2025-01-15,Ghaziabad,IN,12.4,88,994.3,4.2,110,Drizzle,Moderate drizzle,Wednesday,January
+2025-01-16,Ghaziabad,IN,13.8,83,995.3,5.5,31,Drizzle,Light drizzle,Thursday,January
+2025-01-17,Ghaziabad,IN,13.3,81,994.5,9.3,311,Clear,Clear sky,Friday,January
+2025-01-18,Ghaziabad,IN,12.0,88,992.7,5.4,305,Cloudy,Overcast,Saturday,January
+2025-01-19,Ghaziabad,IN,13.9,87,991.5,4.8,324,Cloudy,Overcast,Sunday,January
+2025-01-20,Ghaziabad,IN,16.6,82,989.6,9.8,296,Clear,Clear sky,Monday,January
+2025-01-21,Ghaziabad,IN,16.1,78,988.4,9.7,299,Clear,Clear sky,Tuesday,January
+2025-01-22,Ghaziabad,IN,15.9,77,988.2,6.0,312,Clear,Clear sky,Wednesday,January
+2025-01-23,Ghaziabad,IN,16.3,72,989.7,9.4,310,Rain,Moderate rain,Thursday,January
+2025-01-24,Ghaziabad,IN,15.1,66,989.8,11.3,295,Clear,Clear sky,Friday,January
+2025-01-25,Ghaziabad,IN,14.5,61,989.3,10.0,285,Clear,Clear sky,Saturday,January
+2025-01-26,Ghaziabad,IN,14.0,64,989.1,7.9,297,Clear,Clear sky,Sunday,January
+2025-01-27,Ghaziabad,IN,13.7,69,987.8,7.5,296,Clear,Clear sky,Monday,January
+2025-01-28,Ghaziabad,IN,13.9,70,987.5,5.2,309,Clear,Clear sky,Tuesday,January
+2025-01-29,Ghaziabad,IN,14.3,78,989.1,7.4,104,Clear,Clear sky,Wednesday,January
+2025-01-30,Ghaziabad,IN,15.7,78,986.1,5.5,125,Clear,Clear sky,Thursday,January
+2025-01-31,Ghaziabad,IN,16.5,76,985.6,5.1,129,Cloudy,Overcast,Friday,January
+2025-02-01,Ghaziabad,IN,17.4,71,987.8,6.4,69,Cloudy,Overcast,Saturday,February
+2025-02-02,Ghaziabad,IN,17.1,74,989.9,9.7,322,Clear,Mainly clear,Sunday,February
+2025-02-03,Ghaziabad,IN,15.7,70,989.2,7.3,331,Drizzle,Moderate drizzle,Monday,February
+2025-02-04,Ghaziabad,IN,16.5,78,989.3,3.8,79,Drizzle,Moderate drizzle,Tuesday,February
+2025-02-05,Ghaziabad,IN,16.1,69,990.1,10.2,312,Drizzle,Light drizzle,Wednesday,February
+2025-02-06,Ghaziabad,IN,15.6,53,991.4,15.6,318,Cloudy,Overcast,Thursday,February
+2025-02-07,Ghaziabad,IN,15.3,52,991.1,15.0,298,Cloudy,Overcast,Friday,February
+2025-02-08,Ghaziabad,IN,16.4,53,989.9,11.4,298,Cloudy,Overcast,Saturday,February
+2025-02-09,Ghaziabad,IN,16.9,63,989.2,7.0,315,Cloudy,Overcast,Sunday,February
+2025-02-10,Ghaziabad,IN,17.5,69,988.6,6.1,331,Cloudy,Overcast,Monday,February
+2025-02-11,Ghaziabad,IN,18.4,70,988.1,5.5,326,Cloudy,Partly cloudy,Tuesday,February
+2025-02-12,Ghaziabad,IN,18.2,57,989.0,12.2,306,Clear,Clear sky,Wednesday,February
+2025-02-13,Ghaziabad,IN,17.9,49,989.3,15.6,301,Clear,Clear sky,Thursday,February
+2025-02-14,Ghaziabad,IN,17.8,45,987.5,12.8,294,Cloudy,Overcast,Friday,February
+2025-02-15,Ghaziabad,IN,17.9,55,985.7,6.6,8,Cloudy,Overcast,Saturday,February
+2025-02-16,Ghaziabad,IN,18.0,64,987.2,4.4,3,Cloudy,Overcast,Sunday,February
+2025-02-17,Ghaziabad,IN,19.0,64,989.9,4.3,335,Cloudy,Overcast,Monday,February
+2025-02-18,Ghaziabad,IN,19.7,61,989.4,7.2,308,Drizzle,Light drizzle,Tuesday,February
+2025-02-19,Ghaziabad,IN,19.6,55,987.8,5.8,307,Drizzle,Light drizzle,Wednesday,February
+2025-02-20,Ghaziabad,IN,18.4,72,989.1,13.5,82,Rain,Moderate rain,Thursday,February
+2025-02-21,Ghaziabad,IN,18.3,77,991.5,7.4,353,Drizzle,Moderate drizzle,Friday,February
+2025-02-22,Ghaziabad,IN,17.5,73,991.2,9.7,307,Cloudy,Overcast,Saturday,February
+2025-02-23,Ghaziabad,IN,17.7,71,992.2,7.4,318,Clear,Clear sky,Sunday,February
+2025-02-24,Ghaziabad,IN,17.8,71,993.1,6.7,321,Cloudy,Overcast,Monday,February
+2025-02-25,Ghaziabad,IN,18.6,67,993.3,5.5,325,Cloudy,Overcast,Tuesday,February
+2025-02-26,Ghaziabad,IN,21.0,70,993.2,3.8,132,Cloudy,Overcast,Wednesday,February
+2025-02-27,Ghaziabad,IN,19.4,79,990.6,9.2,49,Rain,Moderate rain,Thursday,February
+2025-02-28,Ghaziabad,IN,19.1,78,987.4,11.6,84,Rain,Slight rain,Friday,February
+2025-03-01,Ghaziabad,IN,19.2,82,988.4,7.5,67,Drizzle,Moderate drizzle,Saturday,March
+2025-03-02,Ghaziabad,IN,18.7,68,987.3,9.6,319,Clear,Clear sky,Sunday,March
+2025-03-03,Ghaziabad,IN,19.2,61,986.4,6.3,183,Drizzle,Light drizzle,Monday,March
+2025-03-04,Ghaziabad,IN,19.6,61,987.7,11.1,306,Cloudy,Partly cloudy,Tuesday,March
+2025-03-05,Ghaziabad,IN,17.6,46,988.5,20.7,299,Clear,Clear sky,Wednesday,March
+2025-03-06,Ghaziabad,IN,18.8,43,986.7,12.7,295,Clear,Clear sky,Thursday,March
+2025-03-07,Ghaziabad,IN,18.6,56,985.4,6.0,315,Clear,Clear sky,Friday,March
+2025-03-08,Ghaziabad,IN,20.5,52,983.9,8.5,307,Clear,Clear sky,Saturday,March
+2025-03-09,Ghaziabad,IN,21.7,58,987.3,6.1,124,Clear,Mainly clear,Sunday,March
+2025-03-10,Ghaziabad,IN,23.1,56,990.6,8.6,117,Cloudy,Overcast,Monday,March
+2025-03-11,Ghaziabad,IN,23.5,64,988.3,4.5,10,Cloudy,Overcast,Tuesday,March
+2025-03-12,Ghaziabad,IN,25.0,57,984.3,10.1,310,Cloudy,Overcast,Wednesday,March
+2025-03-13,Ghaziabad,IN,23.9,59,982.8,6.4,333,Drizzle,Dense drizzle,Thursday,March
+2025-03-14,Ghaziabad,IN,24.6,56,983.9,5.5,22,Cloudy,Overcast,Friday,March
+2025-03-15,Ghaziabad,IN,23.5,57,985.6,11.3,51,Drizzle,Light drizzle,Saturday,March
+2025-03-16,Ghaziabad,IN,22.5,57,986.9,8.9,330,Drizzle,Light drizzle,Sunday,March
+2025-03-17,Ghaziabad,IN,21.9,51,987.7,10.3,318,Cloudy,Overcast,Monday,March
+2025-03-18,Ghaziabad,IN,22.5,49,987.6,10.4,311,Cloudy,Partly cloudy,Tuesday,March
+2025-03-19,Ghaziabad,IN,23.4,47,988.4,9.0,322,Cloudy,Overcast,Wednesday,March
+2025-03-20,Ghaziabad,IN,23.7,42,989.5,8.2,325,Clear,Mainly clear,Thursday,March
+2025-03-21,Ghaziabad,IN,24.3,37,989.0,12.5,319,Clear,Mainly clear,Friday,March
+2025-03-22,Ghaziabad,IN,23.9,37,987.9,8.8,314,Drizzle,Moderate drizzle,Saturday,March
+2025-03-23,Ghaziabad,IN,23.9,44,989.6,4.4,139,Clear,Clear sky,Sunday,March
+2025-03-24,Ghaziabad,IN,25.1,42,988.8,4.7,66,Clear,Clear sky,Monday,March
+2025-03-25,Ghaziabad,IN,26.2,43,985.0,6.4,47,Clear,Clear sky,Tuesday,March
+2025-03-26,Ghaziabad,IN,28.1,37,982.0,5.0,279,Clear,Clear sky,Wednesday,March
+2025-03-27,Ghaziabad,IN,28.5,36,981.7,6.9,309,Cloudy,Partly cloudy,Thursday,March
+2025-03-28,Ghaziabad,IN,26.2,26,984.1,14.8,303,Clear,Mainly clear,Friday,March
+2025-03-29,Ghaziabad,IN,23.1,21,984.8,15.5,303,Cloudy,Overcast,Saturday,March
+2025-03-30,Ghaziabad,IN,24.7,22,985.4,12.0,304,Cloudy,Overcast,Sunday,March
+2025-03-31,Ghaziabad,IN,25.7,22,985.7,10.6,311,Clear,Clear sky,Monday,March
+2025-04-01,Ghaziabad,IN,26.1,21,984.7,10.2,304,Clear,Clear sky,Tuesday,April
+2025-04-02,Ghaziabad,IN,26.7,22,985.6,7.4,317,Clear,Clear sky,Wednesday,April
+2025-04-03,Ghaziabad,IN,27.6,23,986.3,6.2,345,Cloudy,Overcast,Thursday,April
+2025-04-04,Ghaziabad,IN,28.8,22,985.8,8.0,318,Clear,Clear sky,Friday,April
+2025-04-05,Ghaziabad,IN,28.4,22,983.8,10.0,299,Clear,Mainly clear,Saturday,April
+2025-04-06,Ghaziabad,IN,29.6,22,982.2,7.4,310,Cloudy,Overcast,Sunday,April
+2025-04-07,Ghaziabad,IN,30.4,29,983.6,6.7,27,Clear,Mainly clear,Monday,April
+2025-04-08,Ghaziabad,IN,31.3,25,985.6,7.6,107,Clear,Clear sky,Tuesday,April
+2025-04-09,Ghaziabad,IN,31.6,30,983.5,7.3,88,Cloudy,Overcast,Wednesday,April
+2025-04-10,Ghaziabad,IN,29.9,38,979.4,7.7,75,Drizzle,Light drizzle,Thursday,April
+2025-04-11,Ghaziabad,IN,26.4,62,979.1,11.7,105,Rain,Moderate rain,Friday,April
+2025-04-12,Ghaziabad,IN,25.7,59,982.0,5.9,68,Drizzle,Light drizzle,Saturday,April
+2025-04-13,Ghaziabad,IN,27.4,47,983.6,5.0,40,Clear,Mainly clear,Sunday,April
+2025-04-14,Ghaziabad,IN,28.0,45,984.0,7.9,98,Clear,Clear sky,Monday,April
+2025-04-15,Ghaziabad,IN,29.6,40,984.3,7.7,106,Clear,Mainly clear,Tuesday,April
+2025-04-16,Ghaziabad,IN,30.7,39,982.7,7.8,111,Cloudy,Partly cloudy,Wednesday,April
+2025-04-17,Ghaziabad,IN,31.2,40,980.0,8.9,92,Cloudy,Overcast,Thursday,April
+2025-04-18,Ghaziabad,IN,31.0,49,978.7,9.4,88,Cloudy,Partly cloudy,Friday,April
+2025-04-19,Ghaziabad,IN,30.7,50,979.2,14.3,113,Cloudy,Overcast,Saturday,April
+2025-04-20,Ghaziabad,IN,30.6,48,979.6,11.2,95,Drizzle,Light drizzle,Sunday,April
+2025-04-21,Ghaziabad,IN,31.6,35,981.9,5.6,271,Cloudy,Overcast,Monday,April
+2025-04-22,Ghaziabad,IN,31.7,13,983.1,10.1,297,Clear,Clear sky,Tuesday,April
+2025-04-23,Ghaziabad,IN,31.8,14,980.9,11.5,294,Clear,Clear sky,Wednesday,April
+2025-04-24,Ghaziabad,IN,31.6,16,978.7,7.9,309,Clear,Clear sky,Thursday,April
+2025-04-25,Ghaziabad,IN,31.4,21,979.8,7.4,357,Clear,Clear sky,Friday,April
+2025-04-26,Ghaziabad,IN,32.5,17,979.6,6.3,281,Cloudy,Overcast,Saturday,April
+2025-04-27,Ghaziabad,IN,32.9,18,980.9,8.2,37,Cloudy,Overcast,Sunday,April
+2025-04-28,Ghaziabad,IN,30.9,26,979.9,10.5,97,Cloudy,Overcast,Monday,April
+2025-04-29,Ghaziabad,IN,29.9,40,981.0,12.1,101,Clear,Clear sky,Tuesday,April
+2025-04-30,Ghaziabad,IN,30.3,41,982.5,10.3,105,Drizzle,Light drizzle,Wednesday,April
+2025-05-01,Ghaziabad,IN,30.4,42,983.5,11.8,108,Cloudy,Overcast,Thursday,May
+2025-05-02,Ghaziabad,IN,25.8,67,984.5,7.9,90,Rain,Moderate rain,Friday,May
+2025-05-03,Ghaziabad,IN,27.1,61,981.6,5.2,154,Rain,Slight rain,Saturday,May
+2025-05-04,Ghaziabad,IN,28.2,59,979.9,6.3,98,Drizzle,Light drizzle,Sunday,May
+2025-05-05,Ghaziabad,IN,27.4,63,981.2,9.5,87,Drizzle,Light drizzle,Monday,May
+2025-05-06,Ghaziabad,IN,26.9,65,981.3,8.1,95,Drizzle,Light drizzle,Tuesday,May
+2025-05-07,Ghaziabad,IN,27.5,64,980.7,8.5,89,Rain,Slight rain,Wednesday,May
+2025-05-08,Ghaziabad,IN,27.5,65,980.9,6.5,70,Drizzle,Dense drizzle,Thursday,May
+2025-05-09,Ghaziabad,IN,29.4,55,981.9,7.0,106,Drizzle,Light drizzle,Friday,May
+2025-05-10,Ghaziabad,IN,29.2,59,981.5,4.6,53,Cloudy,Overcast,Saturday,May
+2025-05-11,Ghaziabad,IN,30.8,51,979.8,6.7,328,Clear,Mainly clear,Sunday,May
+2025-05-12,Ghaziabad,IN,31.5,39,978.7,8.3,316,Clear,Mainly clear,Monday,May
+2025-05-13,Ghaziabad,IN,32.9,34,978.6,9.3,290,Cloudy,Overcast,Tuesday,May
+2025-05-14,Ghaziabad,IN,33.3,28,978.7,8.8,303,Clear,Clear sky,Wednesday,May
+2025-05-15,Ghaziabad,IN,33.9,28,978.6,7.4,313,Clear,Clear sky,Thursday,May
+2025-05-16,Ghaziabad,IN,33.6,32,977.9,9.1,333,Clear,Mainly clear,Friday,May
+2025-05-17,Ghaziabad,IN,33.0,40,977.5,8.2,212,Cloudy,Partly cloudy,Saturday,May
+2025-05-18,Ghaziabad,IN,32.3,45,977.6,9.0,85,Clear,Clear sky,Sunday,May
+2025-05-19,Ghaziabad,IN,32.1,57,977.9,9.7,101,Clear,Clear sky,Monday,May
+2025-05-20,Ghaziabad,IN,32.2,58,976.2,10.5,101,Cloudy,Overcast,Tuesday,May
+2025-05-21,Ghaziabad,IN,32.7,55,976.8,11.2,105,Cloudy,Overcast,Wednesday,May
+2025-05-22,Ghaziabad,IN,30.3,60,977.8,13.5,110,Cloudy,Partly cloudy,Thursday,May
+2025-05-23,Ghaziabad,IN,31.0,58,976.1,12.9,105,Cloudy,Partly cloudy,Friday,May
+2025-05-24,Ghaziabad,IN,32.1,54,976.5,15.1,106,Cloudy,Partly cloudy,Saturday,May
+2025-05-25,Ghaziabad,IN,28.7,65,979.1,10.5,89,Drizzle,Light drizzle,Sunday,May
+2025-05-26,Ghaziabad,IN,29.9,64,977.9,7.1,94,Rain,Moderate rain,Monday,May
+2025-05-27,Ghaziabad,IN,30.8,62,975.5,7.5,87,Clear,Clear sky,Tuesday,May
+2025-05-28,Ghaziabad,IN,31.3,64,974.1,7.0,78,Clear,Mainly clear,Wednesday,May
+2025-05-29,Ghaziabad,IN,32.2,59,972.0,4.8,154,Cloudy,Overcast,Thursday,May
+2025-05-30,Ghaziabad,IN,30.4,56,971.3,6.3,334,Cloudy,Overcast,Friday,May
+2025-05-31,Ghaziabad,IN,30.4,55,973.4,4.3,1,Rain,Slight rain,Saturday,May
+2025-06-01,Ghaziabad,IN,29.6,56,974.4,9.4,228,Drizzle,Dense drizzle,Sunday,June
+2025-06-02,Ghaziabad,IN,29.7,55,974.5,5.4,156,Drizzle,Light drizzle,Monday,June
+2025-06-03,Ghaziabad,IN,28.1,58,976.5,6.1,349,Cloudy,Overcast,Tuesday,June
+2025-06-04,Ghaziabad,IN,27.0,68,979.5,4.9,57,Rain,Slight rain,Wednesday,June
+2025-06-05,Ghaziabad,IN,28.2,60,982.1,4.9,99,Cloudy,Overcast,Thursday,June
+2025-06-06,Ghaziabad,IN,29.9,54,981.2,5.0,66,Clear,Mainly clear,Friday,June
+2025-06-07,Ghaziabad,IN,31.1,55,979.5,6.7,112,Clear,Clear sky,Saturday,June
+2025-06-08,Ghaziabad,IN,32.8,54,977.8,7.0,124,Clear,Clear sky,Sunday,June
+2025-06-09,Ghaziabad,IN,34.4,45,975.9,7.5,325,Clear,Clear sky,Monday,June
+2025-06-10,Ghaziabad,IN,34.2,41,975.3,9.1,324,Clear,Clear sky,Tuesday,June
+2025-06-11,Ghaziabad,IN,33.7,53,976.0,7.0,66,Clear,Clear sky,Wednesday,June
+2025-06-12,Ghaziabad,IN,33.9,60,976.2,10.7,107,Clear,Clear sky,Thursday,June
+2025-06-13,Ghaziabad,IN,33.4,61,976.8,11.4,104,Clear,Mainly clear,Friday,June
+2025-06-14,Ghaziabad,IN,33.9,58,974.9,8.2,99,Clear,Mainly clear,Saturday,June
+2025-06-15,Ghaziabad,IN,32.2,62,973.8,9.1,109,Cloudy,Overcast,Sunday,June
+2025-06-16,Ghaziabad,IN,29.6,79,974.6,8.1,74,Rain,Moderate rain,Monday,June
+2025-06-17,Ghaziabad,IN,29.8,77,975.1,6.8,92,Rain,Moderate rain,Tuesday,June
+2025-06-18,Ghaziabad,IN,29.5,74,973.8,5.0,141,Rain,Slight rain,Wednesday,June
+2025-06-19,Ghaziabad,IN,30.1,74,972.5,7.8,126,Drizzle,Light drizzle,Thursday,June
+2025-06-20,Ghaziabad,IN,28.8,83,974.9,9.5,111,Rain,Moderate rain,Friday,June
+2025-06-21,Ghaziabad,IN,30.5,77,975.5,5.3,113,Drizzle,Light drizzle,Saturday,June
+2025-06-22,Ghaziabad,IN,30.5,77,974.7,5.0,131,Drizzle,Moderate drizzle,Sunday,June
+2025-06-23,Ghaziabad,IN,30.6,77,972.8,6.7,99,Drizzle,Moderate drizzle,Monday,June
+2025-06-24,Ghaziabad,IN,30.8,77,972.2,5.7,106,Clear,Mainly clear,Tuesday,June
+2025-06-25,Ghaziabad,IN,29.0,84,975.0,10.2,92,Rain,Heavy rain,Wednesday,June
+2025-06-26,Ghaziabad,IN,30.9,75,976.6,9.9,102,Rain,Moderate rain,Thursday,June
+2025-06-27,Ghaziabad,IN,30.9,74,975.8,8.7,102,Drizzle,Moderate drizzle,Friday,June
+2025-06-28,Ghaziabad,IN,30.5,77,974.6,5.5,110,Rain,Moderate rain,Saturday,June
+2025-06-29,Ghaziabad,IN,28.9,85,972.4,6.8,122,Rain,Moderate rain,Sunday,June
+2025-06-30,Ghaziabad,IN,27.6,87,973.5,6.0,106,Rain,Moderate rain,Monday,June
+2025-07-01,Ghaziabad,IN,28.9,81,974.4,5.9,84,Drizzle,Light drizzle,Tuesday,July
+2025-07-02,Ghaziabad,IN,29.8,81,974.4,7.2,97,Rain,Slight rain,Wednesday,July
+2025-07-03,Ghaziabad,IN,30.0,79,974.9,8.4,104,Drizzle,Dense drizzle,Thursday,July
+2025-07-04,Ghaziabad,IN,29.9,80,975.1,6.3,103,Drizzle,Light drizzle,Friday,July
+2025-07-05,Ghaziabad,IN,30.2,78,974.0,5.4,114,Drizzle,Moderate drizzle,Saturday,July
+2025-07-06,Ghaziabad,IN,30.4,79,973.6,5.2,125,Drizzle,Moderate drizzle,Sunday,July
+2025-07-07,Ghaziabad,IN,29.2,82,974.5,3.7,321,Rain,Heavy rain,Monday,July
+2025-07-08,Ghaziabad,IN,30.5,79,974.5,4.6,280,Drizzle,Light drizzle,Tuesday,July
+2025-07-09,Ghaziabad,IN,28.8,84,975.7,4.9,248,Rain,Moderate rain,Wednesday,July
+2025-07-10,Ghaziabad,IN,27.4,85,977.8,3.5,148,Rain,Slight rain,Thursday,July
+2025-07-11,Ghaziabad,IN,28.2,84,977.2,2.8,143,Drizzle,Light drizzle,Friday,July
+2025-07-12,Ghaziabad,IN,28.9,83,976.9,2.7,68,Rain,Moderate rain,Saturday,July
+2025-07-13,Ghaziabad,IN,28.5,87,976.9,5.8,68,Rain,Moderate rain,Sunday,July
+2025-07-14,Ghaziabad,IN,28.5,83,975.1,15.3,100,Rain,Moderate rain,Monday,July
+2025-07-15,Ghaziabad,IN,28.6,81,974.7,15.4,129,Drizzle,Moderate drizzle,Tuesday,July
+2025-07-16,Ghaziabad,IN,28.6,84,976.1,8.8,131,Rain,Slight rain,Wednesday,July
+2025-07-17,Ghaziabad,IN,28.4,83,978.1,8.6,116,Drizzle,Moderate drizzle,Thursday,July
+2025-07-18,Ghaziabad,IN,28.6,81,976.6,14.1,77,Rain,Slight rain,Friday,July
+2025-07-19,Ghaziabad,IN,29.1,77,974.5,11.5,135,Drizzle,Light drizzle,Saturday,July
+2025-07-20,Ghaziabad,IN,29.9,75,974.4,6.0,208,Cloudy,Overcast,Sunday,July
+2025-07-21,Ghaziabad,IN,28.2,83,976.8,4.4,140,Drizzle,Light drizzle,Monday,July
+2025-07-22,Ghaziabad,IN,29.3,81,975.3,3.0,321,Drizzle,Moderate drizzle,Tuesday,July
+2025-07-23,Ghaziabad,IN,29.3,83,972.5,5.0,234,Rain,Moderate rain,Wednesday,July
+2025-07-24,Ghaziabad,IN,30.2,77,971.5,6.7,305,Drizzle,Dense drizzle,Thursday,July
+2025-07-25,Ghaziabad,IN,31.0,74,971.1,7.9,323,Cloudy,Overcast,Friday,July
+2025-07-26,Ghaziabad,IN,30.3,78,972.4,4.7,136,Drizzle,Light drizzle,Saturday,July
+2025-07-27,Ghaziabad,IN,30.6,78,972.4,6.8,94,Drizzle,Light drizzle,Sunday,July
+2025-07-28,Ghaziabad,IN,30.6,77,972.6,5.0,100,Cloudy,Overcast,Monday,July
+2025-07-29,Ghaziabad,IN,28.7,86,973.4,6.4,115,Rain,Slight rain,Tuesday,July
+2025-07-30,Ghaziabad,IN,28.2,87,974.2,9.8,104,Rain,Slight rain,Wednesday,July
+2025-07-31,Ghaziabad,IN,27.5,91,974.9,7.2,128,Rain,Moderate rain,Thursday,July
+2025-08-01,Ghaziabad,IN,27.9,88,975.8,4.4,205,Rain,Heavy rain,Friday,August
+2025-08-02,Ghaziabad,IN,29.3,79,976.0,6.7,249,Drizzle,Light drizzle,Saturday,August
+2025-08-03,Ghaziabad,IN,29.5,81,977.1,7.0,244,Drizzle,Light drizzle,Sunday,August
+2025-08-04,Ghaziabad,IN,28.2,84,978.5,7.5,230,Rain,Slight rain,Monday,August
+2025-08-05,Ghaziabad,IN,27.6,86,978.7,7.6,204,Rain,Moderate rain,Tuesday,August
+2025-08-06,Ghaziabad,IN,28.6,81,979.2,5.7,249,Drizzle,Light drizzle,Wednesday,August
+2025-08-07,Ghaziabad,IN,30.0,74,977.7,8.7,278,Cloudy,Overcast,Thursday,August
+2025-08-08,Ghaziabad,IN,29.9,73,978.8,8.6,283,Cloudy,Overcast,Friday,August
+2025-08-09,Ghaziabad,IN,27.4,88,981.1,5.2,315,Rain,Moderate rain,Saturday,August
+2025-08-10,Ghaziabad,IN,28.7,84,979.7,3.9,333,Drizzle,Light drizzle,Sunday,August
+2025-08-11,Ghaziabad,IN,29.5,81,978.3,6.3,255,Drizzle,Light drizzle,Monday,August
+2025-08-12,Ghaziabad,IN,29.1,82,977.7,5.7,270,Drizzle,Light drizzle,Tuesday,August
+2025-08-13,Ghaziabad,IN,30.1,78,976.7,5.9,271,Cloudy,Overcast,Wednesday,August
+2025-08-14,Ghaziabad,IN,27.5,89,979.6,6.6,109,Rain,Slight rain,Thursday,August
+2025-08-15,Ghaziabad,IN,28.1,88,978.4,4.3,108,Rain,Moderate rain,Friday,August
+2025-08-16,Ghaziabad,IN,28.6,88,977.3,5.3,80,Drizzle,Moderate drizzle,Saturday,August
+2025-08-17,Ghaziabad,IN,28.8,86,978.3,7.1,79,Rain,Moderate rain,Sunday,August
+2025-08-18,Ghaziabad,IN,29.1,82,979.9,10.3,88,Drizzle,Moderate drizzle,Monday,August
+2025-08-19,Ghaziabad,IN,29.3,82,978.5,7.9,87,Rain,Moderate rain,Tuesday,August
+2025-08-20,Ghaziabad,IN,29.2,80,977.9,10.4,97,Rain,Slight rain,Wednesday,August
+2025-08-21,Ghaziabad,IN,29.2,81,977.9,7.1,93,Rain,Moderate rain,Thursday,August
+2025-08-22,Ghaziabad,IN,29.1,83,975.8,5.1,95,Rain,Slight rain,Friday,August
+2025-08-23,Ghaziabad,IN,27.9,88,975.7,6.5,79,Rain,Moderate rain,Saturday,August
+2025-08-24,Ghaziabad,IN,27.8,87,976.5,8.9,93,Rain,Heavy rain,Sunday,August
+2025-08-25,Ghaziabad,IN,27.2,87,975.9,13.7,109,Rain,Moderate rain,Monday,August
+2025-08-26,Ghaziabad,IN,27.3,89,978.5,12.8,121,Rain,Moderate rain,Tuesday,August
+2025-08-27,Ghaziabad,IN,28.5,87,978.4,5.6,123,Rain,Slight rain,Wednesday,August
+2025-08-28,Ghaziabad,IN,28.8,86,977.9,6.6,120,Rain,Moderate rain,Thursday,August
+2025-08-29,Ghaziabad,IN,27.7,89,979.1,8.8,104,Rain,Moderate rain,Friday,August
+2025-08-30,Ghaziabad,IN,28.5,82,980.6,9.4,102,Drizzle,Light drizzle,Saturday,August
+2025-08-31,Ghaziabad,IN,26.7,91,978.7,9.4,117,Rain,Heavy rain,Sunday,August
+2025-09-01,Ghaziabad,IN,25.4,93,975.5,13.9,117,Rain,Heavy rain,Monday,September
+2025-09-02,Ghaziabad,IN,25.4,92,976.9,16.0,114,Rain,Heavy rain,Tuesday,September
+2025-09-03,Ghaziabad,IN,26.2,90,979.6,8.1,86,Rain,Moderate rain,Wednesday,September
+2025-09-04,Ghaziabad,IN,27.1,87,979.9,7.0,35,Rain,Moderate rain,Thursday,September
+2025-09-05,Ghaziabad,IN,27.8,85,979.9,10.8,83,Rain,Moderate rain,Friday,September
+2025-09-06,Ghaziabad,IN,27.9,85,980.6,11.3,102,Rain,Moderate rain,Saturday,September
+2025-09-07,Ghaziabad,IN,27.9,86,980.2,8.1,116,Rain,Slight rain,Sunday,September
+2025-09-08,Ghaziabad,IN,27.9,87,981.0,4.2,122,Rain,Moderate rain,Monday,September
+2025-09-09,Ghaziabad,IN,28.9,79,982.2,8.2,286,Drizzle,Light drizzle,Tuesday,September
+2025-09-10,Ghaziabad,IN,29.2,74,981.2,12.7,292,Drizzle,Light drizzle,Wednesday,September
+2025-09-11,Ghaziabad,IN,28.4,74,980.8,10.9,287,Cloudy,Overcast,Thursday,September
+2025-09-12,Ghaziabad,IN,28.3,76,982.1,7.3,293,Cloudy,Overcast,Friday,September
+2025-09-13,Ghaziabad,IN,28.8,76,982.4,4.9,308,Drizzle,Light drizzle,Saturday,September
+2025-09-14,Ghaziabad,IN,28.9,77,981.9,6.2,313,Drizzle,Light drizzle,Sunday,September
+2025-09-15,Ghaziabad,IN,29.8,72,980.1,6.0,293,Drizzle,Light drizzle,Monday,September
+2025-09-16,Ghaziabad,IN,28.5,77,980.5,5.7,103,Drizzle,Light drizzle,Tuesday,September
+2025-09-17,Ghaziabad,IN,28.2,81,981.2,5.2,64,Drizzle,Light drizzle,Wednesday,September
+2025-09-18,Ghaziabad,IN,28.0,82,981.3,5.2,70,Drizzle,Moderate drizzle,Thursday,September
+2025-09-19,Ghaziabad,IN,28.7,76,981.8,6.1,340,Drizzle,Light drizzle,Friday,September
+2025-09-20,Ghaziabad,IN,29.6,66,981.1,8.8,316,Clear,Mainly clear,Saturday,September
+2025-09-21,Ghaziabad,IN,29.6,64,980.3,9.0,309,Clear,Mainly clear,Sunday,September
+2025-09-22,Ghaziabad,IN,30.4,58,980.7,10.0,307,Clear,Clear sky,Monday,September
+2025-09-23,Ghaziabad,IN,30.4,54,980.4,11.2,308,Clear,Mainly clear,Tuesday,September
+2025-09-24,Ghaziabad,IN,30.0,56,978.9,10.3,309,Clear,Clear sky,Wednesday,September
+2025-09-25,Ghaziabad,IN,29.8,59,979.8,9.4,313,Clear,Clear sky,Thursday,September
+2025-09-26,Ghaziabad,IN,30.0,60,981.0,10.1,322,Clear,Clear sky,Friday,September
+2025-09-27,Ghaziabad,IN,30.2,68,982.9,5.8,40,Drizzle,Light drizzle,Saturday,September
+2025-09-28,Ghaziabad,IN,30.6,69,982.4,8.7,106,Clear,Mainly clear,Sunday,September
+2025-09-29,Ghaziabad,IN,30.2,69,980.8,6.5,113,Clear,Mainly clear,Monday,September
+2025-09-30,Ghaziabad,IN,29.3,73,979.0,4.1,173,Rain,Moderate rain,Tuesday,September
+2025-10-01,Ghaziabad,IN,27.7,81,979.2,3.5,212,Rain,Slight rain,Wednesday,October
+2025-10-02,Ghaziabad,IN,27.5,80,983.1,5.6,118,Rain,Moderate rain,Thursday,October
+2025-10-03,Ghaziabad,IN,27.7,80,985.7,4.3,70,Cloudy,Overcast,Friday,October
+2025-10-04,Ghaziabad,IN,28.6,70,983.5,7.7,301,Drizzle,Light drizzle,Saturday,October
+2025-10-05,Ghaziabad,IN,28.1,67,982.4,6.5,295,Cloudy,Overcast,Sunday,October
+2025-10-06,Ghaziabad,IN,23.5,88,984.7,7.7,44,Rain,Heavy rain,Monday,October
+2025-10-07,Ghaziabad,IN,23.4,87,985.2,6.5,135,Rain,Heavy rain,Tuesday,October
+2025-10-08,Ghaziabad,IN,22.4,86,986.6,5.6,313,Drizzle,Light drizzle,Wednesday,October
+2025-10-09,Ghaziabad,IN,23.9,75,988.3,8.2,312,Drizzle,Light drizzle,Thursday,October
+2025-10-10,Ghaziabad,IN,23.4,71,987.2,6.1,293,Clear,Clear sky,Friday,October
+2025-10-11,Ghaziabad,IN,23.6,72,986.9,5.8,286,Cloudy,Overcast,Saturday,October
+2025-10-12,Ghaziabad,IN,24.6,68,986.5,7.7,311,Clear,Mainly clear,Sunday,October
+2025-10-13,Ghaziabad,IN,24.2,67,987.5,4.5,317,Clear,Clear sky,Monday,October
+2025-10-14,Ghaziabad,IN,24.2,64,986.6,4.7,326,Clear,Clear sky,Tuesday,October
+2025-10-15,Ghaziabad,IN,23.4,65,986.6,4.1,349,Clear,Clear sky,Wednesday,October
+2025-10-16,Ghaziabad,IN,23.7,64,986.5,5.0,319,Clear,Clear sky,Thursday,October
+2025-10-17,Ghaziabad,IN,24.3,65,987.7,4.6,316,Clear,Clear sky,Friday,October
+2025-10-18,Ghaziabad,IN,24.8,68,987.2,3.6,329,Clear,Clear sky,Saturday,October
+2025-10-19,Ghaziabad,IN,24.6,68,986.6,3.3,347,Clear,Clear sky,Sunday,October
+2025-10-20,Ghaziabad,IN,24.5,68,986.9,3.7,53,Clear,Mainly clear,Monday,October
+2025-10-21,Ghaziabad,IN,24.6,70,988.3,4.7,158,Drizzle,Light drizzle,Tuesday,October
+2025-10-22,Ghaziabad,IN,24.7,71,988.3,5.7,327,Cloudy,Overcast,Wednesday,October
+2025-10-23,Ghaziabad,IN,23.9,60,987.9,7.2,322,Clear,Clear sky,Thursday,October
+2025-10-24,Ghaziabad,IN,23.0,63,987.6,3.0,328,Clear,Clear sky,Friday,October
+2025-10-25,Ghaziabad,IN,22.8,64,987.1,2.4,351,Clear,Clear sky,Saturday,October
+2025-10-26,Ghaziabad,IN,22.0,66,987.9,3.0,67,Cloudy,Overcast,Sunday,October
+2025-10-27,Ghaziabad,IN,21.7,72,988.6,6.5,129,Cloudy,Overcast,Monday,October
+2025-10-28,Ghaziabad,IN,21.8,82,989.9,3.9,119,Cloudy,Overcast,Tuesday,October
+2025-10-29,Ghaziabad,IN,22.9,79,987.8,5.2,343,Cloudy,Overcast,Wednesday,October
+2025-10-30,Ghaziabad,IN,23.1,86,987.2,4.3,127,Drizzle,Light drizzle,Thursday,October
+2025-10-31,Ghaziabad,IN,24.2,81,986.3,5.1,266,Cloudy,Overcast,Friday,October
+2025-11-01,Ghaziabad,IN,24.2,65,986.4,7.5,294,Clear,Clear sky,Saturday,November
+2025-11-02,Ghaziabad,IN,23.5,60,986.3,9.9,292,Clear,Clear sky,Sunday,November
+2025-11-03,Ghaziabad,IN,22.9,56,984.5,8.5,284,Clear,Clear sky,Monday,November
+2025-11-04,Ghaziabad,IN,21.9,68,984.8,5.6,160,Cloudy,Overcast,Tuesday,November
+2025-11-05,Ghaziabad,IN,22.9,71,985.1,7.0,332,Cloudy,Overcast,Wednesday,November
+2025-11-06,Ghaziabad,IN,20.0,54,987.7,10.7,301,Clear,Clear sky,Thursday,November
+2025-11-07,Ghaziabad,IN,19.6,53,989.1,9.7,300,Clear,Clear sky,Friday,November
+2025-11-08,Ghaziabad,IN,18.7,53,990.1,8.3,306,Clear,Clear sky,Saturday,November
+2025-11-09,Ghaziabad,IN,18.6,57,988.7,8.2,303,Clear,Clear sky,Sunday,November
+2025-11-10,Ghaziabad,IN,18.2,57,988.5,6.4,313,Cloudy,Overcast,Monday,November
+2025-11-11,Ghaziabad,IN,18.4,57,989.3,8.4,305,Clear,Clear sky,Tuesday,November
+2025-11-12,Ghaziabad,IN,18.5,57,990.3,8.8,305,Clear,Clear sky,Wednesday,November
+2025-11-13,Ghaziabad,IN,17.8,59,991.6,7.5,302,Clear,Clear sky,Thursday,November
+2025-11-14,Ghaziabad,IN,17.7,59,991.6,7.0,303,Clear,Clear sky,Friday,November
+2025-11-15,Ghaziabad,IN,17.5,62,992.5,6.2,310,Clear,Clear sky,Saturday,November
+2025-11-16,Ghaziabad,IN,17.1,63,994.1,7.9,316,Clear,Clear sky,Sunday,November
+2025-11-17,Ghaziabad,IN,16.6,65,993.6,5.1,329,Clear,Clear sky,Monday,November
+2025-11-18,Ghaziabad,IN,16.7,75,991.7,3.9,331,Clear,Clear sky,Tuesday,November
+2025-11-19,Ghaziabad,IN,17.4,78,991.5,2.9,58,Clear,Clear sky,Wednesday,November
+2025-11-20,Ghaziabad,IN,18.0,77,992.1,2.5,202,Cloudy,Overcast,Thursday,November
+2025-11-21,Ghaziabad,IN,17.9,76,993.2,3.1,153,Clear,Clear sky,Friday,November
+2025-11-22,Ghaziabad,IN,17.7,71,991.5,3.6,301,Clear,Clear sky,Saturday,November
+2025-11-23,Ghaziabad,IN,16.8,72,991.6,3.8,323,Clear,Clear sky,Sunday,November
+2025-11-24,Ghaziabad,IN,16.1,72,993.0,4.9,322,Clear,Clear sky,Monday,November
+2025-11-25,Ghaziabad,IN,15.6,69,992.9,6.4,312,Clear,Clear sky,Tuesday,November
+2025-11-26,Ghaziabad,IN,15.0,72,993.1,4.5,329,Clear,Clear sky,Wednesday,November
+2025-11-27,Ghaziabad,IN,14.7,76,994.4,3.3,12,Cloudy,Partly cloudy,Thursday,November
+2025-11-28,Ghaziabad,IN,15.6,72,992.5,6.1,320,Clear,Mainly clear,Friday,November
+2025-11-29,Ghaziabad,IN,17.4,63,990.9,9.0,317,Clear,Clear sky,Saturday,November
+2025-11-30,Ghaziabad,IN,15.9,56,989.8,8.9,299,Cloudy,Overcast,Sunday,November
+2025-12-01,Ghaziabad,IN,14.1,66,989.7,4.3,345,Clear,Clear sky,Monday,December
+2025-12-02,Ghaziabad,IN,15.8,70,989.8,4.9,2,Clear,Clear sky,Tuesday,December
+2025-12-03,Ghaziabad,IN,14.7,64,992.8,7.8,316,Clear,Mainly clear,Wednesday,December
+2025-12-04,Ghaziabad,IN,14.2,62,993.6,8.6,303,Cloudy,Overcast,Thursday,December
+2025-12-05,Ghaziabad,IN,13.8,65,995.1,6.3,309,Clear,Clear sky,Friday,December
+2025-12-06,Ghaziabad,IN,15.6,58,993.8,10.1,293,Cloudy,Overcast,Saturday,December
+2025-12-07,Ghaziabad,IN,16.4,60,993.2,9.4,294,Cloudy,Overcast,Sunday,December
+2025-12-08,Ghaziabad,IN,17.5,55,992.9,11.5,301,Cloudy,Overcast,Monday,December
+2025-12-09,Ghaziabad,IN,17.3,54,992.5,11.6,292,Clear,Clear sky,Tuesday,December
+2025-12-10,Ghaziabad,IN,16.8,60,992.4,8.4,300,Cloudy,Overcast,Wednesday,December
+2025-12-11,Ghaziabad,IN,15.7,71,991.4,5.4,308,Clear,Clear sky,Thursday,December
+2025-12-12,Ghaziabad,IN,14.9,77,990.6,4.0,332,Cloudy,Overcast,Friday,December
+2025-12-13,Ghaziabad,IN,14.8,80,991.8,3.2,80,Cloudy,Overcast,Saturday,December
+2025-12-14,Ghaziabad,IN,15.1,81,993.0,2.0,70,Cloudy,Overcast,Sunday,December
+2025-12-15,Ghaziabad,IN,15.5,77,992.3,5.8,291,Cloudy,Overcast,Monday,December
+2025-12-16,Ghaziabad,IN,16.4,72,991.5,9.7,297,Clear,Clear sky,Tuesday,December
+2025-12-17,Ghaziabad,IN,16.2,74,992.3,7.7,299,Clear,Clear sky,Wednesday,December
+2025-12-18,Ghaziabad,IN,14.6,86,993.3,5.8,333,Cloudy,Overcast,Thursday,December
+2025-12-19,Ghaziabad,IN,14.8,82,991.0,6.2,310,Cloudy,Overcast,Friday,December
+2025-12-20,Ghaziabad,IN,13.1,87,990.0,4.6,88,Cloudy,Overcast,Saturday,December
+2025-12-21,Ghaziabad,IN,13.1,88,992.1,4.0,116,Cloudy,Overcast,Sunday,December
+2025-12-22,Ghaziabad,IN,13.5,89,992.0,3.0,145,Cloudy,Overcast,Monday,December
+2025-12-23,Ghaziabad,IN,15.9,82,990.1,8.8,295,Cloudy,Overcast,Tuesday,December
+2025-12-24,Ghaziabad,IN,15.5,71,990.1,9.9,289,Clear,Clear sky,Wednesday,December
+2025-12-25,Ghaziabad,IN,14.0,71,991.3,5.1,304,Cloudy,Overcast,Thursday,December
+2025-12-26,Ghaziabad,IN,13.1,82,991.7,4.2,336,Cloudy,Overcast,Friday,December
+2025-12-27,Ghaziabad,IN,13.5,84,991.5,5.4,321,Cloudy,Overcast,Saturday,December
+2025-12-28,Ghaziabad,IN,13.0,87,992.2,4.7,335,Cloudy,Overcast,Sunday,December
+2025-12-29,Ghaziabad,IN,12.6,86,991.9,3.5,291,Cloudy,Overcast,Monday,December
+2025-12-30,Ghaziabad,IN,12.9,81,989.2,4.0,300,Cloudy,Overcast,Tuesday,December
+2025-12-31,Ghaziabad,IN,11.2,91,987.7,7.1,117,Cloudy,Overcast,Wednesday,December
+2026-01-01,Ghaziabad,IN,12.7,91,989.8,5.7,127,Drizzle,Moderate drizzle,Thursday,January
+2026-01-02,Ghaziabad,IN,13.4,82,992.6,8.8,308,Cloudy,Overcast,Friday,January
+2026-01-03,Ghaziabad,IN,12.7,79,993.4,5.9,310,Cloudy,Overcast,Saturday,January
+2026-01-04,Ghaziabad,IN,12.0,82,994.6,6.6,320,Drizzle,Light drizzle,Sunday,January
+2026-01-05,Ghaziabad,IN,12.0,82,995.7,6.6,316,Cloudy,Overcast,Monday,January
+2026-01-06,Ghaziabad,IN,11.9,85,995.5,7.1,312,Cloudy,Overcast,Tuesday,January
+2026-01-07,Ghaziabad,IN,10.8,89,996.7,7.7,311,Cloudy,Overcast,Wednesday,January
+2026-01-08,Ghaziabad,IN,9.7,89,996.9,5.8,327,Cloudy,Overcast,Thursday,January
+2026-01-09,Ghaziabad,IN,10.7,83,995.8,5.1,349,Cloudy,Overcast,Friday,January
+2026-01-10,Ghaziabad,IN,11.6,78,994.3,8.1,309,Clear,Clear sky,Saturday,January
+2026-01-11,Ghaziabad,IN,10.8,74,996.2,9.9,305,Clear,Clear sky,Sunday,January
+2026-01-12,Ghaziabad,IN,10.2,73,996.4,6.5,320,Clear,Clear sky,Monday,January
+2026-01-13,Ghaziabad,IN,9.8,79,994.9,6.6,317,Cloudy,Overcast,Tuesday,January
+2026-01-14,Ghaziabad,IN,10.2,79,991.9,7.7,309,Cloudy,Overcast,Wednesday,January
+2026-01-15,Ghaziabad,IN,10.6,79,992.0,8.0,307,Cloudy,Overcast,Thursday,January
+2026-01-16,Ghaziabad,IN,11.4,75,990.9,4.6,322,Cloudy,Overcast,Friday,January
+2026-01-17,Ghaziabad,IN,11.3,85,989.3,3.0,61,Cloudy,Overcast,Saturday,January
+2026-01-18,Ghaziabad,IN,12.1,87,987.4,4.0,92,Cloudy,Overcast,Sunday,January
+2026-01-19,Ghaziabad,IN,15.2,72,989.4,4.8,6,Cloudy,Partly cloudy,Monday,January
+2026-01-20,Ghaziabad,IN,16.2,69,990.6,7.9,317,Clear,Mainly clear,Tuesday,January
+2026-01-21,Ghaziabad,IN,15.4,69,992.3,7.5,319,Clear,Clear sky,Wednesday,January
+2026-01-22,Ghaziabad,IN,15.2,72,991.0,6.7,130,Cloudy,Overcast,Thursday,January
+2026-01-23,Ghaziabad,IN,14.7,86,990.5,14.2,119,Rain,Moderate rain,Friday,January
+2026-01-24,Ghaziabad,IN,13.0,69,996.5,11.7,326,Cloudy,Overcast,Saturday,January
+2026-01-25,Ghaziabad,IN,11.3,74,994.1,8.5,295,Cloudy,Overcast,Sunday,January
+2026-01-26,Ghaziabad,IN,12.1,79,994.0,3.8,281,Cloudy,Overcast,Monday,January
+2026-01-27,Ghaziabad,IN,13.5,86,992.8,9.7,109,Rain,Heavy rain,Tuesday,January
+2026-01-28,Ghaziabad,IN,13.9,85,994.5,6.6,327,Rain,Moderate rain,Wednesday,January
+2026-01-29,Ghaziabad,IN,13.4,87,994.6,8.3,304,Cloudy,Overcast,Thursday,January
+2026-01-30,Ghaziabad,IN,13.4,84,993.5,5.7,299,Cloudy,Overcast,Friday,January
+2026-01-31,Ghaziabad,IN,12.8,89,993.8,5.5,114,Cloudy,Overcast,Saturday,January
+2026-02-01,Ghaziabad,IN,15.7,85,993.8,6.3,145,Rain,Moderate rain,Sunday,February
+2026-02-02,Ghaziabad,IN,14.6,89,994.4,6.3,310,Cloudy,Overcast,Monday,February
+2026-02-03,Ghaziabad,IN,14.1,86,995.5,5.5,325,Cloudy,Overcast,Tuesday,February
+2026-02-04,Ghaziabad,IN,14.4,81,996.0,7.9,310,Cloudy,Overcast,Wednesday,February
+2026-02-05,Ghaziabad,IN,15.1,75,994.4,10.2,296,Cloudy,Overcast,Thursday,February
+2026-02-06,Ghaziabad,IN,16.1,70,993.4,11.4,297,Clear,Clear sky,Friday,February
+2026-02-07,Ghaziabad,IN,17.3,71,991.2,11.7,295,Cloudy,Partly cloudy,Saturday,February
+2026-02-08,Ghaziabad,IN,15.9,65,990.2,8.7,299,Cloudy,Overcast,Sunday,February
+2026-02-09,Ghaziabad,IN,14.8,78,990.2,4.4,83,Cloudy,Overcast,Monday,February
+2026-02-10,Ghaziabad,IN,15.9,77,991.2,5.0,107,Cloudy,Overcast,Tuesday,February
+2026-02-11,Ghaziabad,IN,17.7,73,993.6,7.8,320,Clear,Mainly clear,Wednesday,February
+2026-02-12,Ghaziabad,IN,17.4,64,992.7,9.2,307,Cloudy,Overcast,Thursday,February
+2026-02-13,Ghaziabad,IN,17.3,63,990.7,6.4,303,Cloudy,Overcast,Friday,February
+2026-02-14,Ghaziabad,IN,17.9,62,989.7,6.7,305,Cloudy,Overcast,Saturday,February
+2026-02-15,Ghaziabad,IN,19.1,64,988.9,7.6,310,Clear,Clear sky,Sunday,February
+2026-02-16,Ghaziabad,IN,18.8,67,988.4,4.9,106,Clear,Clear sky,Monday,February
+2026-02-17,Ghaziabad,IN,19.3,70,989.7,7.4,120,Clear,Mainly clear,Tuesday,February
+2026-02-18,Ghaziabad,IN,17.1,83,990.7,6.7,353,Drizzle,Light drizzle,Wednesday,February
+2026-02-19,Ghaziabad,IN,18.7,75,992.1,5.8,342,Cloudy,Overcast,Thursday,February
+2026-02-20,Ghaziabad,IN,19.8,70,993.0,7.3,326,Clear,Mainly clear,Friday,February
+2026-02-21,Ghaziabad,IN,20.2,65,988.4,8.4,303,Clear,Clear sky,Saturday,February
+2026-02-22,Ghaziabad,IN,19.8,67,985.0,5.7,324,Clear,Clear sky,Sunday,February
+2026-02-23,Ghaziabad,IN,19.5,68,985.1,4.1,352,Clear,Clear sky,Monday,February
+2026-02-24,Ghaziabad,IN,19.8,66,987.1,5.9,333,Clear,Clear sky,Tuesday,February
+2026-02-25,Ghaziabad,IN,20.2,59,988.0,6.6,322,Clear,Clear sky,Wednesday,February
+2026-02-26,Ghaziabad,IN,21.3,51,985.6,9.2,296,Clear,Clear sky,Thursday,February
+2026-02-27,Ghaziabad,IN,21.1,62,983.3,6.0,327,Cloudy,Overcast,Friday,February
+2026-02-28,Ghaziabad,IN,22.7,59,982.8,7.4,325,Cloudy,Overcast,Saturday,February
+2026-03-01,Ghaziabad,IN,22.6,52,984.2,10.8,300,Clear,Clear sky,Sunday,March
+2026-03-02,Ghaziabad,IN,22.8,49,986.3,12.3,297,Clear,Clear sky,Monday,March
+2026-03-03,Ghaziabad,IN,23.9,44,986.6,14.8,294,Clear,Clear sky,Tuesday,March
+2026-03-04,Ghaziabad,IN,24.7,49,987.5,12.6,306,Clear,Clear sky,Wednesday,March
+2026-03-05,Ghaziabad,IN,26.1,53,985.1,11.9,309,Clear,Clear sky,Thursday,March
+2026-03-06,Ghaziabad,IN,24.9,61,985.1,6.7,349,Clear,Clear sky,Friday,March
+2026-03-07,Ghaziabad,IN,24.4,71,986.9,4.8,84,Clear,Clear sky,Saturday,March
+2026-03-08,Ghaziabad,IN,25.2,64,987.0,4.7,308,Cloudy,Overcast,Sunday,March
+2026-03-09,Ghaziabad,IN,26.2,61,987.2,7.3,327,Cloudy,Overcast,Monday,March
+2026-03-10,Ghaziabad,IN,25.3,70,989.3,5.1,11,Cloudy,Overcast,Tuesday,March
+2026-03-11,Ghaziabad,IN,26.4,53,987.3,6.9,295,Cloudy,Overcast,Wednesday,March
+2026-03-12,Ghaziabad,IN,26.9,41,983.8,8.3,293,Cloudy,Overcast,Thursday,March
+2026-03-13,Ghaziabad,IN,25.9,49,984.2,11.0,311,Cloudy,Overcast,Friday,March
+2026-03-14,Ghaziabad,IN,24.9,44,984.0,8.7,325,Cloudy,Overcast,Saturday,March
+2026-03-15,Ghaziabad,IN,21.8,62,984.9,12.2,82,Rain,Moderate rain,Sunday,March
+2026-03-16,Ghaziabad,IN,22.0,57,983.8,12.4,102,Cloudy,Overcast,Monday,March
+2026-03-17,Ghaziabad,IN,22.5,59,984.3,7.5,343,Cloudy,Overcast,Tuesday,March
+2026-03-18,Ghaziabad,IN,22.9,66,986.3,7.3,334,Drizzle,Light drizzle,Wednesday,March
+2026-03-19,Ghaziabad,IN,22.0,65,987.2,11.1,358,Rain,Slight rain,Thursday,March
+2026-03-20,Ghaziabad,IN,17.6,87,986.3,7.5,320,Rain,Moderate rain,Friday,March
+2026-03-21,Ghaziabad,IN,19.3,76,988.2,6.0,317,Cloudy,Overcast,Saturday,March
+2026-03-22,Ghaziabad,IN,21.3,68,987.8,8.0,300,Cloudy,Overcast,Sunday,March
+2026-03-23,Ghaziabad,IN,21.2,73,987.0,6.6,255,Rain,Moderate rain,Monday,March
+2026-03-24,Ghaziabad,IN,22.9,64,985.9,7.9,307,Clear,Mainly clear,Tuesday,March
+2026-03-25,Ghaziabad,IN,24.1,54,985.3,7.5,307,Cloudy,Overcast,Wednesday,March
+2026-03-26,Ghaziabad,IN,26.5,48,986.9,8.8,314,Cloudy,Overcast,Thursday,March
+2026-03-27,Ghaziabad,IN,24.3,58,984.0,9.1,327,Drizzle,Light drizzle,Friday,March
+2026-03-28,Ghaziabad,IN,25.2,53,981.2,5.5,330,Cloudy,Overcast,Saturday,March
+2026-03-29,Ghaziabad,IN,26.6,54,981.7,10.1,112,Cloudy,Overcast,Sunday,March
+2026-03-30,Ghaziabad,IN,26.2,53,983.6,9.0,302,Drizzle,Light drizzle,Monday,March
+2026-03-31,Ghaziabad,IN,24.8,62,985.4,7.7,311,Rain,Slight rain,Tuesday,March
+2026-04-01,Ghaziabad,IN,25.4,54,985.7,6.7,338,Cloudy,Overcast,Wednesday,April
+2026-04-02,Ghaziabad,IN,26.7,52,984.8,5.6,75,Drizzle,Light drizzle,Thursday,April
+2026-04-03,Ghaziabad,IN,25.4,56,985.2,11.1,301,Drizzle,Light drizzle,Friday,April
+2026-04-04,Ghaziabad,IN,23.8,67,985.1,7.0,319,Drizzle,Moderate drizzle,Saturday,April
+2026-04-05,Ghaziabad,IN,23.0,63,983.9,6.1,308,Drizzle,Moderate drizzle,Sunday,April
+2026-04-06,Ghaziabad,IN,24.0,50,984.2,5.8,314,Clear,Mainly clear,Monday,April
+2026-04-07,Ghaziabad,IN,21.3,66,983.5,10.3,104,Rain,Moderate rain,Tuesday,April
+2026-04-08,Ghaziabad,IN,20.3,73,983.9,8.3,104,Rain,Slight rain,Wednesday,April
+2026-04-09,Ghaziabad,IN,21.7,63,988.1,6.2,355,Cloudy,Overcast,Thursday,April
+2026-04-10,Ghaziabad,IN,24.1,45,987.9,14.9,300,Clear,Clear sky,Friday,April
+2026-04-11,Ghaziabad,IN,26.0,40,985.9,13.1,321,Cloudy,Partly cloudy,Saturday,April
+2026-04-12,Ghaziabad,IN,26.7,39,983.4,10.6,328,Cloudy,Partly cloudy,Sunday,April
+2026-04-13,Ghaziabad,IN,27.3,31,984.1,11.2,309,Cloudy,Overcast,Monday,April
+2026-04-14,Ghaziabad,IN,28.5,34,983.0,8.9,328,Clear,Mainly clear,Tuesday,April
+2026-04-15,Ghaziabad,IN,28.7,33,980.6,8.3,330,Clear,Mainly clear,Wednesday,April
+2026-04-16,Ghaziabad,IN,29.6,34,981.5,6.7,0,Cloudy,Overcast,Thursday,April
+2026-04-17,Ghaziabad,IN,30.1,33,983.3,7.9,109,Cloudy,Overcast,Friday,April

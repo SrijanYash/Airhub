@@ -1,0 +1,15 @@
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+airhub-ml/.env
+venv/
+.env/
+*.sqlite3
+.DS_Store
+airhub-ml/__pycache__/
+airhub-ml/.venv/
+airhub-ml/multi_step_aqi_predictions.png
+airhub-ml/docs/
+airhub-ml/logs/
